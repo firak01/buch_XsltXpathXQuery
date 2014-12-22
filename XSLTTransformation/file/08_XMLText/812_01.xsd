@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by tester (altova) -->
+<?xml-stylesheet type="text/xsl" href="812_01.xslt"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="MITARBEITER">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="M_NR">
+          <xs:simpleType>
+            <xs:restriction base="xs:decimal">
+              <xs:totalDigits value="5"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="M_ANREDE">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Herr"/>
+              <xs:enumeration value="Frau"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="M_VORNAME">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="20"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="M_NACHNAME">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="30"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="M_STRASSE">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="40"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="M_HAUSNR">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="5"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="M_PLZ">
+          <xs:simpleType>
+            <xs:restriction base="xs:decimal">
+              <xs:totalDigits value="5"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="M_STADT">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="30"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="M_VORWAHL">
+          <xs:simpleType>
+            <xs:restriction base="xs:decimal">
+              <xs:totalDigits value="10"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="M_TELNR">
+          <xs:simpleType>
+            <xs:restriction base="xs:decimal">
+              <xs:totalDigits value="15"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="M_FUNKTION">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Technik"/>
+              <xs:enumeration value="Geschäftsführung"/>
+              <xs:enumeration value="Kundenbetreuung"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

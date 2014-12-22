@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Durchschnitt" type="xs:decimal"/>
+  <xs:element name="Gueltigkeit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Von" type="xs:date"/>
+        <xs:element name="Bis" type="xs:date"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Kunden" type="xs:integer"/>
+  <xs:element name="Name">
+    <xs:complexType mixed="true">
+      <xs:attribute name="Nr" type="xs:string" use="required"/>
+      <xs:attribute name="Typ" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Summe" type="xs:decimal"/>
+  <xs:element name="Tarif">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Name"/>
+        <xs:element ref="Gueltigkeit"/>
+        <xs:element ref="Uhrzeit"/>
+        <xs:element ref="Umsatz"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Tarifliste">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Tarif" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Uhrzeit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Von" type="xs:time"/>
+        <xs:element name="Bis" type="xs:time"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Umsatz">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Summe"/>
+        <xs:element ref="Kunden"/>
+        <xs:element ref="Durchschnitt"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

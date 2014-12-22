@@ -1,0 +1,3 @@
+SET LONG 200000;
+SELECT getXSLT(1)
+  FROM bericht;

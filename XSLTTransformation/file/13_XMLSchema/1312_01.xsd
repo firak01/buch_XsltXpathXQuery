@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:simpleType name="Waehrung">
+    <xs:restriction base="xs:decimal">
+      <xs:totalDigits value="10"/>
+      <xs:fractionDigits value="2"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="UmsatzTyp">
+    <xs:sequence>
+      <xs:element name="Name" type="xs:string"/>
+      <xs:element name="Umsatz" type="Waehrung"/>
+      <xs:element name="Anrufe" type="xs:integer"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StadtTyp">
+    <xs:sequence>
+      <xs:element name="Name"/>
+      <xs:element name="Zahl"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Umsatzuebersicht">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Stadtliste" type="StadtlisteTyp"/>
+        <xs:element name="Tarifliste">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Privat">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Tarif" type="UmsatzTyp" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Geschaeftlich">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Tarif" type="UmsatzTyp" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Kundenliste">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Privat">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element ref="Stadt" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Geschaeftlich">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element ref="Stadt" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="Datum" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Stadt" type="StadtTyp"/>
+  <xs:complexType name="StadtlisteTyp">
+    <xs:sequence>
+      <xs:element name="Privat">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Stadt" type="UmsatzTyp" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="Geschaeftlich">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Stadt" type="UmsatzTyp" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Postenliste>
+  <Posten Nr="67155" RefNr="12918">
+    <Tarif>Frühstück</Tarif>
+    <Einzeln>3.75</Einzeln>
+  </Posten>
+  <Posten Nr="67156" RefNr="12918">
+    <Tarif>Mittagspause</Tarif>
+    <Einzeln>7.16</Einzeln>
+  </Posten>
+  <Posten Nr="67157" RefNr="12918">
+    <Tarif>Abendessen</Tarif>
+    <Einzeln>8.86</Einzeln>
+  </Posten>
+  <Posten Nr="67158" RefNr="12918">
+    <Tarif>Mondschein1</Tarif>
+    <Einzeln>3.18</Einzeln>
+  </Posten>
+</Postenliste>

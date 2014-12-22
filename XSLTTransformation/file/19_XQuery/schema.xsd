@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSpy v2007 sp2 (http://www.altova.com) by Marco (Comelio) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <!-- The base class -->
+  <xs:complexType name="expr"/>
+  <xs:element name="expr" type="expr" abstract="true"/>
+  <!-- Simple wrapper class -->
+  <xs:complexType name="exprWrapper">
+    <xs:sequence>
+      <xs:element ref="expr"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="flworExpr">
+    <xs:complexContent>
+      <xs:extension base="expr">
+        <xs:sequence>
+          <xs:choice maxOccurs="unbounded">
+            <xs:element ref="forClause"/>
+            <xs:element ref="letClause"/>
+          </xs:choice>
+          <xs:element name="whereClause" minOccurs="0"/>
+          <xs:element name="orderByClause" minOccurs="0"/>
+          <xs:element name="returnClause"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="flworExpr" type="flworExpr" substitutionGroup="expr"/>
+  <xs:element name="forClause">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="forClauseItem" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="forClauseItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="typedVariableBinding"/>
+        <xs:element ref="positionalVariableBinding" minOccurs="0"/>
+        <xs:element name="forExpr" type="exprWrapper"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="letClause">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="letClauseItem" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="letClauseItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="typedVariableBinding"/>
+        <xs:element name="letExpr" type="exprWrapper"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="whereClause" type="exprWrapper"/>
+  <xs:element name="returnClause" type="exprWrapper"/>
+</xs:schema>

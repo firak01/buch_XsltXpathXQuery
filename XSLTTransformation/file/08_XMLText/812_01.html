@@ -1,0 +1,30 @@
+<html xmlns:xs="http://www.w3.org/2001/XMLSchema"><head>		<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Erfassung MITARBEITER</title></head><body><h1>MITARBEITER</h1>
+		<form action="erfassung.php" method="post" name="MITARBEITER">
+			<table>
+				<tr><th>M_NR</th><td><input name="M_NR" type="text" size="5"><input type="hidden" name="M_NR_TYP" value="NUMBER"></td>
+				</tr>
+				<tr><th>M_ANREDE</th><td><select name="M_ANREDE"><option value="Herr">Herr</option><option value="Frau">Frau</option></select><input type="hidden" name="M_ANREDE_TYP" value="VARCHAR2"></td>
+				</tr>
+				<tr><th>M_VORNAME</th><td><input name="M_VORNAME" type="text" size="20"><input type="hidden" name="M_VORNAME_TYP" value="VARCHAR2"></td>
+				</tr>
+				<tr><th>M_NACHNAME</th><td><input name="M_NACHNAME" type="text" size="30"><input type="hidden" name="M_NACHNAME_TYP" value="VARCHAR2"></td>
+				</tr>
+				<tr><th>M_STRASSE</th><td><input name="M_STRASSE" type="text" size="40"><input type="hidden" name="M_STRASSE_TYP" value="VARCHAR2"></td>
+				</tr>
+				<tr><th>M_HAUSNR</th><td><input name="M_HAUSNR" type="text" size="5"><input type="hidden" name="M_HAUSNR_TYP" value="VARCHAR2"></td>
+				</tr>
+				<tr><th>M_PLZ</th><td><input name="M_PLZ" type="text" size="5"><input type="hidden" name="M_PLZ_TYP" value="NUMBER"></td>
+				</tr>
+				<tr><th>M_STADT</th><td><input name="M_STADT" type="text" size="30"><input type="hidden" name="M_STADT_TYP" value="VARCHAR2"></td>
+				</tr>
+				<tr><th>M_VORWAHL</th><td><input name="M_VORWAHL" type="text" size="10"><input type="hidden" name="M_VORWAHL_TYP" value="NUMBER"></td>
+				</tr>
+				<tr><th>M_TELNR</th><td><input name="M_TELNR" type="text" size="15"><input type="hidden" name="M_TELNR_TYP" value="NUMBER"></td>
+				</tr>
+				<tr><th>M_FUNKTION</th><td><select name="M_FUNKTION"><option value="Technik">Technik</option><option value="Geschäftsführung">Geschäftsführung</option><option value="Kundenbetreuung">Kundenbetreuung</option></select><input type="hidden" name="M_FUNKTION_TYP" value="VARCHAR2"></td>
+				</tr>
+				<tr><th /><td><input type="submit" value="Senden" name="Senden"><input type="reset" value="Löschen"></td>
+				</tr>
+			</table>
+		</form>
+	</body></html>

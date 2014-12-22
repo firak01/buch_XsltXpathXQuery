@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="422_01.xslt"?>
+<Kundenliste xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="411_01.xsd">
+  <Kunde Typ="g">
+    <Name>
+      <Firma>Gebrüder Mondschein GmbH</Firma>
+      <Branche>Seile</Branche>
+    </Name>
+    <Umsatz>75.95</Umsatz>
+  </Kunde>
+  <Kunde Typ="p">
+    <Name>
+      <Nachname>Erdle</Nachname>
+      <Vorname>Johann</Vorname>
+    </Name>
+    <Umsatz>229.45</Umsatz>
+  </Kunde>
+  <Kunde Typ="p">
+    <Name>
+      <Nachname>Reifenscheidt</Nachname>
+      <Vorname>Vladimir</Vorname>
+    </Name>
+    <Umsatz>92.91</Umsatz>
+  </Kunde>
+  <Kunde Typ="g">
+    <Name>
+      <Firma>Fleckner + Söhne GmbH + Co. KG</Firma>
+      <Branche>Fördergurte Gummi Kunststoffe</Branche>
+    </Name>
+    <Umsatz>703.43</Umsatz>
+  </Kunde>
+</Kundenliste>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- edited with XMLSpy v2007 sp2 (http://www.altova.com) by Marco (Comelio) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Posten">
+    <xs:complexType>
+      <xs:attribute name="P_Nr" type="xs:int" use="required"/>
+      <xs:attribute name="R_Nr" type="xs:int" use="required"/>
+      <xs:attribute name="P_Summe" type="xs:double" use="required"/>
+      <xs:attribute name="T_Nr" type="xs:int" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Rechnung">
+    <xs:complexType>
+      <xs:attribute name="R_Nr" type="xs:int" use="required"/>
+      <xs:attribute name="R_Datum" type="xs:string" use="required"/>
+      <xs:attribute name="R_Summe" type="xs:double" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Tarif">
+    <xs:complexType>
+      <xs:attribute name="T_Nr" type="xs:int" use="required"/>
+      <xs:attribute name="T_Name" type="xs:string" use="required"/>
+      <xs:attribute name="T_GueBis" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Umsatzliste">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Rechnungsliste">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element ref="Rechnung" maxOccurs="unbounded"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Postenliste">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element ref="Posten" maxOccurs="unbounded"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Tarifliste">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element ref="Tarif" maxOccurs="unbounded"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

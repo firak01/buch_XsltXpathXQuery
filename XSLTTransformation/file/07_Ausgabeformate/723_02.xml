@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Anrufliste>
+  <Anruf Nr="122">
+    <Von Anrede="Herr" Nr="25">
+      <Vorname>Josef</Vorname>
+      <Nachname>Martin</Nachname>
+    </Von>
+    <Tarif Nr="3">
+      <Name>Abendessen</Name>
+      <Preis>1</Preis>
+      <Summe>110</Summe>
+    </Tarif>
+  </Anruf>
+  <Anruf Nr="135">
+    <Von Anrede="Herr" Nr="25">
+      <Vorname>Josef</Vorname>
+      <Nachname>Martin</Nachname>
+    </Von>
+    <Tarif Nr="2">
+      <Name>Mittagspause</Name>
+      <Preis>1</Preis>
+      <Summe>62</Summe>
+    </Tarif>
+  </Anruf>
+  <Anruf Nr="140">
+    <Von Anrede="Herr" Nr="25">
+      <Vorname>Josef</Vorname>
+      <Nachname>Martin</Nachname>
+    </Von>
+    <Tarif Nr="1">
+      <Name>Frühstück</Name>
+      <Preis>0,5</Preis>
+      <Summe>45</Summe>
+    </Tarif>
+  </Anruf>
+  <Anruf Nr="125">
+    <Von Anrede="Herr" Nr="5">
+      <Vorname>Martin</Vorname>
+      <Nachname>Fulland</Nachname>
+    </Von>
+    <Tarif Nr="10">
+      <Name>Nachtschicht2</Name>
+      <Preis>0,5</Preis>
+      <Summe>1</Summe>
+    </Tarif>
+  </Anruf>
+  <Anruf Nr="131">
+    <Von Anrede="Herr" Nr="5">
+      <Vorname>Martin</Vorname>
+      <Nachname>Fulland</Nachname>
+    </Von>
+    <Tarif Nr="7">
+      <Name>Schicht1</Name>
+      <Preis>0,5</Preis>
+      <Summe>2</Summe>
+    </Tarif>
+  </Anruf>
+  <Anruf Nr="130">
+    <Von Anrede="Frau" Nr="50">
+      <Vorname>Lucie</Vorname>
+      <Nachname>Folkers</Nachname>
+    </Von>
+    <Tarif Nr="3">
+      <Name>Abendessen</Name>
+      <Preis>1</Preis>
+      <Summe>7</Summe>
+    </Tarif>
+  </Anruf>
+  <Anruf Nr="137">
+    <Von Anrede="Frau" Nr="50">
+      <Vorname>Lucie</Vorname>
+      <Nachname>Folkers</Nachname>
+    </Von>
+    <Tarif Nr="5">
+      <Name>Mondschein2</Name>
+      <Preis>0,5</Preis>
+      <Summe>3</Summe>
+    </Tarif>
+  </Anruf>
+  <Anruf Nr="142">
+    <Von Anrede="Frau" Nr="50">
+      <Vorname>Lucie</Vorname>
+      <Nachname>Folkers</Nachname>
+    </Von>
+    <Tarif Nr="2">
+      <Name>Mittagspause</Name>
+      <Preis>1</Preis>
+      <Summe>56</Summe>
+    </Tarif>
+  </Anruf>
+  <Anruf Nr="124">
+    <Von Anrede="Herr" Nr="2">
+      <Vorname>Gerard</Vorname>
+      <Nachname>Diehm</Nachname>
+    </Von>
+    <Tarif Nr="8">
+      <Name>Schicht2</Name>
+      <Preis>1</Preis>
+      <Summe>81</Summe>
+    </Tarif>
+  </Anruf>
+  <Anruf Nr="123">
+    <Von Anrede="Herr" Nr="27">
+      <Vorname>Helmut</Vorname>
+      <Nachname>Goltz</Nachname>
+    </Von>
+    <Tarif Nr="3">
+      <Name>Abendessen</Name>
+      <Preis>1</Preis>
+      <Summe>84</Summe>
+    </Tarif>
+  </Anruf>
+  <Anruf Nr="129">
+    <Von Anrede="Herr" Nr="27">
+      <Vorname>Helmut</Vorname>
+      <Nachname>Goltz</Nachname>
+    </Von>
+    <Tarif Nr="5">
+      <Name>Mondschein2</Name>
+      <Preis>0,5</Preis>
+      <Summe>36</Summe>
+    </Tarif>
+  </Anruf>
+  <Anruf Nr="136">
+    <Von Anrede="Herr" Nr="27">
+      <Vorname>Helmut</Vorname>
+      <Nachname>Goltz</Nachname>
+    </Von>
+    <Tarif Nr="5">
+      <Name>Mondschein2</Name>
+      <Preis>0,5</Preis>
+      <Summe>5</Summe>
+    </Tarif>
+  </Anruf>
+  <Anruf Nr="141">
+    <Von Anrede="Herr" Nr="27">
+      <Vorname>Helmut</Vorname>
+      <Nachname>Goltz</Nachname>
+    </Von>
+    <Tarif Nr="5">
+      <Name>Mondschein2</Name>
+      <Preis>0,5</Preis>
+      <Summe>34</Summe>
+    </Tarif>
+  </Anruf>
+  <Anruf Nr="120">
+    <Von Anrede="Herr" Nr="2">
+      <Vorname>Gerard</Vorname>
+      <Nachname>Diehm</Nachname>
+    </Von>
+    <Tarif Nr="3">
+      <Name>Abendessen</Name>
+      <Preis>1</Preis>
+      <Summe>2</Summe>
+    </Tarif>
+  </Anruf>
+  <Anruf Nr="126">
+    <Von Anrede="Herr" Nr="2">
+      <Vorname>Gerard</Vorname>
+      <Nachname>Diehm</Nachname>
+    </Von>
+    <Tarif Nr="1">
+      <Name>Frühstück</Name>
+      <Preis>0,5</Preis>
+      <Summe>36</Summe>
+    </Tarif>
+  </Anruf>
+  <Anruf Nr="132">
+    <Von Anrede="Herr" Nr="2">
+      <Vorname>Gerard</Vorname>
+      <Nachname>Diehm</Nachname>
+    </Von>
+    <Tarif Nr="1">
+      <Name>Frühstück</Name>
+      <Preis>0,5</Preis>
+      <Summe>1</Summe>
+    </Tarif>
+  </Anruf>
+  <Anruf Nr="143">
+    <Von Anrede="Herr" Nr="2">
+      <Vorname>Gerard</Vorname>
+      <Nachname>Diehm</Nachname>
+    </Von>
+    <Tarif Nr="1">
+      <Name>Frühstück</Name>
+      <Preis>0,5</Preis>
+      <Summe>33</Summe>
+    </Tarif>
+  </Anruf>
+  <Anruf Nr="121">
+    <Von Nr="10">
+      <Vorname>A.</Vorname>
+      <Nachname>Fryc</Nachname>
+    </Von>
+    <Tarif Nr="5">
+      <Name>Mondschein2</Name>
+      <Preis>0,5</Preis>
+      <Summe>1</Summe>
+    </Tarif>
+  </Anruf>
+  <Anruf Nr="128">
+    <Von Nr="10">
+      <Vorname>A.</Vorname>
+      <Nachname>Fryc</Nachname>
+    </Von>
+    <Tarif Nr="1">
+      <Name>Frühstück</Name>
+      <Preis>0,5</Preis>
+      <Summe>35</Summe>
+    </Tarif>
+  </Anruf>
+  <Anruf Nr="134">
+    <Von Nr="10">
+      <Vorname>A.</Vorname>
+      <Nachname>Fryc</Nachname>
+    </Von>
+    <Tarif Nr="3">
+      <Name>Abendessen</Name>
+      <Preis>1</Preis>
+      <Summe>6</Summe>
+    </Tarif>
+  </Anruf>
+  <Anruf Nr="139">
+    <Von Nr="10">
+      <Vorname>A.</Vorname>
+      <Nachname>Fryc</Nachname>
+    </Von>
+    <Tarif Nr="5">
+      <Name>Mondschein2</Name>
+      <Preis>0,5</Preis>
+      <Summe>1</Summe>
+    </Tarif>
+  </Anruf>
+  <Anruf Nr="145">
+    <Von Nr="10">
+      <Vorname>A.</Vorname>
+      <Nachname>Fryc</Nachname>
+    </Von>
+    <Tarif Nr="5">
+      <Name>Mondschein2</Name>
+      <Preis>0,5</Preis>
+      <Summe>31</Summe>
+    </Tarif>
+  </Anruf>
+  <Anruf Nr="127">
+    <Von Anrede="Herr" Nr="5">
+      <Vorname>Martin</Vorname>
+      <Nachname>Fulland</Nachname>
+    </Von>
+    <Tarif Nr="1">
+      <Name>Frühstück</Name>
+      <Preis>0,5</Preis>
+      <Summe>4</Summe>
+    </Tarif>
+  </Anruf>
+  <Anruf Nr="133">
+    <Von Anrede="Herr" Nr="5">
+      <Vorname>Martin</Vorname>
+      <Nachname>Fulland</Nachname>
+    </Von>
+    <Tarif Nr="4">
+      <Name>Mondschein1</Name>
+      <Preis>0,5</Preis>
+      <Summe>7</Summe>
+    </Tarif>
+  </Anruf>
+  <Anruf Nr="138">
+    <Von Anrede="Herr" Nr="5">
+      <Vorname>Martin</Vorname>
+      <Nachname>Fulland</Nachname>
+    </Von>
+    <Tarif Nr="3">
+      <Name>Abendessen</Name>
+      <Preis>1</Preis>
+      <Summe>3</Summe>
+    </Tarif>
+  </Anruf>
+  <Anruf Nr="144">
+    <Von Anrede="Herr" Nr="5">
+      <Vorname>Martin</Vorname>
+      <Nachname>Fulland</Nachname>
+    </Von>
+    <Tarif Nr="3">
+      <Name>Abendessen</Name>
+      <Preis>1</Preis>
+      <Summe>4</Summe>
+    </Tarif>
+  </Anruf>
+</Anrufliste>

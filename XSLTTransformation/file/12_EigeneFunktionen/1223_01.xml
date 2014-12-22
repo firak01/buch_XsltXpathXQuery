@@ -1,0 +1,323 @@
+<?xml-stylesheet type="text/xsl" href="1223_01.xslt"?>
+<Tarifliste xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="1223_01.xsd">
+  <Tarif>
+    <Name Nr="7" Typ="g">Schicht1</Name>
+    <Gueltigkeit>
+      <Von Typ="xs:date">2003-01-01</Von>
+      <Bis Typ="xs:date">2003-12-31</Bis>
+    </Gueltigkeit>
+    <Uhrzeit>
+      <Von Typ="xs:time">07:00:00</Von>
+      <Bis Typ="xs:time">15:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe Typ="xs:decimal">2313.50</Summe>
+      <Kunden Typ="xs:integer">787</Kunden>
+      <Durchschnitt Typ="xs:decimal">2.94</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="18" Typ="g">Schicht1</Name>
+    <Gueltigkeit>
+      <Von Typ="xs:date">2004-01-01</Von>
+      <Bis Typ="xs:date">2004-12-31</Bis>
+    </Gueltigkeit>
+    <Uhrzeit>
+      <Von Typ="xs:time">07:00:00</Von>
+      <Bis Typ="xs:time">15:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe Typ="xs:decimal">75287.52</Summe>
+      <Kunden Typ="xs:integer">4352</Kunden>
+      <Durchschnitt Typ="xs:decimal">17.30</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="8" Typ="g">Schicht2</Name>
+    <Gueltigkeit>
+      <Von Typ="xs:date">2003-01-01</Von>
+      <Bis Typ="xs:date">2003-12-31</Bis>
+    </Gueltigkeit>
+    <Uhrzeit>
+      <Von Typ="xs:time">15:00:00</Von>
+      <Bis Typ="xs:time">23:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe Typ="xs:decimal">5250.29</Summe>
+      <Kunden Typ="xs:integer">797</Kunden>
+      <Durchschnitt Typ="xs:decimal">6.59</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="19" Typ="g">Schicht2</Name>
+    <Gueltigkeit>
+      <Von Typ="xs:date">2004-01-01</Von>
+      <Bis Typ="xs:date">2004-12-31</Bis>
+    </Gueltigkeit>
+    <Uhrzeit>
+      <Von Typ="xs:time">15:00:00</Von>
+      <Bis Typ="xs:time">23:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe Typ="xs:decimal">130502.08</Summe>
+      <Kunden Typ="xs:integer">4356</Kunden>
+      <Durchschnitt Typ="xs:decimal">29.96</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="1" Typ="p">Frühstück</Name>
+    <Gueltigkeit>
+      <Von Typ="xs:date">2003-01-01</Von>
+      <Bis Typ="xs:date">2003-06-30</Bis>
+    </Gueltigkeit>
+    <Uhrzeit>
+      <Von Typ="xs:time">06:00:00</Von>
+      <Bis Typ="xs:time">10:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe Typ="xs:decimal">57.68</Summe>
+      <Kunden Typ="xs:integer">2233</Kunden>
+      <Durchschnitt Typ="xs:decimal">.03</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="12" Typ="p">Frühstück</Name>
+    <Gueltigkeit>
+      <Von Typ="xs:date">2003-07-01</Von>
+      <Bis Typ="xs:date">2003-12-31</Bis>
+    </Gueltigkeit>
+    <Uhrzeit>
+      <Von Typ="xs:time">06:00:00</Von>
+      <Bis Typ="xs:time">10:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe Typ="xs:decimal">1829.45</Summe>
+      <Kunden Typ="xs:integer">1158</Kunden>
+      <Durchschnitt Typ="xs:decimal">1.58</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="23" Typ="p">Frühstück</Name>
+    <Gueltigkeit>
+      <Von Typ="xs:date">2004-01-01</Von>
+      <Bis Typ="xs:date">2004-12-31</Bis>
+    </Gueltigkeit>
+    <Uhrzeit>
+      <Von Typ="xs:time">06:00:00</Von>
+      <Bis Typ="xs:time">10:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe Typ="xs:decimal">29939.16</Summe>
+      <Kunden Typ="xs:integer">11941</Kunden>
+      <Durchschnitt Typ="xs:decimal">2.51</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="3" Typ="p">Abendessen</Name>
+    <Gueltigkeit>
+      <Von Typ="xs:date">2003-01-01</Von>
+      <Bis Typ="xs:date">2003-06-30</Bis>
+    </Gueltigkeit>
+    <Uhrzeit>
+      <Von Typ="xs:time">15:00:00</Von>
+      <Bis Typ="xs:time">20:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe Typ="xs:decimal">317.73</Summe>
+      <Kunden Typ="xs:integer">185</Kunden>
+      <Durchschnitt Typ="xs:decimal">1.72</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="14" Typ="p">Abendessen</Name>
+    <Gueltigkeit>
+      <Von Typ="xs:date">2003-07-01</Von>
+      <Bis Typ="xs:date">2003-12-31</Bis>
+    </Gueltigkeit>
+    <Uhrzeit>
+      <Von Typ="xs:time">15:00:00</Von>
+      <Bis Typ="xs:time">20:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe Typ="xs:decimal">4768.57</Summe>
+      <Kunden Typ="xs:integer">1174</Kunden>
+      <Durchschnitt Typ="xs:decimal">4.06</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="25" Typ="p">Abendessen</Name>
+    <Gueltigkeit>
+      <Von Typ="xs:date">2004-01-01</Von>
+      <Bis Typ="xs:date">2004-12-31</Bis>
+    </Gueltigkeit>
+    <Uhrzeit>
+      <Von Typ="xs:time">15:00:00</Von>
+      <Bis Typ="xs:time">00:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe Typ="xs:decimal">77214.42</Summe>
+      <Kunden Typ="xs:integer">12049</Kunden>
+      <Durchschnitt Typ="xs:decimal">6.41</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="4" Typ="p">Mondschein1</Name>
+    <Gueltigkeit>
+      <Von Typ="xs:date">2003-01-01</Von>
+      <Bis Typ="xs:date">2003-06-30</Bis>
+    </Gueltigkeit>
+    <Uhrzeit>
+      <Von Typ="xs:time">20:00:00</Von>
+      <Bis Typ="xs:time">00:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe Typ="xs:decimal">58.98</Summe>
+      <Kunden Typ="xs:integer">175</Kunden>
+      <Durchschnitt Typ="xs:decimal">.34</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="15" Typ="p">Mondschein1</Name>
+    <Gueltigkeit>
+      <Von Typ="xs:date">2003-07-01</Von>
+      <Bis Typ="xs:date">2003-12-31</Bis>
+    </Gueltigkeit>
+    <Uhrzeit>
+      <Von Typ="xs:time">20:00:00</Von>
+      <Bis Typ="xs:time">00:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe Typ="xs:decimal">689.67</Summe>
+      <Kunden Typ="xs:integer">1146</Kunden>
+      <Durchschnitt Typ="xs:decimal">.60</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="26" Typ="p">Mondschein1</Name>
+    <Gueltigkeit>
+      <Von Typ="xs:date">2004-01-01</Von>
+      <Bis Typ="xs:date">2004-12-31</Bis>
+    </Gueltigkeit>
+    <Uhrzeit>
+      <Von Typ="xs:time">00:00:00</Von>
+      <Bis Typ="xs:time">06:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe Typ="xs:decimal">28363.22</Summe>
+      <Kunden Typ="xs:integer">12008</Kunden>
+      <Durchschnitt Typ="xs:decimal">2.36</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="5" Typ="p">Mondschein2</Name>
+    <Gueltigkeit>
+      <Von Typ="xs:date">2003-01-01</Von>
+      <Bis Typ="xs:date">2003-06-30</Bis>
+    </Gueltigkeit>
+    <Uhrzeit>
+      <Von Typ="xs:time">00:00:00</Von>
+      <Bis Typ="xs:time">06:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe Typ="xs:decimal">178.12</Summe>
+      <Kunden Typ="xs:integer">183</Kunden>
+      <Durchschnitt Typ="xs:decimal">.97</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="16" Typ="p">Mondschein2</Name>
+    <Gueltigkeit>
+      <Von Typ="xs:date">2003-07-01</Von>
+      <Bis Typ="xs:date">2003-12-31</Bis>
+    </Gueltigkeit>
+    <Uhrzeit>
+      <Von Typ="xs:time">00:00:00</Von>
+      <Bis Typ="xs:time">06:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe Typ="xs:decimal">1679.86</Summe>
+      <Kunden Typ="xs:integer">1179</Kunden>
+      <Durchschnitt Typ="xs:decimal">1.42</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="2" Typ="p">Mittagspause</Name>
+    <Gueltigkeit>
+      <Von Typ="xs:date">2003-01-01</Von>
+      <Bis Typ="xs:date">2003-06-30</Bis>
+    </Gueltigkeit>
+    <Uhrzeit>
+      <Von Typ="xs:time">10:00:00</Von>
+      <Bis Typ="xs:time">15:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe Typ="xs:decimal">347.97</Summe>
+      <Kunden Typ="xs:integer">184</Kunden>
+      <Durchschnitt Typ="xs:decimal">1.89</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="13" Typ="p">Mittagspause</Name>
+    <Gueltigkeit>
+      <Von Typ="xs:date">2003-07-01</Von>
+      <Bis Typ="xs:date">2003-12-31</Bis>
+    </Gueltigkeit>
+    <Uhrzeit>
+      <Von Typ="xs:time">10:00:00</Von>
+      <Bis Typ="xs:time">15:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe Typ="xs:decimal">4507.92</Summe>
+      <Kunden Typ="xs:integer">1168</Kunden>
+      <Durchschnitt Typ="xs:decimal">3.86</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="24" Typ="p">Mittagspause</Name>
+    <Gueltigkeit>
+      <Von Typ="xs:date">2004-01-01</Von>
+      <Bis Typ="xs:date">2004-12-31</Bis>
+    </Gueltigkeit>
+    <Uhrzeit>
+      <Von Typ="xs:time">10:00:00</Von>
+      <Bis Typ="xs:time">15:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe Typ="xs:decimal">70978.92</Summe>
+      <Kunden Typ="xs:integer">11995</Kunden>
+      <Durchschnitt Typ="xs:decimal">5.92</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="10" Typ="g">Nachtschicht2</Name>
+    <Gueltigkeit>
+      <Von Typ="xs:date">2003-01-01</Von>
+      <Bis Typ="xs:date">2003-12-31</Bis>
+    </Gueltigkeit>
+    <Uhrzeit>
+      <Von Typ="xs:time">00:00:00</Von>
+      <Bis Typ="xs:time">07:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe Typ="xs:decimal">2234.03</Summe>
+      <Kunden Typ="xs:integer">788</Kunden>
+      <Durchschnitt Typ="xs:decimal">2.84</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="21" Typ="g">Nachtschicht2</Name>
+    <Gueltigkeit>
+      <Von Typ="xs:date">2004-01-01</Von>
+      <Bis Typ="xs:date">2004-12-31</Bis>
+    </Gueltigkeit>
+    <Uhrzeit>
+      <Von Typ="xs:time">00:00:00</Von>
+      <Bis Typ="xs:time">07:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe Typ="xs:decimal">71129.51</Summe>
+      <Kunden Typ="xs:integer">4354</Kunden>
+      <Durchschnitt Typ="xs:decimal">16.34</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+</Tarifliste>

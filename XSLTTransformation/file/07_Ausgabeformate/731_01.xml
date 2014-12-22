@@ -1,0 +1,2648 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="731_02.xsl"?>
+<Tarifliste>
+  <Tarif Nr="7" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>1.35</Summe>
+      <Monat>2</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="7" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>2.97</Summe>
+      <Monat>3</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="7" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>10.13</Summe>
+      <Monat>4</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="7" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>24.19</Summe>
+      <Monat>5</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="7" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>47.15</Summe>
+      <Monat>6</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="7" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>85.98</Summe>
+      <Monat>7</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="7" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>101.32</Summe>
+      <Monat>8</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="7" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>166.45</Summe>
+      <Monat>9</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="7" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>275.53</Summe>
+      <Monat>10</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="7" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>363.73</Summe>
+      <Monat>11</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="7" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>553.2</Summe>
+      <Monat>12</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="18" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>1445.54</Summe>
+      <Monat>1</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="18" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>1674.99</Summe>
+      <Monat>2</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="18" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>2389.7</Summe>
+      <Monat>3</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="18" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>2649.47</Summe>
+      <Monat>4</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="18" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>2901.1</Summe>
+      <Monat>5</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="18" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>3280.93</Summe>
+      <Monat>6</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="18" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>3560.2</Summe>
+      <Monat>7</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="18" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>3900.79</Summe>
+      <Monat>8</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="18" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>4303.65</Summe>
+      <Monat>9</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="18" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>4565.04</Summe>
+      <Monat>10</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="18" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>5502.59</Summe>
+      <Monat>11</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="18" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>6217.75</Summe>
+      <Monat>12</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="8" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>1.24</Summe>
+      <Monat>2</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="8" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>10.49</Summe>
+      <Monat>3</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="8" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>18.91</Summe>
+      <Monat>4</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="8" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>64.76</Summe>
+      <Monat>5</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="8" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>117.75</Summe>
+      <Monat>6</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="8" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>192.95</Summe>
+      <Monat>7</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="8" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>238.59</Summe>
+      <Monat>8</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="8" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>359.21</Summe>
+      <Monat>9</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="8" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>586.92</Summe>
+      <Monat>10</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="8" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>780.38</Summe>
+      <Monat>11</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="8" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>1221.58</Summe>
+      <Monat>12</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="19" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>2423.39</Summe>
+      <Monat>1</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="19" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>2836.19</Summe>
+      <Monat>2</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="19" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>4033.8</Summe>
+      <Monat>3</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="19" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>4566.65</Summe>
+      <Monat>4</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="19" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>4871.18</Summe>
+      <Monat>5</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="19" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>5671.03</Summe>
+      <Monat>6</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="19" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>6115.69</Summe>
+      <Monat>7</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="19" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>6709.01</Summe>
+      <Monat>8</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="19" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>7449.26</Summe>
+      <Monat>9</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="19" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>7916.78</Summe>
+      <Monat>10</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="19" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>9315.91</Summe>
+      <Monat>11</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="19" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>10629.13</Summe>
+      <Monat>12</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="1" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>2.5</Summe>
+      <Monat>2</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="1" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>6.55</Summe>
+      <Monat>3</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="1" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>16.14</Summe>
+      <Monat>4</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="1" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>32.29</Summe>
+      <Monat>5</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="1" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>57.48</Summe>
+      <Monat>6</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="1" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>0</Summe>
+      <Monat>12</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="12" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>147.21</Summe>
+      <Monat>7</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="12" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>176.47</Summe>
+      <Monat>8</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="12" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>219.62</Summe>
+      <Monat>9</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="12" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>280.84</Summe>
+      <Monat>10</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="12" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>385.33</Summe>
+      <Monat>11</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="12" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>490.35</Summe>
+      <Monat>12</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="23" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>650.57</Summe>
+      <Monat>1</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="23" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>796.82</Summe>
+      <Monat>2</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="23" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>1110.19</Summe>
+      <Monat>3</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="23" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>1376.25</Summe>
+      <Monat>4</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="23" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>1669.4</Summe>
+      <Monat>5</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="23" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>2000.44</Summe>
+      <Monat>6</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="23" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>2380.02</Summe>
+      <Monat>7</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="23" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>2718</Summe>
+      <Monat>8</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="23" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>3039.45</Summe>
+      <Monat>9</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="23" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>3572.41</Summe>
+      <Monat>10</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="23" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>3917.95</Summe>
+      <Monat>11</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="23" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>4445.76</Summe>
+      <Monat>12</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="3" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>4.95</Summe>
+      <Monat>2</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="3" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>18.23</Summe>
+      <Monat>3</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="3" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>51.81</Summe>
+      <Monat>4</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="3" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>110.03</Summe>
+      <Monat>5</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="3" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>162.9</Summe>
+      <Monat>6</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="14" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>340.8</Summe>
+      <Monat>7</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="14" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>412.17</Summe>
+      <Monat>8</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="14" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>530.87</Summe>
+      <Monat>9</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="14" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>698.59</Summe>
+      <Monat>10</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="14" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>924.57</Summe>
+      <Monat>11</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="14" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>1188.74</Summe>
+      <Monat>12</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="25" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>1770.72</Summe>
+      <Monat>1</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="25" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>2056.45</Summe>
+      <Monat>2</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="25" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>2805.43</Summe>
+      <Monat>3</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="25" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>3372.11</Summe>
+      <Monat>4</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="25" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>4354.98</Summe>
+      <Monat>5</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="25" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>5000.74</Summe>
+      <Monat>6</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="25" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>6040.07</Summe>
+      <Monat>7</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="25" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>6874.6</Summe>
+      <Monat>8</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="25" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>7555.01</Summe>
+      <Monat>9</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="25" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>9014.07</Summe>
+      <Monat>10</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="25" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>9944.19</Summe>
+      <Monat>11</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="25" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>11273.87</Summe>
+      <Monat>12</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="4" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>1.67</Summe>
+      <Monat>2</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="4" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>8.94</Summe>
+      <Monat>3</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="4" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>14.42</Summe>
+      <Monat>4</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="4" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>29.97</Summe>
+      <Monat>5</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="4" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>49.77</Summe>
+      <Monat>6</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="15" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>64.51</Summe>
+      <Monat>7</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="15" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>86.98</Summe>
+      <Monat>8</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="15" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>104.03</Summe>
+      <Monat>9</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="15" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>137.63</Summe>
+      <Monat>10</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="15" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>205.02</Summe>
+      <Monat>11</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="15" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>228.81</Summe>
+      <Monat>12</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="26" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>644.69</Summe>
+      <Monat>1</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="26" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>753.61</Summe>
+      <Monat>2</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="26" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>1034.91</Summe>
+      <Monat>3</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="26" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>1240.57</Summe>
+      <Monat>4</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="26" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>1597.01</Summe>
+      <Monat>5</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="26" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>1878.47</Summe>
+      <Monat>6</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="26" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>2251.06</Summe>
+      <Monat>7</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="26" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>2595.63</Summe>
+      <Monat>8</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="26" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>2803.28</Summe>
+      <Monat>9</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="26" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>3375.99</Summe>
+      <Monat>10</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="26" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>3652</Summe>
+      <Monat>11</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="26" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>4214.58</Summe>
+      <Monat>12</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="5" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>
+      <Summe>5.31</Summe>
+      <Monat>2</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="5" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>
+      <Summe>9.04</Summe>
+      <Monat>3</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="5" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>
+      <Summe>27.73</Summe>
+      <Monat>4</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="5" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>
+      <Summe>64.54</Summe>
+      <Monat>5</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="5" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>
+      <Summe>104.95</Summe>
+      <Monat>6</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="16" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>
+      <Summe>135.02</Summe>
+      <Monat>7</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="16" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>
+      <Summe>155.05</Summe>
+      <Monat>8</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="16" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>
+      <Summe>214.87</Summe>
+      <Monat>9</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="16" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>
+      <Summe>280.05</Summe>
+      <Monat>10</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="16" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>
+      <Summe>328.54</Summe>
+      <Monat>11</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="16" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>
+      <Summe>457.56</Summe>
+      <Monat>12</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="27" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>
+      <Summe/>
+      <Monat/>UMSATZ</Umsatz>
+  </Tarif>
+  <Tarif Nr="2" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>4.99</Summe>
+      <Monat>2</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="2" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>18.81</Summe>
+      <Monat>3</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="2" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>52.18</Summe>
+      <Monat>4</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="2" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>105.13</Summe>
+      <Monat>5</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="2" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>162.66</Summe>
+      <Monat>6</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="13" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>318.34</Summe>
+      <Monat>7</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="13" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>416.67</Summe>
+      <Monat>8</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="13" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>503.81</Summe>
+      <Monat>9</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="13" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>630.49</Summe>
+      <Monat>10</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="13" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>916.45</Summe>
+      <Monat>11</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="13" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>1120.02</Summe>
+      <Monat>12</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="24" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>1570.7</Summe>
+      <Monat>1</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="24" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>1932.79</Summe>
+      <Monat>2</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="24" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>2549.45</Summe>
+      <Monat>3</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="24" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>3081.74</Summe>
+      <Monat>4</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="24" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>3985.44</Summe>
+      <Monat>5</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="24" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>4604.86</Summe>
+      <Monat>6</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="24" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>5600.53</Summe>
+      <Monat>7</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="24" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>6285.57</Summe>
+      <Monat>8</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="24" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>7014.74</Summe>
+      <Monat>9</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="24" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>8344.95</Summe>
+      <Monat>10</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="24" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>9049.64</Summe>
+      <Monat>11</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="24" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>10398.94</Summe>
+      <Monat>12</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="9" Typ="g">
+    <Name>Nachtschicht1</Name>
+    <Umsatz>
+      <Summe/>
+      <Monat/>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="20" Typ="g">
+    <Name>Nachtschicht1</Name>
+    <Umsatz>
+      <Summe/>
+      <Monat/>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="10" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>.04</Summe>
+      <Monat>2</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="10" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>3.18</Summe>
+      <Monat>3</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="10" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>8.93</Summe>
+      <Monat>4</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="10" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>29.68</Summe>
+      <Monat>5</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="10" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>46.62</Summe>
+      <Monat>6</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="10" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>76.8</Summe>
+      <Monat>7</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="10" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>105.19</Summe>
+      <Monat>8</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="10" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>155.11</Summe>
+      <Monat>9</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="10" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>276.26</Summe>
+      <Monat>10</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="10" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>319.34</Summe>
+      <Monat>11</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="10" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>549.32</Summe>
+      <Monat>12</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="21" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>1401.17</Summe>
+      <Monat>1</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="21" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>1577.94</Summe>
+      <Monat>2</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="21" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>2262.85</Summe>
+      <Monat>3</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="21" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>2525.98</Summe>
+      <Monat>4</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="21" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>2759.5</Summe>
+      <Monat>5</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="21" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>3133.52</Summe>
+      <Monat>6</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="21" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>3303.67</Summe>
+      <Monat>7</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="21" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>3661.57</Summe>
+      <Monat>8</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="21" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>4067.39</Summe>
+      <Monat>9</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="21" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>4406.71</Summe>
+      <Monat>10</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="21" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>5208.93</Summe>
+      <Monat>11</Monat>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="21" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>5773.41</Summe>
+      <Monat>12</Monat>
+    </Umsatz>
+  </Tarif>176 Zeilen ausgewählt.
+
+
+UMSATZ
+
+	<Tarif Nr="7" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>1.35</Summe>
+      <Monat>2</Monat>
+      <Anrufe>7</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="7" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>2.97</Summe>
+      <Monat>3</Monat>
+      <Anrufe>18</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="7" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>10.13</Summe>
+      <Monat>4</Monat>
+      <Anrufe>52</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="7" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>24.19</Summe>
+      <Monat>5</Monat>
+      <Anrufe>149</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="7" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>47.15</Summe>
+      <Monat>6</Monat>
+      <Anrufe>280</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="7" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>85.98</Summe>
+      <Monat>7</Monat>
+      <Anrufe>488</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="7" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>101.32</Summe>
+      <Monat>8</Monat>
+      <Anrufe>590</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="7" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>166.45</Summe>
+      <Monat>9</Monat>
+      <Anrufe>948</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="7" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>275.53</Summe>
+      <Monat>10</Monat>
+      <Anrufe>1520</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="7" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>363.73</Summe>
+      <Monat>11</Monat>
+      <Anrufe>1998</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="7" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>553.2</Summe>
+      <Monat>12</Monat>
+      <Anrufe>3105</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="18" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>1445.54</Summe>
+      <Monat>1</Monat>
+      <Anrufe>4171</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="18" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>1674.99</Summe>
+      <Monat>2</Monat>
+      <Anrufe>4776</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="18" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>2389.7</Summe>
+      <Monat>3</Monat>
+      <Anrufe>6715</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="18" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>2649.47</Summe>
+      <Monat>4</Monat>
+      <Anrufe>7550</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="18" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>2901.1</Summe>
+      <Monat>5</Monat>
+      <Anrufe>8246</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="18" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>3280.93</Summe>
+      <Monat>6</Monat>
+      <Anrufe>9341</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="18" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>3560.2</Summe>
+      <Monat>7</Monat>
+      <Anrufe>10256</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="18" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>3900.79</Summe>
+      <Monat>8</Monat>
+      <Anrufe>11154</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="18" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>4303.65</Summe>
+      <Monat>9</Monat>
+      <Anrufe>12338</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="18" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>4565.04</Summe>
+      <Monat>10</Monat>
+      <Anrufe>13261</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="18" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>5502.59</Summe>
+      <Monat>11</Monat>
+      <Anrufe>15613</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="18" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>
+      <Summe>6217.75</Summe>
+      <Monat>12</Monat>
+      <Anrufe>17663</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="8" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>1.24</Summe>
+      <Monat>2</Monat>
+      <Anrufe>3</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="8" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>10.49</Summe>
+      <Monat>3</Monat>
+      <Anrufe>22</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="8" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>18.91</Summe>
+      <Monat>4</Monat>
+      <Anrufe>54</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="8" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>64.76</Summe>
+      <Monat>5</Monat>
+      <Anrufe>167</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="8" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>117.75</Summe>
+      <Monat>6</Monat>
+      <Anrufe>312</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="8" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>192.95</Summe>
+      <Monat>7</Monat>
+      <Anrufe>513</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="8" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>238.59</Summe>
+      <Monat>8</Monat>
+      <Anrufe>657</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="8" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>359.21</Summe>
+      <Monat>9</Monat>
+      <Anrufe>976</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="8" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>586.92</Summe>
+      <Monat>10</Monat>
+      <Anrufe>1614</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="8" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>780.38</Summe>
+      <Monat>11</Monat>
+      <Anrufe>2063</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="8" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>1221.58</Summe>
+      <Monat>12</Monat>
+      <Anrufe>3296</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="19" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>2423.39</Summe>
+      <Monat>1</Monat>
+      <Anrufe>4460</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="19" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>2836.19</Summe>
+      <Monat>2</Monat>
+      <Anrufe>5135</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="19" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>4033.8</Summe>
+      <Monat>3</Monat>
+      <Anrufe>7283</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="19" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>4566.65</Summe>
+      <Monat>4</Monat>
+      <Anrufe>8192</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="19" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>4871.18</Summe>
+      <Monat>5</Monat>
+      <Anrufe>8825</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="19" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>5671.03</Summe>
+      <Monat>6</Monat>
+      <Anrufe>10128</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="19" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>6115.69</Summe>
+      <Monat>7</Monat>
+      <Anrufe>10969</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="19" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>6709.01</Summe>
+      <Monat>8</Monat>
+      <Anrufe>12036</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="19" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>7449.26</Summe>
+      <Monat>9</Monat>
+      <Anrufe>13315</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="19" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>7916.78</Summe>
+      <Monat>10</Monat>
+      <Anrufe>14305</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="19" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>9315.91</Summe>
+      <Monat>11</Monat>
+      <Anrufe>16692</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="19" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>
+      <Summe>10629.13</Summe>
+      <Monat>12</Monat>
+      <Anrufe>19093</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="1" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>2.5</Summe>
+      <Monat>2</Monat>
+      <Anrufe>14</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="1" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>6.55</Summe>
+      <Monat>3</Monat>
+      <Anrufe>41</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="1" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>16.14</Summe>
+      <Monat>4</Monat>
+      <Anrufe>90</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="1" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>32.29</Summe>
+      <Monat>5</Monat>
+      <Anrufe>219</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="1" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>57.48</Summe>
+      <Monat>6</Monat>
+      <Anrufe>421</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="1" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>0</Summe>
+      <Monat>12</Monat>
+      <Anrufe>6435</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="12" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>147.21</Summe>
+      <Monat>7</Monat>
+      <Anrufe>439</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="12" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>176.47</Summe>
+      <Monat>8</Monat>
+      <Anrufe>544</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="12" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>219.62</Summe>
+      <Monat>9</Monat>
+      <Anrufe>687</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="12" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>280.84</Summe>
+      <Monat>10</Monat>
+      <Anrufe>904</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="12" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>385.33</Summe>
+      <Monat>11</Monat>
+      <Anrufe>1210</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="12" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>490.35</Summe>
+      <Monat>12</Monat>
+      <Anrufe>1583</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="23" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>650.57</Summe>
+      <Monat>1</Monat>
+      <Anrufe>2124</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="23" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>796.82</Summe>
+      <Monat>2</Monat>
+      <Anrufe>2482</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="23" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>1110.19</Summe>
+      <Monat>3</Monat>
+      <Anrufe>3588</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="23" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>1376.25</Summe>
+      <Monat>4</Monat>
+      <Anrufe>4322</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="23" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>1669.4</Summe>
+      <Monat>5</Monat>
+      <Anrufe>5326</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="23" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>2000.44</Summe>
+      <Monat>6</Monat>
+      <Anrufe>6293</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="23" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>2380.02</Summe>
+      <Monat>7</Monat>
+      <Anrufe>7443</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="23" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>2718</Summe>
+      <Monat>8</Monat>
+      <Anrufe>8660</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="23" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>3039.45</Summe>
+      <Monat>9</Monat>
+      <Anrufe>9501</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="23" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>3572.41</Summe>
+      <Monat>10</Monat>
+      <Anrufe>11264</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="23" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>3917.95</Summe>
+      <Monat>11</Monat>
+      <Anrufe>12397</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="23" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>
+      <Summe>4445.76</Summe>
+      <Monat>12</Monat>
+      <Anrufe>14049</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="3" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>4.95</Summe>
+      <Monat>2</Monat>
+      <Anrufe>17</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="3" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>18.23</Summe>
+      <Monat>3</Monat>
+      <Anrufe>48</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="3" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>51.81</Summe>
+      <Monat>4</Monat>
+      <Anrufe>145</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="3" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>110.03</Summe>
+      <Monat>5</Monat>
+      <Anrufe>305</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="3" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>162.9</Summe>
+      <Monat>6</Monat>
+      <Anrufe>452</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="14" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>340.8</Summe>
+      <Monat>7</Monat>
+      <Anrufe>633</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="14" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>412.17</Summe>
+      <Monat>8</Monat>
+      <Anrufe>760</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="14" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>530.87</Summe>
+      <Monat>9</Monat>
+      <Anrufe>974</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="14" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>698.59</Summe>
+      <Monat>10</Monat>
+      <Anrufe>1279</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="14" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>924.57</Summe>
+      <Monat>11</Monat>
+      <Anrufe>1746</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="14" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>1188.74</Summe>
+      <Monat>12</Monat>
+      <Anrufe>2184</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="25" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>1770.72</Summe>
+      <Monat>1</Monat>
+      <Anrufe>4764</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="25" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>2056.45</Summe>
+      <Monat>2</Monat>
+      <Anrufe>5547</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="25" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>2805.43</Summe>
+      <Monat>3</Monat>
+      <Anrufe>7645</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="25" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>3372.11</Summe>
+      <Monat>4</Monat>
+      <Anrufe>9271</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="25" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>4354.98</Summe>
+      <Monat>5</Monat>
+      <Anrufe>11852</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="25" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>5000.74</Summe>
+      <Monat>6</Monat>
+      <Anrufe>13754</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="25" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>6040.07</Summe>
+      <Monat>7</Monat>
+      <Anrufe>16480</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="25" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>6874.6</Summe>
+      <Monat>8</Monat>
+      <Anrufe>18840</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="25" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>7555.01</Summe>
+      <Monat>9</Monat>
+      <Anrufe>20705</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="25" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>9014.07</Summe>
+      <Monat>10</Monat>
+      <Anrufe>24607</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="25" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>9944.19</Summe>
+      <Monat>11</Monat>
+      <Anrufe>27220</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="25" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>
+      <Summe>11273.87</Summe>
+      <Monat>12</Monat>
+      <Anrufe>30827</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="4" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>1.67</Summe>
+      <Monat>2</Monat>
+      <Anrufe>11</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="4" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>8.94</Summe>
+      <Monat>3</Monat>
+      <Anrufe>38</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="4" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>14.42</Summe>
+      <Monat>4</Monat>
+      <Anrufe>80</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="4" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>29.97</Summe>
+      <Monat>5</Monat>
+      <Anrufe>183</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="4" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>49.77</Summe>
+      <Monat>6</Monat>
+      <Anrufe>260</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="15" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>64.51</Summe>
+      <Monat>7</Monat>
+      <Anrufe>354</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="15" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>86.98</Summe>
+      <Monat>8</Monat>
+      <Anrufe>434</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="15" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>104.03</Summe>
+      <Monat>9</Monat>
+      <Anrufe>553</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="15" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>137.63</Summe>
+      <Monat>10</Monat>
+      <Anrufe>745</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="15" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>205.02</Summe>
+      <Monat>11</Monat>
+      <Anrufe>1025</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="15" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>228.81</Summe>
+      <Monat>12</Monat>
+      <Anrufe>1263</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="26" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>644.69</Summe>
+      <Monat>1</Monat>
+      <Anrufe>3402</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="26" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>753.61</Summe>
+      <Monat>2</Monat>
+      <Anrufe>4043</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="26" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>1034.91</Summe>
+      <Monat>3</Monat>
+      <Anrufe>5560</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="26" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>1240.57</Summe>
+      <Monat>4</Monat>
+      <Anrufe>6827</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="26" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>1597.01</Summe>
+      <Monat>5</Monat>
+      <Anrufe>8487</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="26" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>1878.47</Summe>
+      <Monat>6</Monat>
+      <Anrufe>10092</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="26" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>2251.06</Summe>
+      <Monat>7</Monat>
+      <Anrufe>11990</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="26" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>2595.63</Summe>
+      <Monat>8</Monat>
+      <Anrufe>13825</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="26" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>2803.28</Summe>
+      <Monat>9</Monat>
+      <Anrufe>15170</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="26" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>3375.99</Summe>UMSATZ
+
+			<Monat>10</Monat>
+      <Anrufe>18040</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="26" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>3652</Summe>
+      <Monat>11</Monat>
+      <Anrufe>19719</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="26" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>
+      <Summe>4214.58</Summe>
+      <Monat>12</Monat>
+      <Anrufe>22525</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="5" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>
+      <Summe>5.31</Summe>
+      <Monat>2</Monat>
+      <Anrufe>23</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="5" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>
+      <Summe>9.04</Summe>
+      <Monat>3</Monat>
+      <Anrufe>53</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="5" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>
+      <Summe>27.73</Summe>
+      <Monat>4</Monat>
+      <Anrufe>149</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="5" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>
+      <Summe>64.54</Summe>
+      <Monat>5</Monat>
+      <Anrufe>359</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="5" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>
+      <Summe>104.95</Summe>
+      <Monat>6</Monat>
+      <Anrufe>532</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="16" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>
+      <Summe>135.02</Summe>
+      <Monat>7</Monat>
+      <Anrufe>728</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="16" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>
+      <Summe>155.05</Summe>
+      <Monat>8</Monat>
+      <Anrufe>831</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="16" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>
+      <Summe>214.87</Summe>
+      <Monat>9</Monat>
+      <Anrufe>1138</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="16" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>
+      <Summe>280.05</Summe>
+      <Monat>10</Monat>
+      <Anrufe>1473</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="16" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>
+      <Summe>328.54</Summe>
+      <Monat>11</Monat>
+      <Anrufe>1847</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="16" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>
+      <Summe>457.56</Summe>
+      <Monat>12</Monat>
+      <Anrufe>2469</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="27" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>
+      <Summe/>
+      <Monat/>
+      <Anrufe>0</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="2" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>4.99</Summe>
+      <Monat>2</Monat>
+      <Anrufe>17</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="2" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>18.81</Summe>
+      <Monat>3</Monat>
+      <Anrufe>55</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="2" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>52.18</Summe>
+      <Monat>4</Monat>
+      <Anrufe>130</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="2" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>105.13</Summe>
+      <Monat>5</Monat>
+      <Anrufe>287</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="2" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>162.66</Summe>
+      <Monat>6</Monat>
+      <Anrufe>446</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="13" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>318.34</Summe>
+      <Monat>7</Monat>
+      <Anrufe>560</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="13" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>416.67</Summe>
+      <Monat>8</Monat>
+      <Anrufe>743</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="13" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>503.81</Summe>
+      <Monat>9</Monat>
+      <Anrufe>902</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="13" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>630.49</Summe>
+      <Monat>10</Monat>
+      <Anrufe>1168</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="13" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>916.45</Summe>
+      <Monat>11</Monat>
+      <Anrufe>1657</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="13" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>1120.02</Summe>
+      <Monat>12</Monat>
+      <Anrufe>2024</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="24" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>1570.7</Summe>
+      <Monat>1</Monat>
+      <Anrufe>2810</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="24" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>1932.79</Summe>
+      <Monat>2</Monat>
+      <Anrufe>3436</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="24" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>2549.45</Summe>
+      <Monat>3</Monat>
+      <Anrufe>4639</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="24" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>3081.74</Summe>
+      <Monat>4</Monat>
+      <Anrufe>5555</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="24" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>3985.44</Summe>
+      <Monat>5</Monat>
+      <Anrufe>7167</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="24" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>4604.86</Summe>
+      <Monat>6</Monat>
+      <Anrufe>8338</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="24" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>5600.53</Summe>
+      <Monat>7</Monat>
+      <Anrufe>9984</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="24" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>6285.57</Summe>
+      <Monat>8</Monat>
+      <Anrufe>11319</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="24" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>7014.74</Summe>
+      <Monat>9</Monat>
+      <Anrufe>12562</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="24" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>8344.95</Summe>
+      <Monat>10</Monat>
+      <Anrufe>14875</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="24" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>9049.64</Summe>
+      <Monat>11</Monat>
+      <Anrufe>16346</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="24" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>
+      <Summe>10398.94</Summe>
+      <Monat>12</Monat>
+      <Anrufe>18731</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="9" Typ="g">
+    <Name>Nachtschicht1</Name>
+    <Umsatz>
+      <Summe/>
+      <Monat/>
+      <Anrufe>0</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="20" Typ="g">
+    <Name>Nachtschicht1</Name>
+    <Umsatz>
+      <Summe/>
+      <Monat/>
+      <Anrufe>0</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="10" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>.04</Summe>
+      <Monat>2</Monat>
+      <Anrufe>2</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="10" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>3.18</Summe>
+      <Monat>3</Monat>
+      <Anrufe>26</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="10" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>8.93</Summe>
+      <Monat>4</Monat>
+      <Anrufe>50</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="10" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>29.68</Summe>
+      <Monat>5</Monat>
+      <Anrufe>166</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="10" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>46.62</Summe>
+      <Monat>6</Monat>
+      <Anrufe>270</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="10" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>76.8</Summe>
+      <Monat>7</Monat>
+      <Anrufe>422</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="10" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>105.19</Summe>
+      <Monat>8</Monat>
+      <Anrufe>602</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="10" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>155.11</Summe>
+      <Monat>9</Monat>
+      <Anrufe>856</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="10" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>276.26</Summe>
+      <Monat>10</Monat>
+      <Anrufe>1461</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="10" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>319.34</Summe>
+      <Monat>11</Monat>
+      <Anrufe>1759</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="10" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>549.32</Summe>
+      <Monat>12</Monat>
+      <Anrufe>2956</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="21" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>1401.17</Summe>
+      <Monat>1</Monat>
+      <Anrufe>3918</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="21" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>1577.94</Summe>
+      <Monat>2</Monat>
+      <Anrufe>4388</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="21" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>2262.85</Summe>
+      <Monat>3</Monat>
+      <Anrufe>6178</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="21" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>2525.98</Summe>
+      <Monat>4</Monat>
+      <Anrufe>6924</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="21" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>2759.5</Summe>
+      <Monat>5</Monat>
+      <Anrufe>7739</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="21" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>3133.52</Summe>
+      <Monat>6</Monat>
+      <Anrufe>8575</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="21" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>3303.67</Summe>
+      <Monat>7</Monat>
+      <Anrufe>9374</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="21" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>3661.57</Summe>
+      <Monat>8</Monat>
+      <Anrufe>10143</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="21" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>4067.39</Summe>
+      <Monat>9</Monat>
+      <Anrufe>11220</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="21" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>4406.71</Summe>
+      <Monat>10</Monat>
+      <Anrufe>12153</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="21" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>5208.93</Summe>
+      <Monat>11</Monat>
+      <Anrufe>14303</Anrufe>
+    </Umsatz>
+  </Tarif>
+  <Tarif Nr="21" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>
+      <Summe>5773.41</Summe>
+      <Monat>12</Monat>
+      <Anrufe>16207</Anrufe>
+    </Umsatz>
+  </Tarif>
+</Tarifliste>

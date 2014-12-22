@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="521_01.xslt"?>
+<Rechnungen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="521_01.xsd">
+  <Rechnung Nr="12918" Datum="2004-12-31">
+    <Total>22.95</Total>
+    <Kunde Datei="k_856"/>
+    <Postenliste Datei="pl_12918"/>
+  </Rechnung>
+  <Rechnung Nr="12975" Datum="2004-12-31">
+    <Total>4.91</Total>
+    <Kunde Datei="k_913"/>
+    <Postenliste Datei="pl_12975"/>
+  </Rechnung>
+</Rechnungen>

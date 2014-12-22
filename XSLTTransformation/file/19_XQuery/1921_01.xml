@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="1921_01.xsd"-->
+<book>
+<title>Die RuhrFon GmbH</title>
+  <chapter id="1">
+    <title>RuhrFon GmbH - Eine Welle des Erfolgs</title>
+    <section id="1">
+      <title>Von Anfang an eine Erfolgsgeschichte</title>
+      <subtitle>Die RuhrFon GmbH im Aufwind</subtitle>
+      <graphic align="center" fileref="ruhrfon_logo.gif"/>
+      <para>Seit Gründung der RuhrFon GmbH im Jahre 2003 erfreuen unsere günstigen Telefontarife das gesamte Ruhrgebiet. Rund um die Uhr haben wir interessante Minutenpreise für Privat- und und Unternehmenskunden im Angebot, die es Ihnen erlauben, in Ruhe und zu jeder Zeit mit Freunden, Familienangehörigen oder Kunden zu telefonieren. Unser Tarifsystem ist einfach und auf wenige Tarife verteilt.</para>
+      <simplelist>
+        <title>Geschäftstarife</title>
+        <member>Extern, 2 Cent/Min</member>
+        <member>Nachtschicht1, 1 Cent/Min</member>
+        <member>Nachtschicht2, 1 Cent/Min</member>
+        <member>Schicht1, 1 Cent/Min</member>
+        <member>Schicht2, 1,5 Cent/Min</member>
+      </simplelist>
+      <simplelist>
+        <title>Privattarife</title>
+        <member>Abendessen, 1 Cent/Min</member>
+        <member>Frühstück, 1 Cent/Min</member>
+        <member>Mittagspause, 1,5 Cent/Min</member>
+        <member>Mondschein1,  0,5 Cent/Min</member>
+        <member>Mondschein2,  0,5 Cent/Min</member>
+      </simplelist>
+      <para>Als wir vor zwei Jahren mit unserer Arbeit begonnen, ahnten wir noch nicht, wie schnell sich unser Netzwerkkonzept bewähren würde. Am 01.01.2003 meldete sich unser erster Privatkunde an, und am 08.01.2003 vertraute uns das erste Unternehmen seine Telefongespräche mit Partnern an. Beide Telefonanschlüsse lagen damals in Düsseldorf, wo schon bald 568 Privat- und Geschäftskunden über uns telefonieren sollten.</para>
+      <para>Heute telefonieren weit über 1000 Kunden in fast allen Ruhrgebietsstädten mit unseren Telefontarifen.</para>
+      <table>
+        <title>Aktuelle Kundenzahlen</title>
+        <tgroup cols="3">
+          <thead>
+            <row>
+              <entry>Stadt</entry>
+              <entry>Privatkunden</entry>
+              <entry>Geschäftskunden</entry>
+            </row>
+          </thead>
+          <tfoot>
+            <row>
+              <entry>7</entry>
+              <entry>1447</entry>
+              <entry>207</entry>
+            </row>
+          </tfoot>
+          <tbody>
+            <row>
+              <entry>Bochum</entry>
+              <entry>153</entry>
+              <entry>32</entry>
+            </row>
+            <row>
+              <entry>Düsseldorf</entry>
+              <entry>506</entry>
+              <entry>0</entry>
+            </row>
+            <row>
+              <entry>Dortmund</entry>
+              <entry>225</entry>
+              <entry>64</entry>
+            </row>
+            <row>
+              <entry>Duisburg</entry>
+              <entry>196</entry>
+              <entry>37</entry>
+            </row>
+            <row>
+              <entry>Essen,Ruhr</entry>
+              <entry>233</entry>
+              <entry>43</entry>
+            </row>
+            <row>
+              <entry>Gelsenkirchen</entry>
+              <entry>70</entry>
+              <entry>23</entry>
+            </row>
+            <row>
+              <entry>Herne,Westf</entry>
+              <entry>64</entry>
+              <entry>8</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="2">
+      <title>Gute Umsatzzahlen und niedrige Preise</title>
+      <subtitle>Beeindruckende Leistung in einem umkämpften Markt</subtitle>
+      <para>Trotz der niedrigen Minutenpreis verzeichnete die RuhrFon GmbH einen ernormen Umsatzwachstum von 2003 nach 2004. Dies wird durch den positiven Netzwerkeffekt ausgelöst: Je mehr Kunden sich anmelden, desto interessanter wird eine Anmeldung bei uns. Auf der reinen Umsatzseite bedeuten mehr Kunden bei durchschnittlich gleich bleibenden Pro-Kopf-Umsatz automatisch ein proportional steigender Umsatz. Wir erleben allerdings ein überproportional starkes Wachstum, weil immer mehr Freunde, Bekannte und Partner-Unternehmen über uns telefonisch erreichbar sind.</para>
+      <simplelist>
+        <title>Umsatzsteigerung</title>
+        <member>2003:     20017.65 Euro</member>
+        <member>2004:   343213.06 Euro</member>
+      </simplelist>
+    </section>
+  </chapter>
+  <chapter id="2">
+    <title>RuhrFon GmbH - von Telefonfreunden gegründet</title>
+    <section id="1">
+      <title>Anton Ebenhof</title>
+      <subtitle>Marketing</subtitle>
+      <graphic fileref="anton_ebenhof.jpg" align="center"/>
+      <para>Mit Anton Ebenhof (Jahrgang 1978) hat die RuhrFon GmbH einen überaus kreativen Marketing-Direktor gefunden. Seine Einfälle überraschen immer wieder Mitarbeiter und Kunden und zeigen jedes Mal aufs Neue, dass auch - oder gerade - unkonventionelles Marketing maßgeblich zum Erfolg eines Unternehmens beiträgt.</para>
+      <para>
+        <question>Was haben Sie studiert?</question>
+        <answer>Wirtschaftswissenschaft in Wuppertal und Paris</answer>
+      </para>
+      <para>
+        <question>Wie stehen Sie zum Telefonieren?</question>
+        <answer>Man darf natürlich nicht glauben, dass ich den ganzen Tag telefoniere, obwohl natürlich mein Denken sehr mit dem Telefon verbunden ist. Privat erledige ich natürlich sehr viel mit dem Telefon, allerdings schätze ich auch ein gemütliches Beisammensein, das man freilich per Telefon vereinbart hat.</answer>
+      </para>
+      <para>
+        <question>Ihre besten Ratschläge für ein gutes Telefonat?</question>
+        <answer>Man muss differenzieren, ob es ein geschäftsliches oder privates Telefongespräch werden soll, wobei natürlich auch in einem geschäftliche Telefonat allerhand Privates erzählt werden kann. Ich halte es persönlich so, dass ich mir vorher sehr genau überlege, was ich sagen oder erreichen möchte. Manchmal muss es ja auch im privaten Bereich schon mal rasch gehen. Wenn der Kino-Film um 20 Uhr beginnt, und ich erst um 19 Uhr Begleitung suche, dann sollte ich mir Fragen nach dem Wohlfbefinden vielleicht kurz sparen und sofort Tacheles reden. Ansonsten kann man sicherlich auch einfach nur mal so jemanden anrufen, aber wenn ein Ziel zu erreichen ist, dann ist es ratsam, vorher überhaupt zu finden, wo das Gespräch hinführen soll.</answer>
+      </para>
+      <para>
+        <question>Gibt es Expansionspläne außerhalb des Ruhrgebiets?</question>
+        <answer>Wie Sie sich vorstellen können, werden wir natürlich insbesondere von den Randbereichen des Ruhrgebiets immer wieder angefragt, ob angrenzende Gebiete bald angeschlossen sind. Wie das technisch funktioniert, kann ich nicht sagen, aber zurzeit sind wir ein Ruhrgebietsunternehmen. Allerdings - warum sollten wir uns selbst beschränken? Wenn wir die nötige Infrastruktur haben und das Interesse besteht, dann gibt es uns sicherlich bald in ganz NRW.</answer>
+      </para>
+      <para>
+        <question>Persönliche Wünsche für dieses Geschäftsjahr?</question>
+        <answer>Mehr Kunden, mehr Umsatz, mehr Zufriedenheit auf allen Seiten.</answer>
+      </para>
+    </section>
+    <section id="2">
+      <title>Friedrich Bullock</title>
+      <subtitle>Technik</subtitle>
+      <graphic fileref="friedrich_bullock.jpg" align="center"/>
+      <para>Mit Friedrich Bullock (Jahrgang 1971) hat die RuhrFon GmbH einen Technik-Experten, der die Telefondienstleistungen für die Kunden und die interne Technik völlig sicher im Griff hat und für ein reibungsloses Funktionieren des Unternehmens sorgt.</para>
+      <para>
+        <question>Was haben Sie studiert?</question>
+        <answer>Elektro-Technik in Bochum und Dortmund</answer>
+      </para>
+      <para>
+        <question>Wie stehen Sie zum Telefonieren?</question>
+        <answer>Ich bin nicht den ganzen Tag am Hörer, doch sind es sicherlich einige Stunden täglich. Da habe ich dann auch verschiedene technische Hilfsmittel und sehr schöne Kopfhörer. Die sind nichts für den Gebrauch in der Fußgängerzone, aber sehr gesundheitsverträglich und vor allen Dingen für den internen Gebrauch. Wenn ich mal nicht telefonieren, dann rede ich allerdings auch mit Leuten - allerdings von Gesicht zu Gesicht.</answer>
+      </para>
+      <para>
+        <question>Ihre besten Ratschläge für ein gutes Telefonat?</question>
+        <answer>Zeit nehmen, immer Zeit nehmen. Wenn man ganz schnell etwas erreichen möchte, dann ist es vielleicht sogar am einfachsten, kurz ein Stockwerk nach oben oder unten zu gehen und es direkt anzuprechen. Wenn das nicht geht, dann am Telefon nicht drängen, sondern lieber erst einmal nachfragen, ob man gerade wichtige Entscheidungen treffen kann. Dann ist das Interesse und die Neugierde da - und ich habe ein offenes Ohr gefunden.</answer>
+      </para>
+      <para>
+        <question>Gibt es Expansionspläne außerhalb des Ruhrgebiets?</question>
+        <answer>Interesse von angrenzenden Gebieten ist verständlicherweise da. Auch vorhandene Kunden möchten gerne nach außen telefonieren. Es sind einige technische und juristische Hürden zu nehmen, aber wir sind soweit gekommen, da werden auch noch weiter kommen.</answer>
+      </para>
+      <para>
+        <question>Persönliche Wünsche für dieses Geschäftsjahr?</question>
+        <answer>Für mich persönlich ist wichtig, dass wir bei steigender Kundenzahl die erreichte technische Qualität auf allen Gebieten halten können.</answer>
+      </para>
+    </section>
+  </chapter>
+  <chapter id="3">
+    <title>RuhrFon GmbH - Ihr regionaler Telefonanbieter</title>
+    <section id="1">
+      <title>Vorteile</title>
+      <subtitle>Günstige Tarife für Sie und Ihre Freunde</subtitle>
+      <para>Telefonieren Sie oft mit Ihren Freunden? Telefonieren Sie gerne mit Ihren Freunden? Wohnen Ihre Freunde im Ruhrgebiet? Haben Sie Lust auf günstige Telefontarife? </para>
+      <para>Sicherlich möchten Sie auch günstige Telefontarife nutzen, um ihre Freunde von Düsseldorf bis Dortmund und von Duisburg bis Hagen oder Wuppertal bis Herne täglich anzurufen, schnell ein Treffen zu vereinbaren, sich kurz nach dem Befinden zu erkundigen oder einfach nur mal so zu plaudern, ohne auf die Uhr schauen zu müssen.</para>
+      <para>Mit unseren günstigen Telefontarifen haben Sie die Möglichkeit, diese Ziele einfach und schnell sowie ohne Umbau oder zusätzliche Geräte zu erreichen. Alles, was Sie benötigen, ist ein Kundenkonto bei uns. Alles, was Ihre Freunde brauchen, ist ein eigenes Kundenkonto bei uns.</para>
+      <para>Wir verstehen uns nicht nur als Telefonanbieter, sondern als Telefonnetzwerk. In einer Zeit, in der man immer und überall per Telefon erreichbar ist, möchte man oftmals ganz in Ruhe von zuhause aus mit seinen Freunden telefonieren. Gemütlich auf der Couch, vielleicht beim Essen oder mitten in der Nacht. All dies ist möglich, wenn Sie und Ihre Freunde Kunde in unserem Telefonnetzwerk sind. Alle Netzwerkteilnehmer rufen sich zu sagenhaft günstigen Preisen (durchschnittlich nur ein Cent die Minute!) an und können miteinander plaudern, schwatzen und lachen.</para>
+    </section>
+    <section id="2">
+      <title>Kunde werden</title>
+      <subtitle>Günstige Tarife für Sie und Ihre Freunde</subtitle>
+      <para>Bei uns Kunde zu werden, ist überaus einfach. Sie benötigen kein neues Gerät. Es ist auch  kein Umbau Ihrer vorhandenen Telefonanlage erforderlich. Wie bei jedem anderen Vorwahl-Anbieter haben Sie auch bei uns eine spezielle Vorwahl, die Sie vor jedem Gespräch vorwählen - Ihre Vorwahlnummer in unser Telefonnetzwerk. Mit der RuhrFon-Vorwahl können Sie nach Ihrer einfachen Anmeldungen bei uns sofort mit Ihren Freunden telefonieren. Sie müssen nur noch Ihre Freunde, die noch keine Kunden bei uns sind, über diese neue günstige Telefonmöglichkeit informieren. Helfen Sie Ihren Freunden, bei uns Kunde zu werden, und schon geht´s los!</para>
+    </section>
+    <section id="3">
+      <title>Kontakt</title>
+      <subtitle>Nehmen Sie Kontakt mit uns auf</subtitle>
+      <address>
+        <othername>RuhrFon GmbH</othername>
+        <personname>
+          <firstname>Elvira</firstname>
+          <surname>Hülzemann</surname>
+        </personname>
+        <street>Rellinghauser Str. 10</street>
+        <postcode>45128</postcode>
+        <city>Essen</city>
+        <email>info@ruhrfon.biz</email>
+        <phone>0201-437517-0</phone>
+        <fax>0201-437517-2</fax>
+      </address>
+    </section>
+  </chapter>
+</book>

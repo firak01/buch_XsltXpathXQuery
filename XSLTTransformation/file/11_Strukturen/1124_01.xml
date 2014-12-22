@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="1124_01.xslt"?>
+<sammlung name="Monatliste">
+  <einheit name="Monat">
+    <wert name="Datum" typ="xs:gYearMonth">2004-01</wert>
+    <wert name="Kunden" typ="xs:integer">25649</wert>
+    <sammlung name="Tarifliste">
+      <einheit name="Tarif">
+        <wert name="Umsatz">
+          <wert name="Pro-Kopf" typ="xs:decimal">0.0251</wert>
+          <wert name="Gesamt" typ="xs:decimal">644.69</wert>
+        </wert>
+        <wert name="Beschreibung">
+          <wert name="Name" typ="xs:string">Mondschein1</wert>
+        </wert>
+      </einheit>
+      <einheit name="Tarif">
+        <wert name="Umsatz">
+          <wert name="Pro-Kopf" typ="xs:decimal">0.0254</wert>
+          <wert name="Gesamt" typ="xs:decimal">650.57</wert>
+        </wert>
+        <wert name="Beschreibung">
+          <wert name="Name" typ="xs:string">Frühstück</wert>
+        </wert>
+      </einheit>
+      <einheit name="Tarif">
+        <wert name="Umsatz">
+          <wert name="Pro-Kopf" typ="xs:decimal">0.0546</wert>
+          <wert name="Gesamt" typ="xs:decimal">1.401.17</wert>
+        </wert>
+        <wert name="Beschreibung">
+          <wert name="Name" typ="xs:string">Nachtschicht2</wert>
+        </wert>
+      </einheit>
+    </sammlung>
+  </einheit>
+  <einheit name="Monat">
+    <wert name="Datum" typ="xs:gYearMonth">2003-02</wert>
+    <wert name="Kunden" typ="xs:integer">94</wert>
+    <sammlung name="Tarifliste">
+      <einheit name="Tarif">
+        <wert name="Umsatz">
+          <wert name="Pro-Kopf" typ="xs:decimal">0.0004</wert>
+          <wert name="Gesamt" typ="xs:decimal">0.04</wert>
+        </wert>
+        <wert name="Beschreibung">
+          <wert name="Name" typ="xs:string">Nachtschicht2</wert>
+        </wert>
+      </einheit>
+      <einheit name="Tarif">
+        <wert name="Umsatz">
+          <wert name="Pro-Kopf" typ="xs:decimal">0.0132</wert>
+          <wert name="Gesamt" typ="xs:decimal">1.24</wert>
+        </wert>
+        <wert name="Beschreibung">
+          <wert name="Name" typ="xs:string">Schicht2</wert>
+        </wert>
+      </einheit>
+      <einheit name="Tarif">
+        <wert name="Umsatz">
+          <wert name="Pro-Kopf" typ="xs:decimal">0.0144</wert>
+          <wert name="Gesamt" typ="xs:decimal">1.35</wert>
+        </wert>
+        <wert name="Beschreibung">
+          <wert name="Name" typ="xs:string">Schicht1</wert>
+        </wert>
+      </einheit>
+    </sammlung>
+  </einheit>
+</sammlung>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by tester (altova) -->
+<?xml-stylesheet type="text/xsl" href="812_02.xslt"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Anrufliste">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Anruf" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Kunde" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Vorname" type="xs:string"/>
+                    <xs:element name="Nachname" type="xs:string"/>
+                  </xs:sequence>
+                  <xs:attribute ref="Nr"/>
+                  <xs:attribute name="Typ" type="xs:string" use="required"/>
+                  <xs:attribute name="Anrede" type="xs:string" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Tarif">
+                <xs:complexType name="TarifTyp">
+                  <xs:sequence>
+                    <xs:element name="Name" type="xs:string"/>
+                    <xs:element name="Preis" type="xs:decimal"/>
+                    <xs:element name="Summe" type="xs:decimal"/>
+                  </xs:sequence>
+                  <xs:attribute ref="Nr"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute ref="Nr"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:attribute name="Nr" type="xs:positiveInteger" use="required"/>
+</xs:schema>

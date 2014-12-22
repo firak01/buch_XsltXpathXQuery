@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Kunde Typ="p" Nr="913">
+  <Name Anrede="Herr">
+    <Vorname>Heinrich</Vorname>
+    <Nachname>Flach</Nachname>
+  </Name>
+  <Adresse>
+    <Strasse>Kordts Feld 28</Strasse>
+    <PLZ>44869</PLZ>
+    <Stadt>Bochum</Stadt>
+  </Adresse>
+</Kunde>

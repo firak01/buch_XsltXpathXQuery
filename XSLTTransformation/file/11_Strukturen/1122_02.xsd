@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- edited with XMLSpy v2007 sp2 (http://www.altova.com) by Marco (Comelio) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:rf="http://www.ruhrfon.biz/marketing" xmlns:bh="http://www.ruhrfon.biz/buchhaltung" targetNamespace="http://www.ruhrfon.biz/marketing" elementFormDefault="qualified">
+	<xs:import namespace="http://www.ruhrfon.biz/buchhaltung" schemaLocation="1122_03.xsd"/>
+	<xs:element name="Datum" type="xs:string"/>
+	<xs:element name="Kunden" type="xs:string"/>
+	<xs:element name="Monat">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="rf:Datum"/>
+				<xs:element ref="bh:Pro-Kopf-Umsatz"/>
+				<xs:element ref="rf:Kunden"/>
+				<xs:element ref="rf:Tarifliste"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Monatsliste">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="rf:Monat" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Name" type="xs:string"/>
+	<xs:element name="Tarif">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="rf:Name"/>
+				<xs:element ref="bh:Umsatz"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Tarifliste">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="rf:Tarif" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

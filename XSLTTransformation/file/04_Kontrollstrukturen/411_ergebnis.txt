@@ -1,0 +1,7249 @@
+
+XML
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>1</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22,05</Summe>
+    <Dauer>3265</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22,05</Summe>
+    <Dauer>3265</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>15</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22,05</Summe>
+    <Dauer>3265</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>44,10</Summe>
+    <Dauer>6530</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22,05</Summe>
+    <Dauer>3265</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22,05</Summe>
+    <Dauer>3265</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22,05</Summe>
+    <Dauer>3265</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22,05</Summe>
+    <Dauer>3265</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>15</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22,05</Summe>
+    <Dauer>3265</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22,05</Summe>
+    <Dauer>3265</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22,05</Summe>
+    <Dauer>3265</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22,05</Summe>
+    <Dauer>3265</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>44,10</Summe>
+    <Dauer>6530</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>44,10</Summe>
+    <Dauer>6530</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22,05</Summe>
+    <Dauer>3265</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22,05</Summe>
+    <Dauer>3265</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>44,10</Summe>
+    <Dauer>6530</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22,05</Summe>
+    <Dauer>3265</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein1</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>66,15</Summe>
+    <Dauer>9795</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein2</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>66,15</Summe>
+    <Dauer>9795</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>1</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>78,21</Summe>
+    <Dauer>10804</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>78,21</Summe>
+    <Dauer>10804</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>15</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>78,21</Summe>
+    <Dauer>10804</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>156,42</Summe>
+    <Dauer>21608</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>78,21</Summe>
+    <Dauer>10804</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>78,21</Summe>
+    <Dauer>10804</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>78,21</Summe>
+    <Dauer>10804</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>78,21</Summe>
+    <Dauer>10804</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>15</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>78,21</Summe>
+    <Dauer>10804</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>78,21</Summe>
+    <Dauer>10804</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>78,21</Summe>
+    <Dauer>10804</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>78,21</Summe>
+    <Dauer>10804</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>156,42</Summe>
+    <Dauer>21608</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>156,42</Summe>
+    <Dauer>21608</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>78,21</Summe>
+    <Dauer>10804</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>78,21</Summe>
+    <Dauer>10804</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>156,42</Summe>
+    <Dauer>21608</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>78,21</Summe>
+    <Dauer>10804</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein1</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>234,63</Summe>
+    <Dauer>32412</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein2</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>234,63</Summe>
+    <Dauer>32412</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>1</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>200,25</Summe>
+    <Dauer>27539</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>200,25</Summe>
+    <Dauer>27539</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>15</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>200,25</Summe>
+    <Dauer>27539</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>400,50</Summe>
+    <Dauer>55078</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>200,25</Summe>
+    <Dauer>27539</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>200,25</Summe>
+    <Dauer>27539</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>200,25</Summe>
+    <Dauer>27539</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>200,25</Summe>
+    <Dauer>27539</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>15</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>200,25</Summe>
+    <Dauer>27539</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>200,25</Summe>
+    <Dauer>27539</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>200,25</Summe>
+    <Dauer>27539</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>200,25</Summe>
+    <Dauer>27539</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>400,50</Summe>
+    <Dauer>55078</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>400,50</Summe>
+    <Dauer>55078</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>200,25</Summe>
+    <Dauer>27539</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>200,25</Summe>
+    <Dauer>27539</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>400,50</Summe>
+    <Dauer>55078</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>200,25</Summe>
+    <Dauer>27539</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein1</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>600,75</Summe>
+    <Dauer>82617</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein2</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>600,75</Summe>
+    <Dauer>82617</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>1</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>460,59</Summe>
+    <Dauer>63568</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>460,59</Summe>
+    <Dauer>63568</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>15</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>460,59</Summe>
+    <Dauer>63568</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>921,18</Summe>
+    <Dauer>127136</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>460,59</Summe>
+    <Dauer>63568</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+XML
+
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>460,59</Summe>
+    <Dauer>63568</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>460,59</Summe>
+    <Dauer>63568</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>460,59</Summe>
+    <Dauer>63568</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>15</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>460,59</Summe>
+    <Dauer>63568</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>460,59</Summe>
+    <Dauer>63568</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>460,59</Summe>
+    <Dauer>63568</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>460,59</Summe>
+    <Dauer>63568</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>921,18</Summe>
+    <Dauer>127136</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>921,18</Summe>
+    <Dauer>127136</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>460,59</Summe>
+    <Dauer>63568</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>460,59</Summe>
+    <Dauer>63568</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>921,18</Summe>
+    <Dauer>127136</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>460,59</Summe>
+    <Dauer>63568</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein1</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.381,77</Summe>
+    <Dauer>190704</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein2</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.381,77</Summe>
+    <Dauer>190704</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>1</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>749,28</Summe>
+    <Dauer>107875</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>749,28</Summe>
+    <Dauer>107875</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>15</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>749,28</Summe>
+    <Dauer>107875</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.498,56</Summe>
+    <Dauer>215750</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>749,28</Summe>
+    <Dauer>107875</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>749,28</Summe>
+    <Dauer>107875</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>749,28</Summe>
+    <Dauer>107875</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>749,28</Summe>
+    <Dauer>107875</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>15</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>749,28</Summe>
+    <Dauer>107875</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>749,28</Summe>
+    <Dauer>107875</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>749,28</Summe>
+    <Dauer>107875</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>749,28</Summe>
+    <Dauer>107875</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.498,56</Summe>
+    <Dauer>215750</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.498,56</Summe>
+    <Dauer>215750</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>749,28</Summe>
+    <Dauer>107875</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>749,28</Summe>
+    <Dauer>107875</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.498,56</Summe>
+    <Dauer>215750</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>749,28</Summe>
+    <Dauer>107875</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein1</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>2.247,84</Summe>
+    <Dauer>323625</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein2</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>2.247,84</Summe>
+    <Dauer>323625</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>1</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.361,61</Summe>
+    <Dauer>149202</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.361,61</Summe>
+    <Dauer>149202</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>15</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.361,61</Summe>
+    <Dauer>149202</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>2.723,22</Summe>
+    <Dauer>298404</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.361,61</Summe>
+    <Dauer>149202</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.361,61</Summe>
+    <Dauer>149202</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.361,61</Summe>
+    <Dauer>149202</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.361,61</Summe>
+    <Dauer>149202</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>15</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.361,61</Summe>
+    <Dauer>149202</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.361,61</Summe>
+    <Dauer>149202</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.361,61</Summe>
+    <Dauer>149202</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.361,61</Summe>
+    <Dauer>149202</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>2.723,22</Summe>
+    <Dauer>298404</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>2.723,22</Summe>
+    <Dauer>298404</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.361,61</Summe>
+    <Dauer>149202</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.361,61</Summe>
+    <Dauer>149202</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>2.723,22</Summe>
+    <Dauer>298404</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.361,61</Summe>
+    <Dauer>149202</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein1</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>4.084,83</Summe>
+    <Dauer>447606</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein2</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>4.084,83</Summe>
+    <Dauer>447606</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>1</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.692,44</Summe>
+    <Dauer>184951</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.692,44</Summe>
+    <Dauer>184951</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>15</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.692,44</Summe>
+    <Dauer>184951</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>3.384,88</Summe>
+    <Dauer>369902</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.692,44</Summe>
+    <Dauer>184951</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.692,44</Summe>
+    <Dauer>184951</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.692,44</Summe>
+    <Dauer>184951</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.692,44</Summe>
+    <Dauer>184951</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>15</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.692,44</Summe>
+    <Dauer>184951</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.692,44</Summe>
+    <Dauer>184951</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+XML
+
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.692,44</Summe>
+    <Dauer>184951</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.692,44</Summe>
+    <Dauer>184951</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>3.384,88</Summe>
+    <Dauer>369902</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>3.384,88</Summe>
+    <Dauer>369902</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.692,44</Summe>
+    <Dauer>184951</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.692,44</Summe>
+    <Dauer>184951</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>3.384,88</Summe>
+    <Dauer>369902</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>1.692,44</Summe>
+    <Dauer>184951</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein1</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>5.077,32</Summe>
+    <Dauer>554853</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein2</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>5.077,32</Summe>
+    <Dauer>554853</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>1</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>2.253,97</Summe>
+    <Dauer>252808</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>2.253,97</Summe>
+    <Dauer>252808</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>15</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>2.253,97</Summe>
+    <Dauer>252808</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>4.507,94</Summe>
+    <Dauer>505616</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>2.253,97</Summe>
+    <Dauer>252808</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>2.253,97</Summe>
+    <Dauer>252808</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>2.253,97</Summe>
+    <Dauer>252808</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>2.253,97</Summe>
+    <Dauer>252808</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>15</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>2.253,97</Summe>
+    <Dauer>252808</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>2.253,97</Summe>
+    <Dauer>252808</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>2.253,97</Summe>
+    <Dauer>252808</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>2.253,97</Summe>
+    <Dauer>252808</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>4.507,94</Summe>
+    <Dauer>505616</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>4.507,94</Summe>
+    <Dauer>505616</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>2.253,97</Summe>
+    <Dauer>252808</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>2.253,97</Summe>
+    <Dauer>252808</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>4.507,94</Summe>
+    <Dauer>505616</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>2.253,97</Summe>
+    <Dauer>252808</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein1</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>6.761,91</Summe>
+    <Dauer>758424</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein2</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>6.761,91</Summe>
+    <Dauer>758424</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>1</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>3.166,31</Summe>
+    <Dauer>366141</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>3.166,31</Summe>
+    <Dauer>366141</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>15</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>3.166,31</Summe>
+    <Dauer>366141</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>6.332,62</Summe>
+    <Dauer>732282</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>3.166,31</Summe>
+    <Dauer>366141</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>3.166,31</Summe>
+    <Dauer>366141</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>3.166,31</Summe>
+    <Dauer>366141</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>3.166,31</Summe>
+    <Dauer>366141</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>15</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>3.166,31</Summe>
+    <Dauer>366141</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>3.166,31</Summe>
+    <Dauer>366141</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>3.166,31</Summe>
+    <Dauer>366141</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>3.166,31</Summe>
+    <Dauer>366141</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>6.332,62</Summe>
+    <Dauer>732282</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>6.332,62</Summe>
+    <Dauer>732282</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>3.166,31</Summe>
+    <Dauer>366141</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>3.166,31</Summe>
+    <Dauer>366141</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>6.332,62</Summe>
+    <Dauer>732282</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>3.166,31</Summe>
+    <Dauer>366141</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein1</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>9.498,93</Summe>
+    <Dauer>1098423</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein2</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>9.498,93</Summe>
+    <Dauer>1098423</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>1</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>4.223,36</Summe>
+    <Dauer>478728</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>4.223,36</Summe>
+    <Dauer>478728</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>15</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>4.223,36</Summe>
+    <Dauer>478728</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>8.446,72</Summe>
+    <Dauer>957456</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>4.223,36</Summe>
+    <Dauer>478728</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>4.223,36</Summe>
+    <Dauer>478728</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>4.223,36</Summe>
+    <Dauer>478728</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>4.223,36</Summe>
+    <Dauer>478728</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>15</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>4.223,36</Summe>
+    <Dauer>478728</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>4.223,36</Summe>
+    <Dauer>478728</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>4.223,36</Summe>
+    <Dauer>478728</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>4.223,36</Summe>
+    <Dauer>478728</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>8.446,72</Summe>
+    <Dauer>957456</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>8.446,72</Summe>
+    <Dauer>957456</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>4.223,36</Summe>
+    <Dauer>478728</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+
+XML
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>4.223,36</Summe>
+    <Dauer>478728</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>8.446,72</Summe>
+    <Dauer>957456</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>4.223,36</Summe>
+    <Dauer>478728</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein1</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>12.670,08</Summe>
+    <Dauer>1436184</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein2</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>12.670,08</Summe>
+    <Dauer>1436184</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>1</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>5.809,58</Summe>
+    <Dauer>707656</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>5.809,58</Summe>
+    <Dauer>707656</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>15</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>5.809,58</Summe>
+    <Dauer>707656</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>11.619,16</Summe>
+    <Dauer>1415312</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>5.809,58</Summe>
+    <Dauer>707656</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>5.809,58</Summe>
+    <Dauer>707656</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>5.809,58</Summe>
+    <Dauer>707656</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>5.809,58</Summe>
+    <Dauer>707656</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>15</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>5.809,58</Summe>
+    <Dauer>707656</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>5.809,58</Summe>
+    <Dauer>707656</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>5.809,58</Summe>
+    <Dauer>707656</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>5.809,58</Summe>
+    <Dauer>707656</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>11.619,16</Summe>
+    <Dauer>1415312</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>11.619,16</Summe>
+    <Dauer>1415312</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>5.809,58</Summe>
+    <Dauer>707656</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>5.809,58</Summe>
+    <Dauer>707656</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>11.619,16</Summe>
+    <Dauer>1415312</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>5.809,58</Summe>
+    <Dauer>707656</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein1</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>17.428,74</Summe>
+    <Dauer>2122968</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein2</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>17.428,74</Summe>
+    <Dauer>2122968</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1903</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>1</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>9.906,78</Summe>
+    <Dauer>919011</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>1</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>9.906,78</Summe>
+    <Dauer>919011</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>1</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>15</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>9.906,78</Summe>
+    <Dauer>919011</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>1</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>19.813,56</Summe>
+    <Dauer>1838022</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>1</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>9.906,78</Summe>
+    <Dauer>919011</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>1</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>9.906,78</Summe>
+    <Dauer>919011</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>1</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>9.906,78</Summe>
+    <Dauer>919011</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>1</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>9.906,78</Summe>
+    <Dauer>919011</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>1</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>15</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>9.906,78</Summe>
+    <Dauer>919011</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>1</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>9.906,78</Summe>
+    <Dauer>919011</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>1</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>9.906,78</Summe>
+    <Dauer>919011</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>1</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>9.906,78</Summe>
+    <Dauer>919011</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>1</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>19.813,56</Summe>
+    <Dauer>1838022</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>1</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>19.813,56</Summe>
+    <Dauer>1838022</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>1</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>9.906,78</Summe>
+    <Dauer>919011</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>1</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>9.906,78</Summe>
+    <Dauer>919011</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>1</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>19.813,56</Summe>
+    <Dauer>1838022</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>1</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>9.906,78</Summe>
+    <Dauer>919011</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>1</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein1</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>29.720,34</Summe>
+    <Dauer>2757033</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>1</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein2</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>29.720,34</Summe>
+    <Dauer>2757033</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>1</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>1</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>11.628,79</Summe>
+    <Dauer>1075679</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>11.628,79</Summe>
+    <Dauer>1075679</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>15</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>11.628,79</Summe>
+    <Dauer>1075679</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>23.257,58</Summe>
+    <Dauer>2151358</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>11.628,79</Summe>
+    <Dauer>1075679</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>11.628,79</Summe>
+    <Dauer>1075679</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>11.628,79</Summe>
+    <Dauer>1075679</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>11.628,79</Summe>
+    <Dauer>1075679</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>15</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>11.628,79</Summe>
+    <Dauer>1075679</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>11.628,79</Summe>
+    <Dauer>1075679</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>11.628,79</Summe>
+    <Dauer>1075679</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>11.628,79</Summe>
+    <Dauer>1075679</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>23.257,58</Summe>
+    <Dauer>2151358</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>23.257,58</Summe>
+    <Dauer>2151358</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>11.628,79</Summe>
+    <Dauer>1075679</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>11.628,79</Summe>
+    <Dauer>1075679</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>23.257,58</Summe>
+    <Dauer>2151358</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>11.628,79</Summe>
+    <Dauer>1075679</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein1</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>34.886,37</Summe>
+    <Dauer>3227037</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein2</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>34.886,37</Summe>
+    <Dauer>3227037</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>2</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+
+XML
+
+    <Name>Extern</Name>
+    <Preis>1</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>16.186,33</Summe>
+    <Dauer>1497732</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>16.186,33</Summe>
+    <Dauer>1497732</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>15</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>16.186,33</Summe>
+    <Dauer>1497732</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>32.372,66</Summe>
+    <Dauer>2995464</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>16.186,33</Summe>
+    <Dauer>1497732</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>16.186,33</Summe>
+    <Dauer>1497732</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>16.186,33</Summe>
+    <Dauer>1497732</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>16.186,33</Summe>
+    <Dauer>1497732</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>15</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>16.186,33</Summe>
+    <Dauer>1497732</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>16.186,33</Summe>
+    <Dauer>1497732</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>16.186,33</Summe>
+    <Dauer>1497732</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>16.186,33</Summe>
+    <Dauer>1497732</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>32.372,66</Summe>
+    <Dauer>2995464</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>32.372,66</Summe>
+    <Dauer>2995464</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>16.186,33</Summe>
+    <Dauer>1497732</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>16.186,33</Summe>
+    <Dauer>1497732</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>32.372,66</Summe>
+    <Dauer>2995464</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>16.186,33</Summe>
+    <Dauer>1497732</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein1</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>48.558,99</Summe>
+    <Dauer>4493196</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein2</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>48.558,99</Summe>
+    <Dauer>4493196</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>3</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>1</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>18.812,77</Summe>
+    <Dauer>1744500</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>18.812,77</Summe>
+    <Dauer>1744500</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>15</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>18.812,77</Summe>
+    <Dauer>1744500</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>37.625,54</Summe>
+    <Dauer>3489000</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>18.812,77</Summe>
+    <Dauer>1744500</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>18.812,77</Summe>
+    <Dauer>1744500</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>18.812,77</Summe>
+    <Dauer>1744500</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>18.812,77</Summe>
+    <Dauer>1744500</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>15</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>18.812,77</Summe>
+    <Dauer>1744500</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>18.812,77</Summe>
+    <Dauer>1744500</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>18.812,77</Summe>
+    <Dauer>1744500</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>18.812,77</Summe>
+    <Dauer>1744500</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>37.625,54</Summe>
+    <Dauer>3489000</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>37.625,54</Summe>
+    <Dauer>3489000</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>18.812,77</Summe>
+    <Dauer>1744500</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>18.812,77</Summe>
+    <Dauer>1744500</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>37.625,54</Summe>
+    <Dauer>3489000</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>18.812,77</Summe>
+    <Dauer>1744500</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein1</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>56.438,31</Summe>
+    <Dauer>5233500</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein2</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>56.438,31</Summe>
+    <Dauer>5233500</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>4</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>1</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22.138,61</Summe>
+    <Dauer>2071145</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22.138,61</Summe>
+    <Dauer>2071145</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>15</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22.138,61</Summe>
+    <Dauer>2071145</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>44.277,22</Summe>
+    <Dauer>4142290</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22.138,61</Summe>
+    <Dauer>2071145</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22.138,61</Summe>
+    <Dauer>2071145</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22.138,61</Summe>
+    <Dauer>2071145</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22.138,61</Summe>
+    <Dauer>2071145</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>15</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22.138,61</Summe>
+    <Dauer>2071145</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22.138,61</Summe>
+    <Dauer>2071145</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22.138,61</Summe>
+    <Dauer>2071145</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22.138,61</Summe>
+    <Dauer>2071145</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>44.277,22</Summe>
+    <Dauer>4142290</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>44.277,22</Summe>
+    <Dauer>4142290</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22.138,61</Summe>
+    <Dauer>2071145</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22.138,61</Summe>
+    <Dauer>2071145</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>44.277,22</Summe>
+    <Dauer>4142290</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>22.138,61</Summe>
+    <Dauer>2071145</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein1</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>66.415,83</Summe>
+    <Dauer>6213435</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein2</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>66.415,83</Summe>
+    <Dauer>6213435</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>5</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>1</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>25.569,99</Summe>
+    <Dauer>2393859</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>25.569,99</Summe>
+    <Dauer>2393859</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>15</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>25.569,99</Summe>
+    <Dauer>2393859</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>51.139,98</Summe>
+    <Dauer>4787718</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>25.569,99</Summe>
+    <Dauer>2393859</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+
+XML
+
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>25.569,99</Summe>
+    <Dauer>2393859</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>25.569,99</Summe>
+    <Dauer>2393859</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>25.569,99</Summe>
+    <Dauer>2393859</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>15</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>25.569,99</Summe>
+    <Dauer>2393859</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>25.569,99</Summe>
+    <Dauer>2393859</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>25.569,99</Summe>
+    <Dauer>2393859</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>25.569,99</Summe>
+    <Dauer>2393859</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>51.139,98</Summe>
+    <Dauer>4787718</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>51.139,98</Summe>
+    <Dauer>4787718</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>25.569,99</Summe>
+    <Dauer>2393859</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>25.569,99</Summe>
+    <Dauer>2393859</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>51.139,98</Summe>
+    <Dauer>4787718</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>25.569,99</Summe>
+    <Dauer>2393859</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein1</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>76.709,97</Summe>
+    <Dauer>7181577</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein2</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>76.709,97</Summe>
+    <Dauer>7181577</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>6</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>1</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>29.251,24</Summe>
+    <Dauer>2749830</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>29.251,24</Summe>
+    <Dauer>2749830</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>15</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>29.251,24</Summe>
+    <Dauer>2749830</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>58.502,48</Summe>
+    <Dauer>5499660</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>29.251,24</Summe>
+    <Dauer>2749830</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>29.251,24</Summe>
+    <Dauer>2749830</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>29.251,24</Summe>
+    <Dauer>2749830</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>29.251,24</Summe>
+    <Dauer>2749830</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>15</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>29.251,24</Summe>
+    <Dauer>2749830</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>29.251,24</Summe>
+    <Dauer>2749830</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>29.251,24</Summe>
+    <Dauer>2749830</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>29.251,24</Summe>
+    <Dauer>2749830</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>58.502,48</Summe>
+    <Dauer>5499660</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>58.502,48</Summe>
+    <Dauer>5499660</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>29.251,24</Summe>
+    <Dauer>2749830</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>29.251,24</Summe>
+    <Dauer>2749830</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>58.502,48</Summe>
+    <Dauer>5499660</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>29.251,24</Summe>
+    <Dauer>2749830</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein1</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>87.753,72</Summe>
+    <Dauer>8249490</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein2</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>87.753,72</Summe>
+    <Dauer>8249490</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>7</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>1</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>32.745,17</Summe>
+    <Dauer>3089676</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>32.745,17</Summe>
+    <Dauer>3089676</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>15</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>32.745,17</Summe>
+    <Dauer>3089676</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>65.490,34</Summe>
+    <Dauer>6179352</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>32.745,17</Summe>
+    <Dauer>3089676</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>32.745,17</Summe>
+    <Dauer>3089676</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>32.745,17</Summe>
+    <Dauer>3089676</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>32.745,17</Summe>
+    <Dauer>3089676</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>15</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>32.745,17</Summe>
+    <Dauer>3089676</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>32.745,17</Summe>
+    <Dauer>3089676</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>32.745,17</Summe>
+    <Dauer>3089676</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>32.745,17</Summe>
+    <Dauer>3089676</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>65.490,34</Summe>
+    <Dauer>6179352</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>65.490,34</Summe>
+    <Dauer>6179352</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>32.745,17</Summe>
+    <Dauer>3089676</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>32.745,17</Summe>
+    <Dauer>3089676</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>65.490,34</Summe>
+    <Dauer>6179352</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>32.745,17</Summe>
+    <Dauer>3089676</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein1</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>98.235,51</Summe>
+    <Dauer>9269028</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein2</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>98.235,51</Summe>
+    <Dauer>9269028</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>8</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>1</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>36.232,78</Summe>
+    <Dauer>3409088</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>36.232,78</Summe>
+    <Dauer>3409088</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>15</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>36.232,78</Summe>
+    <Dauer>3409088</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>72.465,56</Summe>
+    <Dauer>6818176</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>36.232,78</Summe>
+    <Dauer>3409088</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>36.232,78</Summe>
+    <Dauer>3409088</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>36.232,78</Summe>
+    <Dauer>3409088</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>36.232,78</Summe>
+    <Dauer>3409088</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>15</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>36.232,78</Summe>
+    <Dauer>3409088</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>36.232,78</Summe>
+    <Dauer>3409088</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+
+XML
+
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>36.232,78</Summe>
+    <Dauer>3409088</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>36.232,78</Summe>
+    <Dauer>3409088</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>72.465,56</Summe>
+    <Dauer>6818176</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>72.465,56</Summe>
+    <Dauer>6818176</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>36.232,78</Summe>
+    <Dauer>3409088</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>36.232,78</Summe>
+    <Dauer>3409088</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>72.465,56</Summe>
+    <Dauer>6818176</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>36.232,78</Summe>
+    <Dauer>3409088</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein1</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>108.698,34</Summe>
+    <Dauer>10227264</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein2</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>108.698,34</Summe>
+    <Dauer>10227264</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>9</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>1</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>41.195,95</Summe>
+    <Dauer>3900729</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>41.195,95</Summe>
+    <Dauer>3900729</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>15</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>41.195,95</Summe>
+    <Dauer>3900729</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>82.391,90</Summe>
+    <Dauer>7801458</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>41.195,95</Summe>
+    <Dauer>3900729</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>41.195,95</Summe>
+    <Dauer>3900729</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>41.195,95</Summe>
+    <Dauer>3900729</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>41.195,95</Summe>
+    <Dauer>3900729</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>15</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>41.195,95</Summe>
+    <Dauer>3900729</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>41.195,95</Summe>
+    <Dauer>3900729</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>41.195,95</Summe>
+    <Dauer>3900729</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>41.195,95</Summe>
+    <Dauer>3900729</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>82.391,90</Summe>
+    <Dauer>7801458</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>82.391,90</Summe>
+    <Dauer>7801458</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>41.195,95</Summe>
+    <Dauer>3900729</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>41.195,95</Summe>
+    <Dauer>3900729</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>82.391,90</Summe>
+    <Dauer>7801458</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>41.195,95</Summe>
+    <Dauer>3900729</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein1</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>123.587,85</Summe>
+    <Dauer>11702187</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein2</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>123.587,85</Summe>
+    <Dauer>11702187</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>10</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>1</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>46.591,21</Summe>
+    <Dauer>4396180</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>46.591,21</Summe>
+    <Dauer>4396180</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>15</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>46.591,21</Summe>
+    <Dauer>4396180</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>93.182,42</Summe>
+    <Dauer>8792360</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>46.591,21</Summe>
+    <Dauer>4396180</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>46.591,21</Summe>
+    <Dauer>4396180</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>46.591,21</Summe>
+    <Dauer>4396180</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>46.591,21</Summe>
+    <Dauer>4396180</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>15</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>46.591,21</Summe>
+    <Dauer>4396180</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>46.591,21</Summe>
+    <Dauer>4396180</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>46.591,21</Summe>
+    <Dauer>4396180</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>46.591,21</Summe>
+    <Dauer>4396180</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>93.182,42</Summe>
+    <Dauer>8792360</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>93.182,42</Summe>
+    <Dauer>8792360</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>46.591,21</Summe>
+    <Dauer>4396180</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>46.591,21</Summe>
+    <Dauer>4396180</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>93.182,42</Summe>
+    <Dauer>8792360</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>46.591,21</Summe>
+    <Dauer>4396180</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein1</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>139.773,63</Summe>
+    <Dauer>13188540</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein2</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>139.773,63</Summe>
+    <Dauer>13188540</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>11</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>1</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>52.953,44</Summe>
+    <Dauer>5199811</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>eg</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>52.953,44</Summe>
+    <Dauer>5199811</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>15</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>52.953,44</Summe>
+    <Dauer>5199811</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Extern</Name>
+    <Preis>2</Preis>
+    <Typ>ep</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>105.906,88</Summe>
+    <Dauer>10399622</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>52.953,44</Summe>
+    <Dauer>5199811</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>52.953,44</Summe>
+    <Dauer>5199811</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>52.953,44</Summe>
+    <Dauer>5199811</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>1</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>52.953,44</Summe>
+    <Dauer>5199811</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht2</Name>
+    <Preis>15</Preis>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>52.953,44</Summe>
+    <Dauer>5199811</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>52.953,44</Summe>
+    <Dauer>5199811</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Nachtschicht2</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>52.953,44</Summe>
+    <Dauer>5199811</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Schicht1</Name>
+    <Typ>g</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>52.953,44</Summe>
+    <Dauer>5199811</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Abendessen</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>105.906,88</Summe>
+    <Dauer>10399622</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>105.906,88</Summe>
+    <Dauer>10399622</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>1</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>52.953,44</Summe>
+    <Dauer>5199811</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+
+XML
+
+    <Name>Abendessen</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>52.953,44</Summe>
+    <Dauer>5199811</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mittagspause</Name>
+    <Preis>15</Preis>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>105.906,88</Summe>
+    <Dauer>10399622</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Frühstück</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>52.953,44</Summe>
+    <Dauer>5199811</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein1</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>158.860,32</Summe>
+    <Dauer>15599433</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+<Verbrauch>
+  <Tarif>
+    <Name>Mondschein2</Name>
+    <Typ>p</Typ>
+  </Tarif>
+  <Umsatz>
+    <Summe>158.860,32</Summe>
+    <Dauer>15599433</Dauer>
+  </Umsatz>
+  <Zeit>
+    <Monat>12</Monat>
+    <Jahr>1904</Jahr>
+  </Zeit>
+</Verbrauch>
+
+
+460 Zeilen ausgewählt.
+

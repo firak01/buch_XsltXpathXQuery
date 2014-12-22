@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="531_03.xslt"?>
+<Rechnungen>
+  <Rechnung Nr="12212" Datum="2004-12-31">
+    <Total>26.59</Total>
+    <Kunde Typ="p" Nr="145">
+      <Name Anrede="Herr">
+        <Vorname>Ralf</Vorname>
+        <Nachname>Gajewski</Nachname>
+      </Name>
+      <Adresse>
+        <Strasse>Hohenzollernstr. 30</Strasse>
+        <PLZ>40211</PLZ>
+        <Stadt>Düsseldorf</Stadt>
+      </Adresse>
+    </Kunde>
+    <Postenliste>
+      <Posten>
+        <Nr>63084</Nr>
+        <Tarif>23</Tarif>
+        <Einzeln>3.76</Einzeln>
+      </Posten>
+      <Posten>
+        <Nr>63085</Nr>
+        <Tarif>24</Tarif>
+        <Einzeln>10.11</Einzeln>
+      </Posten>
+      <Posten>
+        <Nr>63086</Nr>
+        <Tarif>25</Tarif>
+        <Einzeln>8.78</Einzeln>
+      </Posten>
+      <Posten>
+        <Nr>63087</Nr>
+        <Tarif>26</Tarif>
+        <Einzeln>3.94</Einzeln>
+      </Posten>
+    </Postenliste>
+  </Rechnung>
+  <Rechnung Nr="12717" Datum="2004-12-31">
+    <Total>18.31</Total>
+    <Kunde Typ="p" Nr="653">
+      <Name Anrede="Herr">
+        <Vorname>Martin</Vorname>
+        <Nachname>Plöger</Nachname>
+      </Name>
+      <Adresse>
+        <Strasse/>
+        <PLZ>0</PLZ>
+        <Stadt>Dortmund</Stadt>
+      </Adresse>
+    </Kunde>
+    <Postenliste>
+      <Posten>
+        <Nr>66155</Nr>
+        <Tarif>23</Tarif>
+        <Einzeln>2.51</Einzeln>
+      </Posten>
+      <Posten>
+        <Nr>66156</Nr>
+        <Tarif>24</Tarif>
+        <Einzeln>4.71</Einzeln>
+      </Posten>
+      <Posten>
+        <Nr>66157</Nr>
+        <Tarif>25</Tarif>
+        <Einzeln>8.95</Einzeln>
+      </Posten>
+      <Posten>
+        <Nr>66158</Nr>
+        <Tarif>26</Tarif>
+        <Einzeln>2.14</Einzeln>
+      </Posten>
+    </Postenliste>
+  </Rechnung>
+  <Rechnung Nr="12849" Datum="2004-12-31">
+    <Total>2.24</Total>
+    <Kunde Typ="p" Nr="786">
+      <Name Anrede="Herr">
+        <Vorname>Markus</Vorname>
+        <Nachname>Glowatsch</Nachname>
+      </Name>
+      <Adresse>
+        <Strasse>Holbeinstr. 3</Strasse>
+        <PLZ>40237</PLZ>
+        <Stadt>Düsseldorf</Stadt>
+      </Adresse>
+    </Kunde>
+    <Postenliste>
+      <Posten>
+        <Nr>66811</Nr>
+        <Tarif>23</Tarif>
+        <Einzeln>2.96</Einzeln>
+      </Posten>
+      <Posten>
+        <Nr>66814</Nr>
+        <Tarif>26</Tarif>
+        <Einzeln>3.21</Einzeln>
+      </Posten>
+      <Posten>
+        <Nr>66812</Nr>
+        <Tarif>24</Tarif>
+        <Einzeln>8.97</Einzeln>
+      </Posten>
+      <Posten>
+        <Nr>66813</Nr>
+        <Tarif>25</Tarif>
+        <Einzeln>7.26</Einzeln>
+      </Posten>
+    </Postenliste>
+  </Rechnung>
+  <Rechnung Nr="12941" Datum="2004-12-31">
+    <Total>24.98</Total>
+    <Kunde Typ="p" Nr="879">
+      <Name Anrede="Herr">
+        <Vorname>Anton</Vorname>
+        <Nachname>Cirkel</Nachname>
+      </Name>
+      <Adresse>
+        <Strasse>Theodor-Otte-Str. 50</Strasse>
+        <PLZ>45897</PLZ>
+        <Stadt>Gelsenkirchen</Stadt>
+      </Adresse>
+    </Kunde>
+    <Postenliste>
+      <Posten>
+        <Nr>67269</Nr>
+        <Tarif>23</Tarif>
+        <Einzeln>4.06</Einzeln>
+      </Posten>
+      <Posten>
+        <Nr>67271</Nr>
+        <Tarif>25</Tarif>
+        <Einzeln>9.66</Einzeln>
+      </Posten>
+      <Posten>
+        <Nr>67270</Nr>
+        <Tarif>24</Tarif>
+        <Einzeln>8.01</Einzeln>
+      </Posten>
+      <Posten>
+        <Nr>67272</Nr>
+        <Tarif>26</Tarif>
+        <Einzeln>3.25</Einzeln>
+      </Posten>
+    </Postenliste>
+  </Rechnung>
+</Rechnungen>

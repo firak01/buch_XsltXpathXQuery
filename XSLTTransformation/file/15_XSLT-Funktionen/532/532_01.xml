@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="532_01.xslt"?>
+<Rechnungen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="532_01.xsd">
+  <Rechnung Nr="r12212" Datum="2004-12-31">
+    <Total>26.59</Total>
+    <Kunde Typ="p" Nr="k145">
+      <Name Anrede="Herr">
+        <Vorname>Ralf</Vorname>
+        <Nachname>Gajewski</Nachname>
+      </Name>
+      <Adresse>
+        <Strasse>Hohenzollernstr. 30</Strasse>
+        <PLZ>40211</PLZ>
+        <Stadt>D?sseldorf</Stadt>
+      </Adresse>
+    </Kunde>
+    <Postenliste>
+      <Posten Nr="p63084" RefNr="t23">3.76</Posten>
+      <Posten Nr="p63085" RefNr="t24">10.11</Posten>
+      <Posten Nr="p63086" RefNr="t25">8.78</Posten>
+      <Posten Nr="p63087" RefNr="t26">3.94</Posten>
+    </Postenliste>
+  </Rechnung>
+  <Rechnung Nr="r12717" Datum="2004-12-31">
+    <Total>18.31</Total>
+    <Kunde Typ="p" Nr="k653">
+      <Name Anrede="Herr">
+        <Vorname>Martin</Vorname>
+        <Nachname>Pl_ger</Nachname>
+      </Name>
+      <Adresse>
+        <Strasse/>
+        <PLZ>0</PLZ>
+        <Stadt>Dortmund</Stadt>
+      </Adresse>
+    </Kunde>
+    <Postenliste>
+      <Posten Nr="p66155" RefNr="t23">2.51</Posten>
+      <Posten Nr="p66156" RefNr="t24">4.71</Posten>
+      <Posten Nr="p66157" RefNr="t25">8.95</Posten>
+      <Posten Nr="p66158" RefNr="t26">2.14</Posten>
+    </Postenliste>
+  </Rechnung>
+  <Rechnung Nr="r12849" Datum="2004-12-31">
+    <Total>2.24</Total>
+    <Kunde Typ="p" Nr="k786">
+      <Name Anrede="Herr">
+        <Vorname>Markus</Vorname>
+        <Nachname>Glowatsch</Nachname>
+      </Name>
+      <Adresse>
+        <Strasse>Holbeinstr. 3</Strasse>
+        <PLZ>40237</PLZ>
+        <Stadt>D?sseldorf</Stadt>
+      </Adresse>
+    </Kunde>
+    <Postenliste>
+      <Posten Nr="p66811" RefNr="t23">2.96</Posten>
+      <Posten Nr="p66814" RefNr="t26">3.21</Posten>
+      <Posten Nr="p66812" RefNr="t24">8.97</Posten>
+      <Posten Nr="p66813" RefNr="t25">7.26</Posten>
+    </Postenliste>
+  </Rechnung>
+  <Rechnung Nr="r12941" Datum="2004-12-31">
+    <Total>24.98</Total>
+    <Kunde Typ="p" Nr="k879">
+      <Name Anrede="Herr">
+        <Vorname>Anton</Vorname>
+        <Nachname>Cirkel</Nachname>
+      </Name>
+      <Adresse>
+        <Strasse>Theodor-Otte-Str. 50</Strasse>
+        <PLZ>45897</PLZ>
+        <Stadt>Gelsenkirchen</Stadt>
+      </Adresse>
+    </Kunde>
+    <Postenliste>
+      <Posten Nr="p67269" RefNr="t23">4.06</Posten>
+      <Posten Nr="p67271" RefNr="t25">9.66</Posten>
+      <Posten Nr="p67270" RefNr="t24">8.01</Posten>
+      <Posten Nr="p67272" RefNr="t26">3.25</Posten>
+    </Postenliste>
+  </Rechnung>
+</Rechnungen>

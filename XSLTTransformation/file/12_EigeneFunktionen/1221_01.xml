@@ -1,0 +1,263 @@
+<Tarifliste xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="1221_01.xsd">
+  <Tarif>
+    <Name Nr="7" Typ="g">Schicht1</Name>
+    <Gueltigkeit Start="2003-01-01" Ende="2003-12-31"/>
+    <Uhrzeit>
+      <Von>7:00:00</Von>
+      <Bis>15:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe>2313.50</Summe>
+      <Kunden>787</Kunden>
+      <Durchschnitt>2.94</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="18" Typ="g">Schicht1</Name>
+    <Gueltigkeit Start="2004-01-01" Ende="2004-12-31"/>
+    <Uhrzeit>
+      <Von>7:00:00</Von>
+      <Bis>15:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe>75287.52</Summe>
+      <Kunden>4352</Kunden>
+      <Durchschnitt>17.30</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="8" Typ="g">Schicht2</Name>
+    <Gueltigkeit Start="2003-01-01" Ende="2003-12-31"/>
+    <Uhrzeit>
+      <Von>15:00:00</Von>
+      <Bis>23:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe>5250.29</Summe>
+      <Kunden>797</Kunden>
+      <Durchschnitt>6.59</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="19" Typ="g">Schicht2</Name>
+    <Gueltigkeit Start="2004-01-01" Ende="2004-12-31"/>
+    <Uhrzeit>
+      <Von>15:00:00</Von>
+      <Bis>23:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe>130502.08</Summe>
+      <Kunden>4356</Kunden>
+      <Durchschnitt>29.96</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="1" Typ="p">Frühstück</Name>
+    <Gueltigkeit Start="2003-01-01" Ende="2003-06-30"/>
+    <Uhrzeit>
+      <Von>6:00:00</Von>
+      <Bis>10:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe>57.68</Summe>
+      <Kunden>2233</Kunden>
+      <Durchschnitt>.03</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="12" Typ="p">Frühstück</Name>
+    <Gueltigkeit Start="2003-07-01" Ende="2003-12-31"/>
+    <Uhrzeit>
+      <Von>6:00:00</Von>
+      <Bis>10:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe>1829.45</Summe>
+      <Kunden>1158</Kunden>
+      <Durchschnitt>1.58</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="23" Typ="p">Frühstück</Name>
+    <Gueltigkeit Start="2004-01-01" Ende="2004-12-31"/>
+    <Uhrzeit>
+      <Von>6:00:00</Von>
+      <Bis>10:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe>29939.16</Summe>
+      <Kunden>11941</Kunden>
+      <Durchschnitt>2.51</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="3" Typ="p">Abendessen</Name>
+    <Gueltigkeit Start="2003-01-01" Ende="2003-06-30"/>
+    <Uhrzeit>
+      <Von>15:00:00</Von>
+      <Bis>20:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe>317.73</Summe>
+      <Kunden>185</Kunden>
+      <Durchschnitt>1.72</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="14" Typ="p">Abendessen</Name>
+    <Gueltigkeit Start="2003-07-01" Ende="2003-12-31"/>
+    <Uhrzeit>
+      <Von>15:00:00</Von>
+      <Bis>20:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe>4768.57</Summe>
+      <Kunden>1174</Kunden>
+      <Durchschnitt>4.06</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="25" Typ="p">Abendessen</Name>
+    <Gueltigkeit Start="2004-01-01" Ende="2004-12-31"/>
+    <Uhrzeit>
+      <Von>15:00:00</Von>
+      <Bis>00:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe>77214.42</Summe>
+      <Kunden>12049</Kunden>
+      <Durchschnitt>6.41</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="4" Typ="p">Mondschein1</Name>
+    <Gueltigkeit Start="2003-01-01" Ende="2003-06-30"/>
+    <Uhrzeit>
+      <Von>20:00:00</Von>
+      <Bis>00:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe>58.98</Summe>
+      <Kunden>175</Kunden>
+      <Durchschnitt>.34</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="15" Typ="p">Mondschein1</Name>
+    <Gueltigkeit Start="2003-07-01" Ende="2003-12-31"/>
+    <Uhrzeit>
+      <Von>20:00:00</Von>
+      <Bis>00:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe>689.67</Summe>
+      <Kunden>1146</Kunden>
+      <Durchschnitt>.60</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="26" Typ="p">Mondschein1</Name>
+    <Gueltigkeit Start="2004-01-01" Ende="2004-12-31"/>
+    <Uhrzeit>
+      <Von>0:00:00</Von>
+      <Bis>6:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe>28363.22</Summe>
+      <Kunden>12008</Kunden>
+      <Durchschnitt>2.36</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="5" Typ="p">Mondschein2</Name>
+    <Gueltigkeit Start="2003-01-01" Ende="2003-06-30"/>
+    <Uhrzeit>
+      <Von>0:00:00</Von>
+      <Bis>6:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe>178.12</Summe>
+      <Kunden>183</Kunden>
+      <Durchschnitt>.97</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="16" Typ="p">Mondschein2</Name>
+    <Gueltigkeit Start="2003-07-01" Ende="2003-12-31"/>
+    <Uhrzeit>
+      <Von>0:00:00</Von>
+      <Bis>6:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe>1679.86</Summe>
+      <Kunden>1179</Kunden>
+      <Durchschnitt>1.42</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="2" Typ="p">Mittagspause</Name>
+    <Gueltigkeit Start="2003-01-01" Ende="2003-06-30"/>
+    <Uhrzeit>
+      <Von>10:00:00</Von>
+      <Bis>15:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe>347.97</Summe>
+      <Kunden>184</Kunden>
+      <Durchschnitt>1.89</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="13" Typ="p">Mittagspause</Name>
+    <Gueltigkeit Start="2003-07-01" Ende="2003-12-31"/>
+    <Uhrzeit>
+      <Von>10:00:00</Von>
+      <Bis>15:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe>4507.92</Summe>
+      <Kunden>1168</Kunden>
+      <Durchschnitt>3.86</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="24" Typ="p">Mittagspause</Name>
+    <Gueltigkeit Start="2004-01-01" Ende="2004-12-31"/>
+    <Uhrzeit>
+      <Von>10:00:00</Von>
+      <Bis>15:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe>70978.92</Summe>
+      <Kunden>11995</Kunden>
+      <Durchschnitt>5.92</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="10" Typ="g">Nachtschicht2</Name>
+    <Gueltigkeit Start="2003-01-01" Ende="2003-12-31"/>
+    <Uhrzeit>
+      <Von>0:00:00</Von>
+      <Bis>7:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe>2234.03</Summe>
+      <Kunden>788</Kunden>
+      <Durchschnitt>2.84</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+  <Tarif>
+    <Name Nr="21" Typ="g">Nachtschicht2</Name>
+    <Gueltigkeit Start="2004-01-01" Ende="2004-12-31"/>
+    <Uhrzeit>
+      <Von>0:00:00</Von>
+      <Bis>7:00:00</Bis>
+    </Uhrzeit>
+    <Umsatz>
+      <Summe>71129.51</Summe>
+      <Kunden>4354</Kunden>
+      <Durchschnitt>16.34</Durchschnitt>
+    </Umsatz>
+  </Tarif>
+</Tarifliste>
+

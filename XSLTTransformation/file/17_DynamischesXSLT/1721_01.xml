@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="932_01.xslt"?>
+<Erfolguebersicht xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="821_01.xsd">
+  <Erfolg Stadt="Essen, Ruhr" Monat="1">
+    <Gesamt>1</Gesamt>
+    <Neukunden>1</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Gelsenkirchen" Monat="1">
+    <Gesamt>1</Gesamt>
+    <Neukunden>1</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Duisburg" Monat="1">
+    <Gesamt>2</Gesamt>
+    <Neukunden>2</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Herne, Westf" Monat="1">
+    <Gesamt>2</Gesamt>
+    <Neukunden>2</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Düsseldorf" Monat="1">
+    <Gesamt>4</Gesamt>
+    <Neukunden>4</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Dortmund" Monat="2">
+    <Gesamt>2</Gesamt>
+    <Neukunden>2</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Bochum" Monat="2">
+    <Gesamt>3</Gesamt>
+    <Neukunden>3</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Duisburg" Monat="2">
+    <Gesamt>5</Gesamt>
+    <Neukunden>3</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Düsseldorf" Monat="2">
+    <Gesamt>17</Gesamt>
+    <Neukunden>13</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Bochum" Monat="3">
+    <Gesamt>4</Gesamt>
+    <Neukunden>1</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Duisburg" Monat="3">
+    <Gesamt>6</Gesamt>
+    <Neukunden>1</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Essen, Ruhr" Monat="3">
+    <Gesamt>2</Gesamt>
+    <Neukunden>1</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Herne, Westf" Monat="3">
+    <Gesamt>4</Gesamt>
+    <Neukunden>2</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Dortmund" Monat="3">
+    <Gesamt>6</Gesamt>
+    <Neukunden>4</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Düsseldorf" Monat="3">
+    <Gesamt>33</Gesamt>
+    <Neukunden>16</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Duisburg" Monat="4">
+    <Gesamt>7</Gesamt>
+    <Neukunden>1</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Essen, Ruhr" Monat="4">
+    <Gesamt>6</Gesamt>
+    <Neukunden>4</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Bochum" Monat="4">
+    <Gesamt>9</Gesamt>
+    <Neukunden>5</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Herne, Westf" Monat="4">
+    <Gesamt>9</Gesamt>
+    <Neukunden>5</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Dortmund" Monat="4">
+    <Gesamt>12</Gesamt>
+    <Neukunden>6</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Düsseldorf" Monat="4">
+    <Gesamt>43</Gesamt>
+    <Neukunden>10</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Duisburg" Monat="5">
+    <Gesamt>8</Gesamt>
+    <Neukunden>1</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Gelsenkirchen" Monat="5">
+    <Gesamt>2</Gesamt>
+    <Neukunden>1</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Dortmund" Monat="5">
+    <Gesamt>15</Gesamt>
+    <Neukunden>3</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Herne, Westf" Monat="5">
+    <Gesamt>12</Gesamt>
+    <Neukunden>3</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Bochum" Monat="5">
+    <Gesamt>14</Gesamt>
+    <Neukunden>5</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Essen, Ruhr" Monat="5">
+    <Gesamt>12</Gesamt>
+    <Neukunden>6</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Düsseldorf" Monat="5">
+    <Gesamt>61</Gesamt>
+    <Neukunden>18</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Bochum" Monat="6">
+    <Gesamt>15</Gesamt>
+    <Neukunden>1</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Duisburg" Monat="6">
+    <Gesamt>9</Gesamt>
+    <Neukunden>1</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Herne, Westf" Monat="6">
+    <Gesamt>13</Gesamt>
+    <Neukunden>1</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Gelsenkirchen" Monat="6">
+    <Gesamt>5</Gesamt>
+    <Neukunden>3</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Dortmund" Monat="6">
+    <Gesamt>20</Gesamt>
+    <Neukunden>5</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Essen, Ruhr" Monat="6">
+    <Gesamt>17</Gesamt>
+    <Neukunden>5</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Düsseldorf" Monat="6">
+    <Gesamt>71</Gesamt>
+    <Neukunden>10</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Duisburg" Monat="7">
+    <Gesamt>10</Gesamt>
+    <Neukunden>1</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Herne, Westf" Monat="7">
+    <Gesamt>15</Gesamt>
+    <Neukunden>2</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Gelsenkirchen" Monat="7">
+    <Gesamt>7</Gesamt>
+    <Neukunden>2</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Bochum" Monat="7">
+    <Gesamt>18</Gesamt>
+    <Neukunden>3</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Düsseldorf" Monat="7">
+    <Gesamt>75</Gesamt>
+    <Neukunden>4</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Dortmund" Monat="7">
+    <Gesamt>25</Gesamt>
+    <Neukunden>5</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Essen, Ruhr" Monat="7">
+    <Gesamt>23</Gesamt>
+    <Neukunden>6</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Dortmund" Monat="8">
+    <Gesamt>26</Gesamt>
+    <Neukunden>1</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Herne, Westf" Monat="8">
+    <Gesamt>16</Gesamt>
+    <Neukunden>1</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Bochum" Monat="8">
+    <Gesamt>21</Gesamt>
+    <Neukunden>3</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Essen, Ruhr" Monat="8">
+    <Gesamt>27</Gesamt>
+    <Neukunden>4</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Düsseldorf" Monat="8">
+    <Gesamt>87</Gesamt>
+    <Neukunden>12</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Bochum" Monat="9">
+    <Gesamt>22</Gesamt>
+    <Neukunden>1</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Duisburg" Monat="9">
+    <Gesamt>11</Gesamt>
+    <Neukunden>1</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Gelsenkirchen" Monat="9">
+    <Gesamt>9</Gesamt>
+    <Neukunden>2</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Essen, Ruhr" Monat="9">
+    <Gesamt>32</Gesamt>
+    <Neukunden>5</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Düsseldorf" Monat="9">
+    <Gesamt>97</Gesamt>
+    <Neukunden>10</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Dortmund" Monat="9">
+    <Gesamt>41</Gesamt>
+    <Neukunden>15</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Herne, Westf" Monat="10">
+    <Gesamt>17</Gesamt>
+    <Neukunden>1</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Gelsenkirchen" Monat="10">
+    <Gesamt>12</Gesamt>
+    <Neukunden>3</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Bochum" Monat="10">
+    <Gesamt>27</Gesamt>
+    <Neukunden>5</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Essen, Ruhr" Monat="10">
+    <Gesamt>38</Gesamt>
+    <Neukunden>6</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Duisburg" Monat="10">
+    <Gesamt>18</Gesamt>
+    <Neukunden>7</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Dortmund" Monat="10">
+    <Gesamt>50</Gesamt>
+    <Neukunden>9</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Düsseldorf" Monat="10">
+    <Gesamt>107</Gesamt>
+    <Neukunden>10</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Gelsenkirchen" Monat="11">
+    <Gesamt>14</Gesamt>
+    <Neukunden>2</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Dortmund" Monat="11">
+    <Gesamt>53</Gesamt>
+    <Neukunden>3</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Duisburg" Monat="11">
+    <Gesamt>27</Gesamt>
+    <Neukunden>9</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Essen, Ruhr" Monat="11">
+    <Gesamt>51</Gesamt>
+    <Neukunden>13</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Düsseldorf" Monat="11">
+    <Gesamt>125</Gesamt>
+    <Neukunden>18</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Bochum" Monat="12">
+    <Gesamt>29</Gesamt>
+    <Neukunden>2</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Herne, Westf" Monat="12">
+    <Gesamt>19</Gesamt>
+    <Neukunden>2</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Gelsenkirchen" Monat="12">
+    <Gesamt>17</Gesamt>
+    <Neukunden>3</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Duisburg" Monat="12">
+    <Gesamt>33</Gesamt>
+    <Neukunden>6</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Essen, Ruhr" Monat="12">
+    <Gesamt>61</Gesamt>
+    <Neukunden>10</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Düsseldorf" Monat="12">
+    <Gesamt>137</Gesamt>
+    <Neukunden>12</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Dortmund" Monat="12">
+    <Gesamt>68</Gesamt>
+    <Neukunden>15</Neukunden>
+  </Erfolg>
+</Erfolguebersicht>

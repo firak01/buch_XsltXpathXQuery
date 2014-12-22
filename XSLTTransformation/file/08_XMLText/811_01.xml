@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Ausgabe von Telefonanalage -->
+<?xml-stylesheet type="text/xsl" href="811_01.xslt"?>
+<nds dtdversion="1.1" ndsversion="8.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="811_01.xsd">
+  <input>
+    <add class-name="User" src-dn="Anton Ebenhof" event-id="0">
+      <add-attr attr-name="Given Name">
+        <value type="string">Anton</value>
+      </add-attr>
+      <add-attr attr-name="Surname">
+        <value type="string">Ebenhof</value>
+      </add-attr>
+      <add-attr attr-name="Country">
+        <value type="string">DE</value>
+      </add-attr>
+      <add-attr attr-name="Location">
+        <value type="string">Essen</value>
+      </add-attr>
+      <add-attr attr-name="Stammnummer">
+        <value type="string">555</value>
+      </add-attr>
+      <add-attr attr-name="Nebenstellennummer">
+        <value type="string">2-474</value>
+      </add-attr>
+    </add>
+  </input>
+</nds>

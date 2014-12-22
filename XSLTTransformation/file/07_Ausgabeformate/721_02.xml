@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Umsatzzahlen>
+  <Umsatz Nr="19" Typ="g">
+    <Tarif>Schicht2</Tarif>
+    <Summe>72538,02</Summe>
+  </Umsatz>
+  <Umsatz Nr="18" Typ="g">
+    <Tarif>Schicht1</Tarif>
+    <Summe>42391,75</Summe>
+  </Umsatz>
+  <Umsatz Nr="21" Typ="g">
+    <Tarif>Nachtschicht2</Tarif>
+    <Summe>40082,64</Summe>
+  </Umsatz>
+  <Umsatz Nr="8" Typ="g">
+    <Tarif>Schicht2</Tarif>
+    <Summe>3592,78</Summe>
+  </Umsatz>
+  <Umsatz Nr="20" Typ="g">
+    <Tarif>Nachtschicht1</Tarif>
+    <Summe />
+  </Umsatz>
+  <Umsatz Nr="23" Typ="p">
+    <Tarif>Frühstück</Tarif>
+    <Summe>27677,26</Summe>
+  </Umsatz>
+  <Umsatz Nr="12" Typ="p">
+    <Tarif>Frühstück</Tarif>
+    <Summe>1699,82</Summe>
+  </Umsatz>
+  <Umsatz Nr="9" Typ="g">
+    <Tarif>Nachtschicht1</Tarif>
+    <Summe />
+  </Umsatz>
+  <Umsatz Nr="25" Typ="p">
+    <Tarif>Abendessen</Tarif>
+    <Summe>70062,24</Summe>
+  </Umsatz>
+  <Umsatz Nr="24" Typ="p">
+    <Tarif>Mittagspause</Tarif>
+    <Summe>64419,35</Summe>
+  </Umsatz>
+  <Umsatz Nr="26" Typ="p">
+    <Tarif>Mondschein1</Tarif>
+    <Summe>26041,8</Summe>
+  </Umsatz>
+  <Umsatz Nr="14" Typ="p">
+    <Tarif>Abendessen</Tarif>
+    <Summe>4095,74</Summe>
+  </Umsatz>
+  <Umsatz Nr="13" Typ="p">
+    <Tarif>Mittagspause</Tarif>
+    <Summe>3905,78</Summe>
+  </Umsatz>
+  <Umsatz Nr="27" Typ="p">
+    <Tarif>Mondschein2</Tarif>
+    <Summe />
+  </Umsatz>
+  <Umsatz Nr="7" Typ="g">
+    <Tarif>Schicht1</Tarif>
+    <Summe>1632</Summe>
+  </Umsatz>
+  <Umsatz Nr="16" Typ="p">
+    <Tarif>Mondschein2</Tarif>
+    <Summe>1571,09</Summe>
+  </Umsatz>
+  <Umsatz Nr="10" Typ="g">
+    <Tarif>Nachtschicht2</Tarif>
+    <Summe>1570,47</Summe>
+  </Umsatz>
+  <Umsatz Nr="15" Typ="p">
+    <Tarif>Mondschein1</Tarif>
+    <Summe>826,98</Summe>
+  </Umsatz>
+  <Umsatz Nr="3" Typ="p">
+    <Tarif>Abendessen</Tarif>
+    <Summe>347,92</Summe>
+  </Umsatz>
+  <Umsatz Nr="2" Typ="p">
+    <Tarif>Mittagspause</Tarif>
+    <Summe>343,77</Summe>
+  </Umsatz>
+  <Umsatz Nr="5" Typ="p">
+    <Tarif>Mondschein2</Tarif>
+    <Summe>211,57</Summe>
+  </Umsatz>
+  <Umsatz Nr="1" Typ="p">
+    <Tarif>Frühstück</Tarif>
+    <Summe>114,96</Summe>
+  </Umsatz>
+  <Umsatz Nr="4" Typ="p">
+    <Tarif>Mondschein1</Tarif>
+    <Summe>104,77</Summe>
+  </Umsatz>
+</Umsatzzahlen>

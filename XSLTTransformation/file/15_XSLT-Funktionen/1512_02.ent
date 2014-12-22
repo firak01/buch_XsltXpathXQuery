@@ -1,0 +1,5 @@
+<!-- Entitäten Textbausteine -->
+<!ENTITY de_Anrede "Sehr geehrte">
+<!-- Entitäten Übersetzungen -->
+<!ENTITY de_Herr "&de_Anrede;r Herr ">
+<!ENTITY de_Frau "&de_Anrede; Frau ">

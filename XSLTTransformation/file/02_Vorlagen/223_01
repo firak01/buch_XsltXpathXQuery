@@ -1,0 +1,15 @@
+SET LONG 20000;
+SELECT XMLELEMENT("Tarif",
+        XMLELEMENT("Name", XMLATTRIBUTES(T_Nr AS "Nr"),
+                            T_Name),
+        XMLELEMENT("Gueltigkeit",
+         XMLELEMENT("Datum", 
+          XMLELEMENT("Von", T_GueVon),
+          XMLELEMENT("Bis", T_GueBis)),
+         XMLELEMENT("Uhrzeit",
+          XMLELEMENT("Von", T_Beginn),
+          XMLELEMENT("Bis", T_Ende))),
+        XMLELEMENT("Preis", T_Preis)) AS Text
+  FROM scott_tarif
+ WHERE T_Typ = 'g'
+   AND T_GueBis <= '31.12.2003';

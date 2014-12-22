@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="711_01.xslt"?>
+<Umsatzuebersicht xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="711_01.xsd">
+  <Tarif Nr="7" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>1632</Umsatz>
+  </Tarif>
+  <Tarif Nr="18" Typ="g">
+    <Name>Schicht1</Name>
+    <Umsatz>42391.75</Umsatz>
+  </Tarif>
+  <Tarif Nr="8" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>3592.78</Umsatz>
+  </Tarif>
+  <Tarif Nr="19" Typ="g">
+    <Name>Schicht2</Name>
+    <Umsatz>72538.02</Umsatz>
+  </Tarif>
+  <Tarif Nr="1" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>114.96</Umsatz>
+  </Tarif>
+  <Tarif Nr="12" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>1699.82</Umsatz>
+  </Tarif>
+  <Tarif Nr="23" Typ="p">
+    <Name>Frühstück</Name>
+    <Umsatz>27677.26</Umsatz>
+  </Tarif>
+  <Tarif Nr="3" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>347.92</Umsatz>
+  </Tarif>
+  <Tarif Nr="14" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>4095.74</Umsatz>
+  </Tarif>
+  <Tarif Nr="25" Typ="p">
+    <Name>Abendessen</Name>
+    <Umsatz>70062.24</Umsatz>
+  </Tarif>
+  <Tarif Nr="4" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>104.77</Umsatz>
+  </Tarif>
+  <Tarif Nr="15" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>826.98</Umsatz>
+  </Tarif>
+  <Tarif Nr="26" Typ="p">
+    <Name>Mondschein1</Name>
+    <Umsatz>26041.8</Umsatz>
+  </Tarif>
+  <Tarif Nr="5" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>211.57</Umsatz>
+  </Tarif>
+  <Tarif Nr="16" Typ="p">
+    <Name>Mondschein2</Name>
+    <Umsatz>1571.09</Umsatz>
+  </Tarif>
+  <Tarif Nr="2" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>343.77</Umsatz>
+  </Tarif>
+  <Tarif Nr="13" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>3905.78</Umsatz>
+  </Tarif>
+  <Tarif Nr="24" Typ="p">
+    <Name>Mittagspause</Name>
+    <Umsatz>64419.35</Umsatz>
+  </Tarif>
+  <Tarif Nr="10" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>1570.47</Umsatz>
+  </Tarif>
+  <Tarif Nr="21" Typ="g">
+    <Name>Nachtschicht2</Name>
+    <Umsatz>40082.64</Umsatz>
+  </Tarif>
+</Umsatzuebersicht>

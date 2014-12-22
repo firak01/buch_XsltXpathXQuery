@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="823_02.xslt"?>
+<Rechnung Nr="12266" Datum="31.12.04" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="823_01.xsd">
+  <Total>30.03</Total>
+  <Kunde Typ="p">
+    <Name Anrede="Herr">
+      <Vorname>Johann</Vorname>
+      <Nachname>Erdle</Nachname>
+    </Name>
+    <Adresse>
+      <Strasse>Talstr. 67</Strasse>
+      <PLZ>40217</PLZ>
+      <Stadt>Düsseldorf</Stadt>
+    </Adresse>
+  </Kunde>
+  <Details>
+    <Posten RefNr="12266">
+      <Tarif>Frühstück</Tarif>
+      <Einzeln>5.35</Einzeln>
+    </Posten>
+    <Posten RefNr="12266">
+      <Tarif>Mittagspause</Tarif>
+      <Einzeln>11.27</Einzeln>
+    </Posten>
+    <Posten RefNr="12266">
+      <Tarif>Abendessen</Tarif>
+      <Einzeln>9.52</Einzeln>
+    </Posten>
+    <Posten RefNr="12266">
+      <Tarif>Mondschein1</Tarif>
+      <Einzeln>3.89</Einzeln>
+    </Posten>
+  </Details>
+</Rechnung>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="211_01.xsl"?>
+<!-- FGL: 20141127 - Diese Datei im Browser öffnen.
+                     Die als Stylesheet angegebene .xsl Datei wird dann sofort ausgeführt 
+                     und ihr "Template"-Inhalt ausgegeben. -->
+<!-- ABER: wenn man sich im Firefox den Quellcode anzeigen lässt, dann werden unten stehende Zeilen angezeigt. -->
+<Text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="211_01.xsd">
+  <Gruss>leer</Gruss>
+</Text>

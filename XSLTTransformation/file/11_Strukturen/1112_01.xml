@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="112_02.xslt"?>
+<Rechnungen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="1112_01.xsd">
+  <Rechnung Nr="12553" Datum="2004-12-31">
+    <Total>22.77</Total>
+    <Kunde Typ="p" Nr="489">
+      <Name Anrede="Herr">
+        <Vorname>Fritz</Vorname>
+        <Nachname>Noll</Nachname>
+      </Name>
+      <Adresse>
+        <Strasse>Auf dem Aspei 6</Strasse>
+        <PLZ>44801</PLZ>
+        <Stadt>Bochum</Stadt>
+      </Adresse>
+    </Kunde>
+    <Postenliste>
+      <Posten Nr="65341" RefNr="12553">
+        <Tarif>Frühstück</Tarif>
+        <Einzeln>2.85</Einzeln>
+      </Posten>
+      <Posten Nr="65342" RefNr="12553">
+        <Tarif>Mittagspause</Tarif>
+        <Einzeln>6.34</Einzeln>
+      </Posten>
+      <Posten Nr="65343" RefNr="12553">
+        <Tarif>Abendessen</Tarif>
+        <Einzeln>8.43</Einzeln>
+      </Posten>
+      <Posten Nr="65344" RefNr="12553">
+        <Tarif>Mondschein1</Tarif>
+        <Einzeln>5.15</Einzeln>
+      </Posten>
+    </Postenliste>
+  </Rechnung>
+  <Rechnung Nr="12686" Datum="2004-12-31">
+    <Total>18.29</Total>
+    <Kunde Typ="p" Nr="622">
+      <Name Anrede="Herr">
+        <Vorname>Horst</Vorname>
+        <Nachname>Kremser</Nachname>
+      </Name>
+      <Adresse>
+        <Strasse>Oestermarsch 79</Strasse>
+        <PLZ>44145</PLZ>
+        <Stadt>Dortmund</Stadt>
+      </Adresse>
+    </Kunde>
+    <Postenliste>
+      <Posten Nr="66001" RefNr="12686">
+        <Tarif>Frühstück</Tarif>
+        <Einzeln>1.42</Einzeln>
+      </Posten>
+      <Posten Nr="66002" RefNr="12686">
+        <Tarif>Mittagspause</Tarif>
+        <Einzeln>4.58</Einzeln>
+      </Posten>
+      <Posten Nr="66003" RefNr="12686">
+        <Tarif>Abendessen</Tarif>
+        <Einzeln>7.99</Einzeln>
+      </Posten>
+      <Posten Nr="66004" RefNr="12686">
+        <Tarif>Mondschein1</Tarif>
+        <Einzeln>0.43</Einzeln>
+      </Posten>
+    </Postenliste>
+  </Rechnung>
+  <Rechnung Nr="12957" Datum="2004-12-31">
+    <Total>27.27</Total>
+    <Kunde Typ="p" Nr="895">
+      <Name Anrede="Herr">
+        <Vorname>Andreas</Vorname>
+        <Nachname>del Duca</Nachname>
+      </Name>
+      <Adresse>
+        <Strasse>Geitlingstr. 10</Strasse>
+        <PLZ>44628</PLZ>
+        <Stadt>Herne, Westf</Stadt>
+      </Adresse>
+    </Kunde>
+    <Postenliste>
+      <Posten Nr="67348" RefNr="12957">
+        <Tarif>Frühstück</Tarif>
+        <Einzeln>4.53</Einzeln>
+      </Posten>
+      <Posten Nr="67351" RefNr="12957">
+        <Tarif>Mondschein1</Tarif>
+        <Einzeln>1.66</Einzeln>
+      </Posten>
+      <Posten Nr="67349" RefNr="12957">
+        <Tarif>Mittagspause</Tarif>
+        <Einzeln>10.07</Einzeln>
+      </Posten>
+      <Posten Nr="67350" RefNr="12957">
+        <Tarif>Abendessen</Tarif>
+        <Einzeln>11.01</Einzeln>
+      </Posten>
+    </Postenliste>
+  </Rechnung>
+  <Rechnung Nr="13316" Datum="2004-12-31">
+    <Total>26.35</Total>
+    <Kunde Typ="p" Nr="1257">
+      <Name Anrede="Herr">
+        <Vorname>Helmut</Vorname>
+        <Nachname>Falkowski</Nachname>
+      </Name>
+      <Adresse>
+        <Strasse>Bankstr. 4</Strasse>
+        <PLZ>40476</PLZ>
+        <Stadt>Düsseldorf</Stadt>
+      </Adresse>
+    </Kunde>
+    <Postenliste>
+      <Posten Nr="69137" RefNr="13316">
+        <Tarif>Frühstück</Tarif>
+        <Einzeln>0.55</Einzeln>
+      </Posten>
+      <Posten Nr="69140" RefNr="13316">
+        <Tarif>Mondschein1</Tarif>
+        <Einzeln>3.39</Einzeln>
+      </Posten>
+      <Posten Nr="69139" RefNr="13316">
+        <Tarif>Abendessen</Tarif>
+        <Einzeln>7.86</Einzeln>
+      </Posten>
+      <Posten Nr="69138" RefNr="13316">
+        <Tarif>Mittagspause</Tarif>
+        <Einzeln>0.96</Einzeln>
+      </Posten>
+    </Postenliste>
+  </Rechnung>
+</Rechnungen>

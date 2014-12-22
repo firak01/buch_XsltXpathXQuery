@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="522_01.xslt"?>
+<Rechnung Nr="12918" Datum="2004-12-31" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="522_01.xsd">
+  <Total>22.95</Total>
+</Rechnung>

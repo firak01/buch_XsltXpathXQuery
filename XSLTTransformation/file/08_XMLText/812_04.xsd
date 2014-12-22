@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:complexType name="KundeTyp">
+    <xs:sequence minOccurs="1" maxOccurs="1">
+      <xs:element name="Vorname" type="xs:string" minOccurs="1" maxOccurs="1" nillable="false"/>
+      <xs:element name="Nachname" type="xs:string" nillable="false" abstract="false"/>
+    </xs:sequence>
+    <xs:attribute ref="Nr"/>
+    <xs:attribute name="Typ" type="xs:string" use="required"/>
+    <xs:attribute name="Anrede" type="xs:string" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="TarifTyp">
+    <xs:sequence minOccurs="1" maxOccurs="1">
+      <xs:element name="Name" type="xs:string" minOccurs="1" maxOccurs="1" nillable="false"/>
+      <xs:element name="Preis" type="xs:decimal" nillable="false" abstract="false"/>
+      <xs:element name="Summe" type="xs:decimal" nillable="false" abstract="false"/>
+    </xs:sequence>
+    <xs:attribute ref="Nr"/>
+  </xs:complexType>
+  <xs:element name="Anrufliste">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Anruf" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Kunde" type="KundeTyp" maxOccurs="unbounded"/>
+              <xs:element name="Tarif" type="TarifTyp"/>
+            </xs:sequence>
+            <xs:attribute ref="Nr"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:attribute name="Nr" type="xs:positiveInteger" use="required"/>
+</xs:schema>

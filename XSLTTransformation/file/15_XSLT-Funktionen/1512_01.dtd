@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Entitäten Textbausteine -->
+<!ENTITY en_Anrede "Dear ">
+<!ENTITY de_Anrede "Sehr geehrte">
+<!-- Entitäten Übersetzungen -->
+<!ENTITY de_Herr "'&de_Anrede;'r Herr ">
+<!ENTITY de_Frau "'&de_Anrede;' Frau">
+<!ENTITY de_Herr "'&en_Anrede;'r Mr ">
+<!ENTITY de_Frau "'&en_Anrede;' Ms">

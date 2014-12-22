@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Entitäten -->
+<!ENTITY de_Herr "Herr">
+<!ENTITY de_Frau "Frau">
+<!ENTITY en_Herr "Mr">
+<!ENTITY en_Frau "Ms">
+<!-- Elemente -->
+<!ELEMENT Adresse (Strasse, PLZ, Stadt)>
+<!ELEMENT Einzeln (#PCDATA)>
+<!ELEMENT Kunde (Name, Adresse)>
+<!ATTLIST Kunde
+  Typ CDATA #REQUIRED
+  Nr CDATA #REQUIRED
+>
+<!ELEMENT Name (Vorname, Nachname)>
+<!ELEMENT Vorname (#PCDATA)>
+<!ELEMENT Nachname (#PCDATA)>
+<!ATTLIST Name
+  Anrede CDATA #REQUIRED
+>
+<!ELEMENT PLZ (#PCDATA)>
+<!ELEMENT Posten (Tarif, Einzeln)>
+<!ATTLIST Posten
+  Nr CDATA #REQUIRED
+  RefNr CDATA #REQUIRED
+>
+<!ELEMENT Postenliste (Posten+)>
+<!ELEMENT Rechnung (Total, Kunde, Postenliste)>
+<!ATTLIST Rechnung
+  Nr CDATA #REQUIRED
+  Datum CDATA #REQUIRED
+>
+<!ELEMENT Rechnungen (Rechnung+)>
+<!ELEMENT Stadt (#PCDATA)>
+<!ELEMENT Strasse (#PCDATA)>
+<!ELEMENT Tarif (#PCDATA)>
+<!ELEMENT Total (#PCDATA)>
+

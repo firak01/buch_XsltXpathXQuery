@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="821_01.xslt"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Erfolguebersicht">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Erfolg" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Gesamt" type="xs:string"/>
+              <xs:element name="Neukunden" type="xs:string"/>
+            </xs:sequence>
+            <xs:attribute name="Stadt" type="xs:string" use="required"/>
+            <xs:attribute name="Monat" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

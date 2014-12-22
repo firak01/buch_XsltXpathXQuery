@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="741_01.xslt"?>
+<Quartale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="741_01.xsd">
+  <Datei Name="741_Q1.xml"/>
+  <Datei Name="741_Q2.xml"/>
+  <Datei Name="741_Q3.xml"/>
+  <Datei Name="741_Q4.xml"/>
+</Quartale>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="832_02.xslt"?>
+<paeckchenstruktur>
+  <ausgabe typ="uebersichtsliste"/>
+  <paeckchen name="kundenliste.xslt"/>
+  <paeckchen name="kunde.xslt"/>
+  <paeckchen name="name.xslt"/>
+  <paeckchen name="adresse.xslt"/>
+</paeckchenstruktur>

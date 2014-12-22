@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="524_03.xslt"?>
+<table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="524_01.xsd">
+  <title>Aktuelle Kundenzahlen</title>
+  <tgroup cols="3">
+    <thead>
+      <row>
+        <entry>Stadt</entry>
+        <entry>Privatkunden</entry>
+        <entry>Geschäftskunden</entry>
+      </row>
+    </thead>
+    <tfoot>
+      <row>
+        <entry>7</entry>
+        <entry>1447</entry>
+        <entry>207</entry>
+      </row>
+    </tfoot>
+    <tbody>
+      <row>
+        <entry>Bochum</entry>
+        <entry>153</entry>
+        <entry>32</entry>
+      </row>
+      <row>
+        <entry>Düsseldorf</entry>
+        <entry>506</entry>
+        <entry>0</entry>
+      </row>
+      <row>
+        <entry>Dortmund</entry>
+        <entry>225</entry>
+        <entry>64</entry>
+      </row>
+      <row>
+        <entry>Duisburg</entry>
+        <entry>196</entry>
+        <entry>37</entry>
+      </row>
+      <row>
+        <entry>Essen,Ruhr</entry>
+        <entry>233</entry>
+        <entry>43</entry>
+      </row>
+      <row>
+        <entry>Gelsenkirchen</entry>
+        <entry>70</entry>
+        <entry>23</entry>
+      </row>
+      <row>
+        <entry>Herne,Westf</entry>
+        <entry>64</entry>
+        <entry>8</entry>
+      </row>
+    </tbody>
+  </tgroup>
+</table>

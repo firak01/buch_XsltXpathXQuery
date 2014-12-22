@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.ruhrfon.biz/buchhaltung" elementFormDefault="qualified">
+  <xs:element name="Pro-Kopf-Umsatz" type="xs:string"/>
+  <xs:element name="Umsatz" type="xs:string"/>
+</xs:schema>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="1623_01.xslt"?>
+<Tarifliste xmlns:fn="http://www.w3.org/2004/07/xpath-functions" xmlns:xdt="http://www.w3.org/2004/07/xpath-datatypes" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Tarif T_Nr="1" T_Name="Frühstück" T_GueBis="30.06.03" anzahl="2"/>
+  <Tarif T_Nr="2" T_Name="Mittagspause" T_GueBis="30.06.03" anzahl="2"/>
+  <Tarif T_Nr="3" T_Name="Abendessen" T_GueBis="30.06.03" anzahl="2"/>
+  <Tarif T_Nr="4" T_Name="Mondschein1" T_GueBis="30.06.03" anzahl="2"/>
+  <Tarif T_Nr="5" T_Name="Mondschein2" T_GueBis="30.06.03" anzahl="2"/>
+  <Tarif T_Nr="6" T_Name="Extern" T_GueBis="30.06.03" anzahl="3"/>
+  <Tarif T_Nr="11" T_Name="Extern" T_GueBis="31.12.03" anzahl="3"/>
+  <Tarif T_Nr="12" T_Name="Frühstück" T_GueBis="31.12.03" anzahl="2"/>
+  <Tarif T_Nr="13" T_Name="Mittagspause" T_GueBis="31.12.03" anzahl="2"/>
+  <Tarif T_Nr="14" T_Name="Abendessen" T_GueBis="31.12.03" anzahl="2"/>
+  <Tarif T_Nr="15" T_Name="Mondschein1" T_GueBis="31.12.03" anzahl="2"/>
+  <Tarif T_Nr="16" T_Name="Mondschein2" T_GueBis="31.12.03" anzahl="2"/>
+  <Tarif T_Nr="17" T_Name="Extern" T_GueBis="31.12.03" anzahl="3"/>
+</Tarifliste>

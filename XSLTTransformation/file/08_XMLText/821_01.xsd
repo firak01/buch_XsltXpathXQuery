@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="821_01.xslt"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ANRUF">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="A_NR" type="xs:decimal"/>
+        <xs:element name="A_TYP">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="1"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="A_VON" type="xs:decimal"/>
+        <xs:element name="A_NACH" type="xs:decimal"/>
+        <xs:element name="A_BEGINN" type="xs:dateTime"/>
+        <xs:element name="A_ENDE" type="xs:dateTime"/>
+        <xs:element name="A_DAUER" type="xs:decimal"/>
+        <xs:element name="A_TNR" type="xs:decimal"/>
+        <xs:element name="A_PREIS" type="xs:decimal"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GKUNDE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="G_NR" type="xs:decimal"/>
+        <xs:element name="G_NAME">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="200"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="G_BRANCHE">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="100"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="G_STRASSE">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="30"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="G_PLZ" type="xs:decimal"/>
+        <xs:element name="G_STADT">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="30"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="G_VORWAHL" type="xs:decimal"/>
+        <xs:element name="G_TELNR" type="xs:decimal"/>
+        <xs:element name="G_BEGINN" type="xs:dateTime"/>
+        <xs:element name="G_ENDE" type="xs:dateTime"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MITARBEITER">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="M_NR" type="xs:decimal"/>
+        <xs:element name="M_ANREDE">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="5"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="M_VORNAME">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="20"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="M_NACHNAME">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="30"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="M_STRASSE">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="40"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="M_HAUSNR">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="5"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="M_PLZ" type="xs:decimal"/>
+        <xs:element name="M_STADT">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="30"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="M_VORWAHL" type="xs:decimal"/>
+        <xs:element name="M_TELNR" type="xs:decimal"/>
+        <xs:element name="M_FUNKTION">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="30"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PKUNDE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="P_NR" type="xs:decimal"/>
+        <xs:element name="P_ANREDE">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="5"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="P_VORNAME">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="20"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="P_NACHNAME">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="30"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="P_STRASSE">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="40"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="P_PLZ" type="xs:decimal"/>
+        <xs:element name="P_STADT">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="30"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="P_VORWAHL" type="xs:decimal"/>
+        <xs:element name="P_TELNR" type="xs:decimal"/>
+        <xs:element name="P_BEGINN" type="xs:dateTime"/>
+        <xs:element name="P_ENDE" type="xs:dateTime"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="POSTEN">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="P_NR" type="xs:decimal"/>
+        <xs:element name="R_NR" type="xs:decimal"/>
+        <xs:element name="T_NR" type="xs:decimal"/>
+        <xs:element name="P_SUMME" type="xs:decimal"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RECHNUNG">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="R_NR" type="xs:decimal"/>
+        <xs:element name="R_DATUM" type="xs:dateTime"/>
+        <xs:element name="R_SUMME" type="xs:decimal"/>
+        <xs:element name="R_KNR" type="xs:decimal"/>
+        <xs:element name="R_TYP">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="2"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TARIF">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="T_NR" type="xs:decimal"/>
+        <xs:element name="T_NAME">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="20"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="T_GUEVON" type="xs:dateTime"/>
+        <xs:element name="T_GUEBIS" type="xs:dateTime"/>
+        <xs:element name="T_BEGINN" type="xs:decimal"/>
+        <xs:element name="T_ENDE" type="xs:decimal"/>
+        <xs:element name="T_PREIS" type="xs:decimal"/>
+        <xs:element name="T_TYP">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="2"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="821_02.xslt"?>
+<Tarifliste>
+  <Tarif Name="Frühstück" Preis="0,5" Nr="1" Typ="p"/>
+  <Tarif Name="Mittagspause" Preis="1" Nr="2" Typ="p"/>
+  <Tarif Name="Abendessen" Preis="1" Nr="3" Typ="p"/>
+  <Tarif Name="Mondschein1" Preis="0,5" Nr="4" Typ="p"/>
+  <Tarif Name="Mondschein2" Preis="0,5" Nr="5" Typ="p"/>
+  <Tarif Name="Extern" Preis="1,5" Nr="6" Typ="ep"/>
+  <Tarif Name="Schicht1" Preis="0,5" Nr="7" Typ="g"/>
+  <Tarif Name="Schicht2" Preis="1" Nr="8" Typ="g"/>
+  <Tarif Name="Nachtschicht1" Preis="0,5" Nr="9" Typ="g"/>
+  <Tarif Name="Nachtschicht2" Preis="0,5" Nr="10" Typ="g"/>
+  <Tarif Name="Extern" Preis="1" Nr="11" Typ="eg"/>
+  <Tarif Name="Frühstück" Preis="1" Nr="12" Typ="p"/>
+  <Tarif Name="Mittagspause" Preis="1,5" Nr="13" Typ="p"/>
+  <Tarif Name="Abendessen" Preis="1,5" Nr="14" Typ="p"/>
+  <Tarif Name="Mondschein1" Preis="0,5" Nr="15" Typ="p"/>
+  <Tarif Name="Mondschein2" Preis="0,5" Nr="16" Typ="p"/>
+  <Tarif Name="Extern" Preis="2" Nr="17" Typ="ep"/>
+  <Tarif Name="Schicht1" Preis="1" Nr="18" Typ="g"/>
+  <Tarif Name="Schicht2" Preis="1,5" Nr="19" Typ="g"/>
+  <Tarif Name="Nachtschicht1" Preis="1" Nr="20" Typ="g"/>
+  <Tarif Name="Nachtschicht2" Preis="1" Nr="21" Typ="g"/>
+  <Tarif Name="Extern" Preis="2" Nr="22" Typ="eg"/>
+  <Tarif Name="Frühstück" Preis="1" Nr="23" Typ="p"/>
+  <Tarif Name="Mittagspause" Preis="1,5" Nr="24" Typ="p"/>
+  <Tarif Name="Abendessen" Preis="1" Nr="25" Typ="p"/>
+  <Tarif Name="Mondschein1" Preis="0,5" Nr="26" Typ="p"/>
+  <Tarif Name="Mondschein2" Preis="0,5" Nr="27" Typ="p"/>
+  <Tarif Name="Extern" Preis="2" Nr="28" Typ="ep"/>
+</Tarifliste>

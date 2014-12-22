@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Erfolguebersicht xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="14_01.xsd">
+  <Erfolg Stadt="Herne, Westf" Monat="10">
+    <Gesamt>17</Gesamt>
+    <Neukunden>1</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Gelsenkirchen" Monat="10">
+    <Gesamt>12</Gesamt>
+    <Neukunden>3</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Bochum" Monat="10">
+    <Gesamt>27</Gesamt>
+    <Neukunden>5</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Essen, Ruhr" Monat="10">
+    <Gesamt>38</Gesamt>
+    <Neukunden>6</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Duisburg" Monat="10">
+    <Gesamt>18</Gesamt>
+    <Neukunden>7</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Dortmund" Monat="10">
+    <Gesamt>50</Gesamt>
+    <Neukunden>9</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Düsseldorf" Monat="10">
+    <Gesamt>107</Gesamt>
+    <Neukunden>10</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Gelsenkirchen" Monat="11">
+    <Gesamt>14</Gesamt>
+    <Neukunden>2</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Dortmund" Monat="11">
+    <Gesamt>53</Gesamt>
+    <Neukunden>3</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Duisburg" Monat="11">
+    <Gesamt>27</Gesamt>
+    <Neukunden>9</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Essen, Ruhr" Monat="11">
+    <Gesamt>51</Gesamt>
+    <Neukunden>13</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Düsseldorf" Monat="11">
+    <Gesamt>125</Gesamt>
+    <Neukunden>18</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Bochum" Monat="12">
+    <Gesamt>29</Gesamt>
+    <Neukunden>2</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Herne, Westf" Monat="12">
+    <Gesamt>19</Gesamt>
+    <Neukunden>2</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Gelsenkirchen" Monat="12">
+    <Gesamt>17</Gesamt>
+    <Neukunden>3</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Duisburg" Monat="12">
+    <Gesamt>33</Gesamt>
+    <Neukunden>6</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Essen, Ruhr" Monat="12">
+    <Gesamt>61</Gesamt>
+    <Neukunden>10</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Düsseldorf" Monat="12">
+    <Gesamt>137</Gesamt>
+    <Neukunden>12</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Dortmund" Monat="12">
+    <Gesamt>68</Gesamt>
+    <Neukunden>15</Neukunden>
+  </Erfolg>
+</Erfolguebersicht>

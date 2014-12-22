@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Anrufliste xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="723_03.xsd">
+  <Anruf Nr="122">
+    <Von Nr="25"/>
+    <Nach Nr="2"/>
+    <Tarif Nr="3"/>
+    <Summe>110</Summe>
+  </Anruf>
+  <Anruf Nr="135">
+    <Von Nr="25"/>
+    <Nach Nr="2"/>
+    <Tarif Nr="2"/>
+    <Summe>62</Summe>
+  </Anruf>
+  <Anruf Nr="140">
+    <Von Nr="25"/>
+    <Nach Nr="2"/>
+    <Tarif Nr="1"/>
+    <Summe>45</Summe>
+  </Anruf>
+  <Anruf Nr="125">
+    <Von Nr="5"/>
+    <Nach Nr="2"/>
+    <Tarif Nr="10"/>
+    <Summe>1</Summe>
+  </Anruf>
+  <Anruf Nr="131">
+    <Von Nr="5"/>
+    <Nach Nr="2"/>
+    <Tarif Nr="7"/>
+    <Summe>2</Summe>
+  </Anruf>
+  <Anruf Nr="130">
+    <Von Nr="50"/>
+    <Nach Nr="5"/>
+    <Tarif Nr="3"/>
+    <Summe>7</Summe>
+  </Anruf>
+  <Anruf Nr="137">
+    <Von Nr="50"/>
+    <Nach Nr="5"/>
+    <Tarif Nr="5"/>
+    <Summe>3</Summe>
+  </Anruf>
+  <Anruf Nr="142">
+    <Von Nr="50"/>
+    <Nach Nr="5"/>
+    <Tarif Nr="2"/>
+    <Summe>56</Summe>
+  </Anruf>
+  <Anruf Nr="124">
+    <Von Nr="2"/>
+    <Nach Nr="5"/>
+    <Tarif Nr="8"/>
+    <Summe>81</Summe>
+  </Anruf>
+  <Anruf Nr="123">
+    <Von Nr="27"/>
+    <Nach Nr="10"/>
+    <Tarif Nr="3"/>
+    <Summe>84</Summe>
+  </Anruf>
+  <Anruf Nr="129">
+    <Von Nr="27"/>
+    <Nach Nr="10"/>
+    <Tarif Nr="5"/>
+    <Summe>36</Summe>
+  </Anruf>
+  <Anruf Nr="136">
+    <Von Nr="27"/>
+    <Nach Nr="10"/>
+    <Tarif Nr="5"/>
+    <Summe>5</Summe>
+  </Anruf>
+  <Anruf Nr="141">
+    <Von Nr="27"/>
+    <Nach Nr="10"/>
+    <Tarif Nr="5"/>
+    <Summe>34</Summe>
+  </Anruf>
+  <Anruf Nr="120">
+    <Von Nr="2"/>
+    <Nach Nr="25"/>
+    <Tarif Nr="3"/>
+    <Summe>2</Summe>
+  </Anruf>
+  <Anruf Nr="126">
+    <Von Nr="2"/>
+    <Nach Nr="25"/>
+    <Tarif Nr="1"/>
+    <Summe>36</Summe>
+  </Anruf>
+  <Anruf Nr="132">
+    <Von Nr="2"/>
+    <Nach Nr="25"/>
+    <Tarif Nr="1"/>
+    <Summe>1</Summe>
+  </Anruf>
+  <Anruf Nr="143">
+    <Von Nr="2"/>
+    <Nach Nr="25"/>
+    <Tarif Nr="1"/>
+    <Summe>33</Summe>
+  </Anruf>
+  <Anruf Nr="121">
+    <Von Nr="10"/>
+    <Nach Nr="27"/>
+    <Tarif Nr="5"/>
+    <Summe>1</Summe>
+  </Anruf>
+  <Anruf Nr="128">
+    <Von Nr="10"/>
+    <Nach Nr="27"/>
+    <Tarif Nr="1"/>
+    <Summe>35</Summe>
+  </Anruf>
+  <Anruf Nr="134">
+    <Von Nr="10"/>
+    <Nach Nr="27"/>
+    <Tarif Nr="3"/>
+    <Summe>6</Summe>
+  </Anruf>
+  <Anruf Nr="139">
+    <Von Nr="10"/>
+    <Nach Nr="27"/>
+    <Tarif Nr="5"/>
+    <Summe>1</Summe>
+  </Anruf>
+  <Anruf Nr="145">
+    <Von Nr="10"/>
+    <Nach Nr="27"/>
+    <Tarif Nr="5"/>
+    <Summe>31</Summe>
+  </Anruf>
+  <Anruf Nr="127">
+    <Von Nr="5"/>
+    <Nach Nr="50"/>
+    <Tarif Nr="1"/>
+    <Summe>4</Summe>
+  </Anruf>
+  <Anruf Nr="133">
+    <Von Nr="5"/>
+    <Nach Nr="50"/>
+    <Tarif Nr="4"/>
+    <Summe>7</Summe>
+  </Anruf>
+  <Anruf Nr="138">
+    <Von Nr="5"/>
+    <Nach Nr="50"/>
+    <Tarif Nr="3"/>
+    <Summe>3</Summe>
+  </Anruf>
+  <Anruf Nr="144">
+    <Von Nr="5"/>
+    <Nach Nr="50"/>
+    <Tarif Nr="3"/>
+    <Summe>4</Summe>
+  </Anruf>
+</Anrufliste>

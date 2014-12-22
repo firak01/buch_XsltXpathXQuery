@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Erfolguebersicht xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="14_01.xsd">
+  <Erfolg Stadt="Duisburg" Monat="7">
+    <Gesamt>10</Gesamt>
+    <Neukunden>1</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Herne, Westf" Monat="7">
+    <Gesamt>15</Gesamt>
+    <Neukunden>2</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Gelsenkirchen" Monat="7">
+    <Gesamt>7</Gesamt>
+    <Neukunden>2</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Bochum" Monat="7">
+    <Gesamt>18</Gesamt>
+    <Neukunden>3</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Düsseldorf" Monat="7">
+    <Gesamt>75</Gesamt>
+    <Neukunden>4</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Dortmund" Monat="7">
+    <Gesamt>25</Gesamt>
+    <Neukunden>5</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Essen, Ruhr" Monat="7">
+    <Gesamt>23</Gesamt>
+    <Neukunden>6</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Dortmund" Monat="8">
+    <Gesamt>26</Gesamt>
+    <Neukunden>1</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Herne, Westf" Monat="8">
+    <Gesamt>16</Gesamt>
+    <Neukunden>1</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Bochum" Monat="8">
+    <Gesamt>21</Gesamt>
+    <Neukunden>3</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Essen, Ruhr" Monat="8">
+    <Gesamt>27</Gesamt>
+    <Neukunden>4</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Düsseldorf" Monat="8">
+    <Gesamt>87</Gesamt>
+    <Neukunden>12</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Bochum" Monat="9">
+    <Gesamt>22</Gesamt>
+    <Neukunden>1</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Duisburg" Monat="9">
+    <Gesamt>11</Gesamt>
+    <Neukunden>1</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Gelsenkirchen" Monat="9">
+    <Gesamt>9</Gesamt>
+    <Neukunden>2</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Essen, Ruhr" Monat="9">
+    <Gesamt>32</Gesamt>
+    <Neukunden>5</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Düsseldorf" Monat="9">
+    <Gesamt>97</Gesamt>
+    <Neukunden>10</Neukunden>
+  </Erfolg>
+  <Erfolg Stadt="Dortmund" Monat="9">
+    <Gesamt>41</Gesamt>
+    <Neukunden>15</Neukunden>
+  </Erfolg>
+</Erfolguebersicht>

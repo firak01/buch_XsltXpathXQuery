@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Monatsliste xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="1123_01.xsd">
+  <Monat>
+    <Datum>01.04</Datum>
+    <Kunden>25649</Kunden>
+    <Tarifliste>
+      <Tarif>
+        <Pro-Kopf-Umsatz>0.0251</Pro-Kopf-Umsatz>
+        <Name>Mondschein1</Name>
+        <Umsatz>644.69</Umsatz>
+      </Tarif>
+      <Tarif>
+        <Pro-Kopf-Umsatz>0.0254</Pro-Kopf-Umsatz>
+        <Name>Frühstück</Name>
+        <Umsatz>650.57</Umsatz>
+      </Tarif>
+      <Tarif>
+        <Pro-Kopf-Umsatz>0.0546</Pro-Kopf-Umsatz>
+        <Name>Nachtschicht2</Name>
+        <Umsatz>1.401.17</Umsatz>
+      </Tarif>
+    </Tarifliste>
+  </Monat>
+  <Monat>
+    <Datum>02.03</Datum>
+    <Kunden>94</Kunden>
+    <Tarifliste>
+      <Tarif>
+        <Pro-Kopf-Umsatz>0.0004</Pro-Kopf-Umsatz>
+        <Name>Nachtschicht2</Name>
+        <Umsatz>0.04</Umsatz>
+      </Tarif>
+      <Tarif>
+        <Pro-Kopf-Umsatz>0.0132</Pro-Kopf-Umsatz>
+        <Name>Schicht2</Name>
+        <Umsatz>1.24</Umsatz>
+      </Tarif>
+      <Tarif>
+        <Pro-Kopf-Umsatz>0.0144</Pro-Kopf-Umsatz>
+        <Name>Schicht1</Name>
+        <Umsatz>1.35</Umsatz>
+      </Tarif>
+    </Tarifliste>
+  </Monat>
+</Monatsliste>
