@@ -22,17 +22,24 @@ public class XSLTTest {
     	BufferedReader br = new BufferedReader (new InputStreamReader (System.in)); 
     	
     	// Dateien einlesen
+    	// Merke: Die Dateien befinden sich bei GIT - Versionsverwaltung ausserhalb des Eclipse Workspace.
+    	//        Sie befinden sich in dem entsprechendem Repository
+    	String repositoryPfad = "c:\\1fgl\\repo\\";
     	try{
     		
+    		
+    		
     		//FGL: Eingabe der Pfaddateien ist umständlich, darum hart coden oder als Argument
-    		//01_Grundkkonzept: C:\1fgl\ws-fgl\buch_XsltXpathXQuery\XSLTTransformation\file\1_Grundkonzept\132_01.xml
-           	//02: C:\1fgl\ws-fgl\buch_XsltXpathXQuery\XSLTTransformation\file\02_Vorlagen\211_01.xml
+    		//01_Grundkkonzept: C:\\1fgl\\ws-fgl\\buch_XsltXpathXQuery\\XSLTTransformation\\file\\1_Grundkonzept\132_01.xml
+           	//02: C:\\1fgl\\ws-fgl\\buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\211_01.xml
            	
            	//03: Als Beispiel für die Verwendung vieler einzelner Vorlagen, Buch Seite 65 ff. Auf Seite 72 gibt es eine Abbildung mit den Beziehungen und Zusammenhängen in den verschiedenen Dateien.
            	//03: Auf Seite 74 steht, das es möglich ist ..."gänzlich auf die Vorlagen-Automatik zu verzichten und entweder direkte Wiederholunge mit Hilfe des for-each-Elements oder benannte Vorlagen zu verwenden.
-           	//03 und 04: C:\1fgl\ws-fgl\buch_XsltXpathXQuery\XSLTTransformation\file\02_Vorlagen\221_01.xml
-    		//05: C:\\1fgl\\ws-fgl\\buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_01.xml
-    		String xmlPfadDefault = "C:\\1fgl\\ws-fgl\\buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_01.xml";    		    		    		      		    		    
+           	//03 und 04: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\221_01.xml
+    		//05: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_01.xml //Seite 77ff "Benannte Vorlagen", Übersicht auf Seite 84
+    		//06: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_02FGL.xml //Seite 86ff, Alternative zu 05 mit der "ODER-Auswahl" (hier: )  
+    		//06b: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_02FGL02.xml //Seite 86ff, wie 06 aber einer einer alternativen XSD Struktur
+    		String xmlPfadDefault = repositoryPfad + "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_02FGL02.xml";    		    		    		      		    		    
     		if(argv!=null){
     			if(argv.length>= 1){
     				xmlPfad=argv[0];    			    	        	
@@ -47,14 +54,19 @@ public class XSLTTest {
     			xmlPfad = xmlPfadDefault;
     		}
     		    		
-    		//01_Grundkkonzept: C:\1fgl\ws-fgl\buch_XsltXpathXQuery\XSLTTransformation\file\1_Grundkonzept\132_01.xslt
-        	//02: C:\1fgl\ws-fgl\buch_XsltXpathXQuery\XSLTTransformation\file\02_Vorlagen\211_01.xsl
-        	//03: C:\1fgl\ws-fgl\buch_XsltXpathXQuery\XSLTTransformation\file\02_Vorlagen\221_01.xslt
+    		//01_Grundkkonzept: buch_XsltXpathXQuery\\XSLTTransformation\\file\\1_Grundkonzept\132_01.xslt
+        	//02: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\211_01.xsl
+        	//03: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\221_01.xslt
         	
         	//04: In dem auf 03 aufbauendem Beispiel wird die Anzahl der Templates auf das nötigste reduziert (Seite 74ff)
-        	//04: C:\1fgl\ws-fgl\buch_XsltXpathXQuery\XSLTTransformation\file\02_Vorlagen\221_02.xslt
-    		//05: C:\\1fgl\ws-fgl\\buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_01.xslt
-    		String xsltPfadDefault = "C:\\1fgl\\ws-fgl\\buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_01.xslt";
+        	//04: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\221_02.xslt
+    		//05: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_01.xslt
+    		//06: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_02.xslt //XSLT-Datei mit ODER (hier: von | nach) Verwendung, Ziel ist es das gleiche Template für zwei gleichartige Strukturen zu nutzen.
+    		//06b: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_02FGL02.xslt //von mir modifizierte Version, ich habe die td's aus dem Kundendaten Template in das Anrufdaten Template verlagert. Mal sehen was passiert.
+    		
+    		//TODO Goon Buch Seite 91ff, "Vorlagen-Modi"
+    		
+    		String xsltPfadDefault = repositoryPfad + "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_02FGL02.xslt";
     		if(argv!=null){
     			if(argv.length>= 2){            //!!!!
     				xsltPfad=argv[1];    			    	        	
@@ -91,6 +103,7 @@ public class XSLTTest {
         	// Transformation aufrufen
     		System.out.println("###############################################");
    	 		System.out.println("Aufruf der Transformation mit folgenden Werten:");
+   	 		System.out.println("Pfad zum Repository als Basisverzeichnis: " + repositoryPfad);
    	 		System.out.println("xmlPfad: " + xmlPfad);
    	 		System.out.println("xsltPfad: " + xsltPfad);
         	if (!xmlPfad.isEmpty() && !xsltPfad.isEmpty() && param.isEmpty()){        	 
