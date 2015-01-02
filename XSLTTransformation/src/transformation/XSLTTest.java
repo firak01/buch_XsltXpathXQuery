@@ -39,7 +39,9 @@ public class XSLTTest {
     		//05: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_01.xml //Seite 77ff "Benannte Vorlagen", Übersicht auf Seite 84
     		//06: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_02FGL.xml //Seite 86ff, Alternative zu 05 mit der "ODER-Auswahl" (hier: )  
     		//06b: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_02FGL02.xml //Seite 86ff, wie 06 aber einer einer alternativen XSD Struktur
-    		String xmlPfadDefault = repositoryPfad + "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_02FGL02.xml";    		    		    		      		    		    
+    		String s07xml = "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\223_01.xml"; //Seite 92ff "Vorlagen Modi"
+    		
+    		String xmlPfadDefault = repositoryPfad + s07xml;    		    		    		      		    		    
     		if(argv!=null){
     			if(argv.length>= 1){
     				xmlPfad=argv[0];    			    	        	
@@ -62,11 +64,10 @@ public class XSLTTest {
         	//04: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\221_02.xslt
     		//05: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_01.xslt
     		//06: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_02.xslt //XSLT-Datei mit ODER (hier: von | nach) Verwendung, Ziel ist es das gleiche Template für zwei gleichartige Strukturen zu nutzen.
-    		//06b: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_02FGL02.xslt //von mir modifizierte Version, ich habe die td's aus dem Kundendaten Template in das Anrufdaten Template verlagert. Mal sehen was passiert.
+    		//06b: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_02FGL02.xslt //von mir modifizierte Version, ich habe die td's aus dem Kundendaten Template in das Anrufdaten Template verlagert. Mal sehen was passiert.    		
+    		String s07xslt =  "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\223_01.xslt"; //Buch Seite 91ff, "Vorlagen-Modi"
     		
-    		//TODO Goon Buch Seite 91ff, "Vorlagen-Modi"
-    		
-    		String xsltPfadDefault = repositoryPfad + "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_02FGL02.xslt";
+    		String xsltPfadDefault = repositoryPfad + s07xslt;
     		if(argv!=null){
     			if(argv.length>= 2){            //!!!!
     				xsltPfad=argv[1];    			    	        	
@@ -75,8 +76,7 @@ public class XSLTTest {
     		if(xsltPfad.equals("")){
         		System.out.println("Bitte geben Sie den XSLT-Pfad ein");
         		System.out.println("Bei Leerwert wird der default genommen. '" + xsltPfadDefault + "'");        		
-            	xsltPfad = br.readLine();            
-    			System.out.println("Bitte geben Sie den XML-Pfad ein");              	               	
+            	xsltPfad = br.readLine();                			              	               
     		}
     		if(xsltPfad.equals("")){
     			xsltPfad = xsltPfadDefault;
@@ -128,7 +128,7 @@ public class XSLTTest {
             TransformerFactory tFabrik = TransformerFactory.newInstance();
             StreamSource xsltQuelle = new StreamSource(xsltDatei);
             Transformer transformator = tFabrik.newTransformer(xsltQuelle);
-            // Umwandlung durchf�hren
+            // Umwandlung durchführen
             DOMSource quelle = new DOMSource(dokument);
             StreamResult ergebnis = new StreamResult(System.out);
             transformator.transform(quelle, ergebnis);
@@ -156,7 +156,7 @@ public class XSLTTest {
             StreamSource xsltQuelle = new StreamSource(xsltDatei);
             Transformer transformator = tFabrik.newTransformer(xsltQuelle);
             transformator.setParameter("Farbe", param);
-            // Umwandlung durchf�hren
+            // Umwandlung durchführen
             DOMSource quelle = new DOMSource(dokument);
             StreamResult ergebnis = new StreamResult(System.out);
             transformator.transform(quelle, ergebnis);
