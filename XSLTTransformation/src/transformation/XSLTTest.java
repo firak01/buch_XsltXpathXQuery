@@ -39,9 +39,12 @@ public class XSLTTest {
     		//05: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_01.xml //Seite 77ff "Benannte Vorlagen", Übersicht auf Seite 84
     		//06: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_02FGL.xml //Seite 86ff, Alternative zu 05 mit der "ODER-Auswahl" (hier: )  
     		//06b: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_02FGL02.xml //Seite 86ff, wie 06 aber einer einer alternativen XSD Struktur
-    		String s07xml = "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\223_01.xml"; //Seite 92ff "Vorlagen Modi"
+    		//String s07xml = "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\223_01.xml"; //Seite 92ff "Vorlagen Modi"
+    		String s08xml = "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\231_01FGL.xml"; //FGL: für das Beispiel auf Seite 99ff. "Attributvorlagen"
     		
-    		String xmlPfadDefault = repositoryPfad + s07xml;    		    		    		      		    		    
+    		String sXml = s08xml;
+    		//++++++++++++++++++++++++++++++++++
+    		String xmlPfadDefault = repositoryPfad + sXml;    		    		    		      		    		    
     		if(argv!=null){
     			if(argv.length>= 1){
     				xmlPfad=argv[0];    			    	        	
@@ -55,7 +58,9 @@ public class XSLTTest {
     		if(xmlPfad.equals("")){
     			xmlPfad = xmlPfadDefault;
     		}
-    		    		
+    		
+    		
+    		//+++++++++++++++++++++++++++++++++++    		
     		//01_Grundkkonzept: buch_XsltXpathXQuery\\XSLTTransformation\\file\\1_Grundkonzept\132_01.xslt
         	//02: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\211_01.xsl
         	//03: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\221_01.xslt
@@ -65,9 +70,13 @@ public class XSLTTest {
     		//05: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_01.xslt
     		//06: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_02.xslt //XSLT-Datei mit ODER (hier: von | nach) Verwendung, Ziel ist es das gleiche Template für zwei gleichartige Strukturen zu nutzen.
     		//06b: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_02FGL02.xslt //von mir modifizierte Version, ich habe die td's aus dem Kundendaten Template in das Anrufdaten Template verlagert. Mal sehen was passiert.    		
-    		String s07xslt =  "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\223_01.xslt"; //Buch Seite 91ff, "Vorlagen-Modi"
+    		//String s07xslt =  "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\223_01.xslt"; //Buch Seite 91ff, "Vorlagen-Modi"
+    		String s08xslt = "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\231_01.xslt";//Buch Seite 99ff, zum Thema Attributwertvorlagen
     		
-    		String xsltPfadDefault = repositoryPfad + s07xslt;
+    		
+    		String sXslt = s08xslt;
+    		//+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    		String xsltPfadDefault = repositoryPfad + sXslt;
     		if(argv!=null){
     			if(argv.length>= 2){            //!!!!
     				xsltPfad=argv[1];    			    	        	
