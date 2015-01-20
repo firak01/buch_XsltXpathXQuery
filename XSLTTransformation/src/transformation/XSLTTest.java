@@ -40,9 +40,9 @@ public class XSLTTest {
     		//06: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_02FGL.xml //Seite 86ff, Alternative zu 05 mit der "ODER-Auswahl" (hier: )  
     		//06b: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_02FGL02.xml //Seite 86ff, wie 06 aber einer einer alternativen XSD Struktur
     		//String s07xml = "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\223_01.xml"; //Seite 92ff "Vorlagen Modi"
-    		String s08xml = "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\231_01FGL.xml"; //FGL: für das Beispiel auf Seite 99ff. "Attributvorlagen"
-    		
-    		String sXml = s08xml;
+    		//String s08xml = "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\231_01FGL.xml"; //FGL: für das Beispiel auf Seite 99ff. "Attributvorlagen"
+    		String s08bxml = "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\231_01FGLb.xml"; //FGL: Mein Tryout als Erweiterung für das Beispiel, Siehe PDF Notiz auf Seite 100.     		
+    		String sXml = s08bxml;
     		//++++++++++++++++++++++++++++++++++
     		String xmlPfadDefault = repositoryPfad + sXml;    		    		    		      		    		    
     		if(argv!=null){
@@ -71,10 +71,9 @@ public class XSLTTest {
     		//06: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_02.xslt //XSLT-Datei mit ODER (hier: von | nach) Verwendung, Ziel ist es das gleiche Template für zwei gleichartige Strukturen zu nutzen.
     		//06b: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_02FGL02.xslt //von mir modifizierte Version, ich habe die td's aus dem Kundendaten Template in das Anrufdaten Template verlagert. Mal sehen was passiert.    		
     		//String s07xslt =  "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\223_01.xslt"; //Buch Seite 91ff, "Vorlagen-Modi"
-    		String s08xslt = "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\231_01.xslt";//Buch Seite 99ff, zum Thema Attributwertvorlagen
-    		
-    		
-    		String sXslt = s08xslt;
+    		//String s08xslt = "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\231_01.xslt";//Buch Seite 99ff, zum Thema Attributwertvorlagen
+    		String s08bxslt = "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\231_01FGLb.xslt";//Mein Tryout als Erweiterung um Alias, Siehe PDF Bemerkung auf Seite 100 des Buchs  		
+    		String sXslt = s08bxslt;
     		//+++++++++++++++++++++++++++++++++++++++++++++++++++++++
     		String xsltPfadDefault = repositoryPfad + sXslt;
     		if(argv!=null){
