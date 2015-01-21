@@ -22,7 +22,7 @@ public class XSLTTest {
     	BufferedReader br = new BufferedReader (new InputStreamReader (System.in)); 
     	
     	// Dateien einlesen
-    	// Merke: Die Dateien befinden sich bei GIT - Versionsverwaltung ausserhalb des Eclipse Workspace.
+    	// Merke: Die Dateien befinden sich bei GIT - Versionsverwaltung außerhalb des Eclipse Workspace.
     	//        Sie befinden sich in dem entsprechendem Repository
     	String repositoryPfad = "c:\\1fgl\\repo\\";
     	try{
@@ -39,10 +39,11 @@ public class XSLTTest {
     		//05: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_01.xml //Seite 77ff "Benannte Vorlagen", Übersicht auf Seite 84
     		//06: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_02FGL.xml //Seite 86ff, Alternative zu 05 mit der "ODER-Auswahl" (hier: )  
     		//06b: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_02FGL02.xml //Seite 86ff, wie 06 aber einer einer alternativen XSD Struktur
-    		//String s07xml = "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\223_01.xml"; //Seite 92ff "Vorlagen Modi"
+    		String s07Xml = "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\223_01.xml"; //Seite 92ff "Vorlagen Modi"
     		//String s08xml = "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\231_01FGL.xml"; //FGL: für das Beispiel auf Seite 99ff. "Attributvorlagen"
-    		String s08bxml = "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\231_01FGLb.xml"; //FGL: Mein Tryout als Erweiterung für das Beispiel, Siehe PDF Notiz auf Seite 100.     		
-    		String sXml = s08bxml;
+    		String s08gesamtXml = "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\231_03FGL.xml"; //FGL: für das Geamt-Beispiel "Attributvorlagen", wie 231_01FGL.xml, nur Verdoppelt
+    		//String s08bxml = "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\231_01FGLb.xml"; //FGL: Mein Tryout als Erweiterung für das Beispiel, Siehe PDF Notiz auf Seite 100.     		
+    		String sXml = s08gesamtXml;
     		//++++++++++++++++++++++++++++++++++
     		String xmlPfadDefault = repositoryPfad + sXml;    		    		    		      		    		    
     		if(argv!=null){
@@ -70,10 +71,12 @@ public class XSLTTest {
     		//05: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_01.xslt
     		//06: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_02.xslt //XSLT-Datei mit ODER (hier: von | nach) Verwendung, Ziel ist es das gleiche Template für zwei gleichartige Strukturen zu nutzen.
     		//06b: buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\222_02FGL02.xslt //von mir modifizierte Version, ich habe die td's aus dem Kundendaten Template in das Anrufdaten Template verlagert. Mal sehen was passiert.    		
-    		//String s07xslt =  "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\223_01.xslt"; //Buch Seite 91ff, "Vorlagen-Modi"
+    		String s07Xslt =  "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\223_01.xslt"; //Buch Seite 91ff, "Vorlagen-Modi"  
     		//String s08xslt = "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\231_01.xslt";//Buch Seite 99ff, zum Thema Attributwertvorlagen
-    		String s08bxslt = "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\231_01FGLb.xslt";//Mein Tryout als Erweiterung um Alias, Siehe PDF Bemerkung auf Seite 100 des Buchs  		
-    		String sXslt = s08bxslt;
+    		String s08gesamtXslt = "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\231_03FGL.xslt"; ////Buch Seite 99ff, zum Thema Attributwertvorlagen, hier in einer gesamtversion in der mehrere Vorlagen in einer kombiniert werden (Beispiel wird im Buch nicht explizit genannt).
+    		
+    		//String s08bxslt = "buch_XsltXpathXQuery\\XSLTTransformation\\file\\02_Vorlagen\\231_01FGLb.xslt";//Mein Tryout als Erweiterung um Alias, Siehe PDF Bemerkung auf Seite 100 des Buchs  		
+    		String sXslt = s08gesamtXslt;
     		//+++++++++++++++++++++++++++++++++++++++++++++++++++++++
     		String xsltPfadDefault = repositoryPfad + sXslt;
     		if(argv!=null){
