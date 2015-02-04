@@ -1,0 +1,8 @@
+Erklärungen und Beispiele für XPath Ausdrücke zu 322_01.xml
+Siehe Buch Seite 128ff
+
+child:Erfolgsübersicht/child::Erfolg
+
+TODO Goon:
+Mache eine klasse im neuen Ordner src/xpath.fgl/XPATHTest.java
+Damit diese Beispiele Testen 

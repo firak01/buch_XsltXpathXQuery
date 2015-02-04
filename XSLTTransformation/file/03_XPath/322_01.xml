@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Erfolguebersicht xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="322_01.xsd">
+<!-- FGL: Siehe Buch Seite 127ff -->
   <Erfolg Stadt="Essen, Ruhr" Monat="1">
     <Gesamt>1</Gesamt>
     <Neukunden>1</Neukunden>
