@@ -1,11 +1,13 @@
 package xpath;
 
 import java.io.File;
+import java.util.ArrayList;
 
 public class XPathTest_322_01FGL {
 
 	public static void main(String[] args) {
-		
+		//Momentan werden keine Übergabeparameter verarbeitet.
+		//Diese Klasse dient der Konfiguration des MyXPathParserFGL.
 		try{
 			//Eclipse Workspace
 			File f = new File("");
@@ -32,7 +34,7 @@ public class XPathTest_322_01FGL {
 			
 			//A) Kind Achse
 			
-			//Finde ausgehend vom Wurzelknoten alle Erfolg Elemten im Dokument, beachte die beiden doppelten Doppelpunkte.
+			//Finde ausgehend vom Wurzelknoten alle Erfolg Elemten im Dokument, beachte die beiden doppelten Doppelpunkte.			
 			String expression01 = "child::Erfolguebersicht/child::Erfolg";
 			
 			//Findet ausgehend vom Wurzelelement alle Gesamt-Elemente im Dokument in Dokumentenrichtung
@@ -43,8 +45,10 @@ public class XPathTest_322_01FGL {
 			
 			//B) Geschwister Achse
 			
-			//findet ausgehend von einem Erfolg-Element die nachfolgenden Erfolg Geschwister 
-			String expression04 = "following-sibling::Erfolg"; //Als einzelner String liefert es kein sinnvolles Ergebnis. TODO: Klasse entsprechend anpassen. 
+			//findet ausgehend von einem Erfolg-Element die nachfolgenden Erfolg Geschwister
+			//Merke: Als einzelner String liefert es kein sinnvolles Ergebnis. TODO: Klasse entsprechend anpassen.
+			//       Darum wurde der Parser extra um die Array Verarbeitung erweitert.
+			String[] expression04 = {"child::Erfolguebersicht/child::Erfolg","following-sibling::Erfolg"};
 			
 			//findet ausgehend von einem Erfolg-Element die vorhergehenden Erfolg Geschwister
 			String expression05 = "preceding-sibling::Erfolg";
@@ -96,13 +100,56 @@ public class XPathTest_322_01FGL {
 			
 			//Todo GOON: Weitere Beispiele aus dem Buch Seite 135ff
 			
-			String sExpression = expression16;
+			Object sExpression = expression04; //Kein Cast, damit man in der sExpression sowohl einen einfachen Stringa als auch ein Array verarbeiten kann
 			
 			//+++++++++++++++++++++++++++++++++++++++++++++++++++
-			String[] argsForParser = new String[3];
-			argsForParser[0] = sBaseDirectory;
-			argsForParser[1] = sFileName;
-			argsForParser[2] = sExpression;
+			ArrayList<String> listaArgsForParser = new ArrayList<String>();
+			listaArgsForParser.add((String) sBaseDirectory);
+			listaArgsForParser.add((String) sFileName);
+			
+			if(sExpression instanceof String[]){
+				for(String s : (String[])sExpression){
+					listaArgsForParser.add(s);
+				}
+			}else{
+				listaArgsForParser.add((String) sExpression);				
+			}
+			/* 			
+You can use instanceof.
+JLS 15.20.2 Type Comparison Operator instanceof
+
+     RelationalExpression:
+        RelationalExpression instanceof ReferenceType
+
+    At run time, the result of the instanceof operator is true if the value of the RelationalExpression is not null and the reference could be cast to the ReferenceType without raising a ClassCastException. Otherwise the result is false.
+
+That means you can do something like this:
+
+Object o = new int[] { 1,2 };
+System.out.println(o instanceof int[]); // prints "true"        
+
+You'd have to check if the object is an instanceof boolean[], byte[], short[], char[], int[], long[], float[], double[], or Object[], if you want to detect all array types.
+
+Also, an int[][] is an instanceof Object[], so depending on how you want to handle nested arrays, it can get complicated.
+
+For the toString, java.util.Arrays has a toString(int[]) and other overloads you can use. It also has deepToString(Object[]) for nested arrays.
+
+public String toString(Object arr) {
+   if (arr instanceof int[]) {
+      return Arrays.toString((int[]) arr);
+   } else //...
+}
+
+It's going to be very repetitive (but even java.util.Arrays is very repetitive), but that's the way it is in Java with arrays.
+See also
+
+    Managing highly repetitive code and documentation in Java
+    Java Arrays.equals() returns false for two dimensional arrays.
+
+			 */
+						
+			String[] argsForParser = new String[listaArgsForParser.size()];
+			argsForParser = listaArgsForParser.toArray(argsForParser);
 			
 			MyXPathParserFGL objParserFGL = new MyXPathParserFGL();		
 			objParserFGL.startIt(argsForParser);

@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.ArrayList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -16,14 +17,18 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
-public class MyXPathParserFGL {
 
+ 
+public class MyXPathParserFGL {
 	/* Aus dem TryOut Projekt übernommener Parser */
+	
 		public void MyXPathPaserFGL(){		
 		}
 		
 		public boolean startIt(String[] args) {
 			boolean bReturn = false;
+			
+			main:{
 			try{				
 				//Parameterübergabe (z.B. für ein gepacktes .jar - File
 				String stemp = "Kein Verzeichnis mit den zur parsenden Dateien als Parameter angegeben";
@@ -43,6 +48,7 @@ public class MyXPathParserFGL {
 				String sBaseDirectory = new String("");
 				String sFileName = new String("");
 				String sXPathExpression = new String("");
+				ArrayList<String> listasXPathExpression = new ArrayList();
 				int iArgCount = -1;
 				for(String s : args){
 					iArgCount++;
@@ -53,11 +59,10 @@ public class MyXPathParserFGL {
 					case 1:
 						sFileName = s;
 						break;
-					case 2:
-						sXPathExpression = s;
-						break;
 					default:
-						
+						sXPathExpression = s;
+						listasXPathExpression.add(sXPathExpression);
+						break;						
 					}					
 				}
 			
@@ -81,32 +86,50 @@ public class MyXPathParserFGL {
 			//document = builder.parse(new ByteArrayInputStream(xml.getBytes()));
 			
 			
-			String expression = sXPathExpression;		
-			System.out.println("Expression: '" + expression + "'");
-			XPath xPath = XPathFactory.newInstance().newXPath();
+			//3. Array aus den herausgefilterten Übergabeparametern bauen
+			String[] saExpression = new String[listasXPathExpression.size()];
+			saExpression = listasXPathExpression.toArray(saExpression);
 			
-			//FGL: Ein etwas (!) 'generischerer' Ansatz, d.h. von dem ausgwählten Ausdruck unabhängiger.
-			//read an xml node using xpath		
-			Node node = (Node) xPath.compile(expression).evaluate(document, XPathConstants.NODE);
-			
-			//Wenn ein Stringwert zurückkommt, liefere diesen, ansonsten den Node-Wert (FGL-Erweiterung). Beachte die null-Überprüfung ist absichtlich so von der Reihenfolge her.		
-			if(null != node && null != node.getNodeValue()){
-				System.out.println("Node - Wert: '" + node.getNodeValue() + "'");
-			}else{
+						
+			//Ziel ist es zuerst über Lokalisierungen zu einem Knoten zu gelangen.
+			//An der "letzen" Lokalisierung angekommen, wird dann auch eine NodeList geholt
+			XPath xPath=null;
+			Node node=null;
+			for(String expression : saExpression){
+				sXPathExpression = expression; //Merke sXPathExpression steht auch ausserhalb der Schleife zur Verfügung und wird der letzte Ausdruck sein.		
+				System.out.println("Expression: '" + expression + "'");
+				xPath = XPathFactory.newInstance().newXPath();
 				
-				//read a String Value
-				String sValue = xPath.compile(expression).evaluate(document);
-				System.out.println("String - Wert: '" + sValue + "'" );
-			}		
+				//FGL: Ein etwas (!) 'generischerer' Ansatz, d.h. von dem ausgwählten Ausdruck unabhängiger.
+				//read an xml node using xpath		
+				node = (Node) xPath.compile(expression).evaluate(document, XPathConstants.NODE);
+				
+				//Wenn ein Stringwert zurückkommt, liefere diesen, ansonsten den Node-Wert (FGL-Erweiterung). Beachte die null-Überprüfung ist absichtlich so von der Reihenfolge her.		
+				if(null != node && null != node.getNodeValue()){
+					System.out.println("Node - Wert: '" + node.getNodeValue() + "'");
+				}else{
+					
+					//read a String Value
+					String sValue = xPath.compile(expression).evaluate(document);
+					System.out.println("String - Wert: '" + sValue + "'" );
+				}		
+			}//end for
+			
+			if(xPath==null){
+				bReturn = true;
+				break main;
+			}
+			
 			
 			//read an nodelist using xpath
-			NodeList nodeList = (NodeList) xPath.compile(expression).evaluate(document, XPathConstants.NODESET);
+			//XPath xPath = XPathFactory.newInstance().newXPath();
+			NodeList nodeList = (NodeList) xPath.compile(sXPathExpression).evaluate(document, XPathConstants.NODESET);
 			for(int i = 0 ; i < nodeList.getLength(); i++){
 				System.out.println(i+1 + ". Wert, erster Kindknoten: '" + nodeList.item(i).getFirstChild().getNodeValue() + "'");
 			}
 			
-			if(node != null){
-				nodeList = node.getChildNodes();
+			if(node!=null){
+			nodeList = node.getChildNodes();
 				for(int i = 0 ; nodeList != null && i < nodeList.getLength(); i++){
 					Node nodeSub = nodeList.item(i);
 					if(nodeSub.getNodeType() == Node.ELEMENT_NODE){
@@ -125,6 +148,7 @@ public class MyXPathParserFGL {
 			} catch (Exception e) {
 				e.printStackTrace(System.err);				
 			}
+		}//end main:
 			return bReturn;
 		}
 
