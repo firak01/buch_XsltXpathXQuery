@@ -40,13 +40,18 @@ public class MyXPathParserFGL {
 				if(args.length==1) throw new Exception(stemp + " (1).");
 				if(args[1].equals("") || args[1]==null) throw new Exception(stemp + " (null)");
 				
-				stemp = "Keine XPath Ausdruck angeben";
+				stemp = "Kein beschreibender Ausdruck für das Ziel der Verarbeitung angegeben";
 				if(args.length==2) throw new Exception(stemp + " (2).");
 				if(args[2].equals("") || args[2]==null) throw new Exception(stemp + " (null)");
+				
+				stemp = "Keine XPath Ausdruck angeben";
+				if(args.length==3) throw new Exception(stemp + " (3).");
+				if(args[3].equals("") || args[3]==null) throw new Exception(stemp + " (null)");
 				
 				//Die Verzeichnisse dürfen maximal mit einem Leerzeichen versehen sein!
 				String sBaseDirectory = new String("");
 				String sFileName = new String("");
+				String sExpressionDesc = new String("");
 				String sXPathExpression = new String("");
 				ArrayList<String> listasXPathExpression = new ArrayList();
 				int iArgCount = -1;
@@ -58,6 +63,9 @@ public class MyXPathParserFGL {
 						break;
 					case 1:
 						sFileName = s;
+						break;
+					case 2:
+						sExpressionDesc = s;
 						break;
 					default:
 						sXPathExpression = s;
@@ -78,6 +86,7 @@ public class MyXPathParserFGL {
 			}
 			
 			//2. Document Objekt
+			System.out.println("Verarbeite Dokument: '" + sBaseDirectory + File.separator + sFileName + "'");
 			Document document = null;			
 			document = builder.parse(new FileInputStream(sBaseDirectory + File.separator + sFileName));
 			
@@ -93,16 +102,45 @@ public class MyXPathParserFGL {
 						
 			//Ziel ist es zuerst über Lokalisierungen zu einem Knoten zu gelangen.
 			//An der "letzen" Lokalisierung angekommen, wird dann auch eine NodeList geholt
+			System.out.println("Ausgabeziel: " + sExpressionDesc);
+			
 			XPath xPath=null;
 			Node node=null;
+			Node nodenew = null;		
+			NodeList nodeList = null;
+			int icounter=0;
 			for(String expression : saExpression){
 				sXPathExpression = expression; //Merke sXPathExpression steht auch ausserhalb der Schleife zur Verfügung und wird der letzte Ausdruck sein.		
 				System.out.println("Expression: '" + expression + "'");
 				xPath = XPathFactory.newInstance().newXPath();
 				
 				//FGL: Ein etwas (!) 'generischerer' Ansatz, d.h. von dem ausgwählten Ausdruck unabhängiger.
-				//read an xml node using xpath		
-				node = (Node) xPath.compile(expression).evaluate(document, XPathConstants.NODE);
+				//read an xml node using xpath
+				//Beim 1. Durchlaufen der Schleife vom Dokument ausgehen.
+				//Beim Weiteren Durchlaufen der Schleife von den zuvor lokalisierten Knoten ausgehen.
+				if(node==null){
+					nodenew = (Node) xPath.compile(expression).evaluate(document, XPathConstants.NODE);
+				}else{
+					//nodenew = (Node) xPath.compile(expression).evaluate(node, XPathConstants.NODE);
+					
+					//read an nodelist using xpath
+					nodeList = (NodeList) xPath.compile(sXPathExpression).evaluate(node, XPathConstants.NODESET);					
+				}
+				node = nodenew;
+				
+				if(nodeList!=null){
+					icounter=0;
+					for(int i = 0 ; i < nodeList.getLength(); i++){
+						System.out.println(i+1 + ". Unterknoten des Knotens: '" + nodeList.item(i).getFirstChild().getNodeValue() + "'");
+						Node nodeSub = nodeList.item(i);
+						if(nodeSub.getNodeType() == Node.ELEMENT_NODE){
+							icounter++;
+							System.out.println( icounter + ". Wert (" + i+1 + ". Knoten, Knotentname:Wert erster Kindknoten) | " + nodeList.item(i).getNodeName() + " : " + nodeSub.getFirstChild().getNodeValue());
+						}
+					}
+				}else{
+
+				
 				
 				//Wenn ein Stringwert zurückkommt, liefere diesen, ansonsten den Node-Wert (FGL-Erweiterung). Beachte die null-Überprüfung ist absichtlich so von der Reihenfolge her.		
 				if(null != node && null != node.getNodeValue()){
@@ -110,10 +148,19 @@ public class MyXPathParserFGL {
 				}else{
 					
 					//read a String Value
+					//Beim 1. Durchlaufen der Schleife vom Dokument ausgehen.
+					//Beim Weiteren Durchlaufen der Schleife von den zuvor lokalisierten Knoten ausgehen.
+					if(node==null){
 					String sValue = xPath.compile(expression).evaluate(document);
 					System.out.println("String - Wert: '" + sValue + "'" );
+					}else{
+						String sValue = xPath.compile(expression).evaluate(node);
+						System.out.println("String - Wert: '" + sValue + "'" );
+					}
 				}		
-			}//end for
+				
+				}//end if nodeList!= null
+			}//end for expression
 			
 			if(xPath==null){
 				bReturn = true;
@@ -121,24 +168,31 @@ public class MyXPathParserFGL {
 			}
 			
 			
-			//read an nodelist using xpath
+			
+			
 			//XPath xPath = XPathFactory.newInstance().newXPath();
-			NodeList nodeList = (NodeList) xPath.compile(sXPathExpression).evaluate(document, XPathConstants.NODESET);
-			for(int i = 0 ; i < nodeList.getLength(); i++){
-				System.out.println(i+1 + ". Wert, erster Kindknoten: '" + nodeList.item(i).getFirstChild().getNodeValue() + "'");
-			}
+//Wann ist das sinnvoll????					
+//			if(node==null){
+//			 nodeList = (NodeList) xPath.compile(sXPathExpression).evaluate(document, XPathConstants.NODESET);
+//			}else{
+//				nodeList = (NodeList) xPath.compile(sXPathExpression).evaluate(node, XPathConstants.NODESET);
+//			}
+//			for(int i = 0 ; i < nodeList.getLength(); i++){
+//				System.out.println(i+1 + ". Wert, erster Kindknoten: '" + nodeList.item(i).getFirstChild().getNodeValue() + "'");
+//			}
 			
 			if(node!=null){
-			nodeList = node.getChildNodes();
-				for(int i = 0 ; nodeList != null && i < nodeList.getLength(); i++){
-					Node nodeSub = nodeList.item(i);
-					if(nodeSub.getNodeType() == Node.ELEMENT_NODE){
-						System.out.println(i+1 + ". Wert, Knotentname:Wert erster Kindknoten: " + nodeList.item(i).getNodeName() + " : " + nodeSub.getFirstChild().getNodeValue());
+				nodeList = node.getChildNodes();
+				icounter=0;
+					for(int i = 0 ; nodeList != null && i < nodeList.getLength(); i++){					
+						Node nodeSub = nodeList.item(i);
+						if(nodeSub.getNodeType() == Node.ELEMENT_NODE){
+							icounter++;
+							System.out.println( icounter + ". Wert (" + i+1 + ". Knoten, Knotentname:Wert erster Kindknoten) | " + nodeList.item(i).getNodeName() + " : " + nodeSub.getFirstChild().getNodeValue());
+						}
 					}
 				}
-			}
-			bReturn = true;
-									
+				bReturn = true;								
 			} catch (FileNotFoundException e) {
 				e.printStackTrace();
 			} catch (SAXException e) {

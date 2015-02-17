@@ -34,55 +34,55 @@ public class XPathTest_322_01FGL {
 			
 			//A) Kind Achse
 			
-			//Finde ausgehend vom Wurzelknoten alle Erfolg Elemten im Dokument, beachte die beiden doppelten Doppelpunkte.			
+			String expressionDesc01 = "Finde ausgehend vom Wurzelknoten alle Erfolg Elemten im Dokument, beachte die beiden doppelten Doppelpunkte.";			
 			String expression01 = "child::Erfolguebersicht/child::Erfolg";
 			
-			//Findet ausgehend vom Wurzelelement alle Gesamt-Elemente im Dokument in Dokumentenrichtung
+			String expressionDesc02 = "Findet ausgehend vom Wurzelelement alle Gesamt-Elemente im Dokument in Dokumentenrichtung.";
 			String expression02 = "child::Erfolguebersicht/child::Erfolg/child::Gesamt";
 			
-			//Findet ausgehend vom Wurzelelement Gesamt-, Neukunde- und Erfolg-Elemente in Dokumentenrichtung
+			String expressionDesc03 = "Findet ausgehend vom Wurzelelement Gesamt-, Neukunde- und Erfolg-Elemente in Dokumentenrichtung";
 			String expression03 = "child::Erfolguebersicht/child::Erfolg/following::*";
 			
 			//B) Geschwister Achse
 			
-			//findet ausgehend von einem Erfolg-Element die nachfolgenden Erfolg Geschwister
+			String expressionDesc04 = "Findet ausgehend von einem Erfolg-Element die nachfolgenden Erfolg Geschwister.";
 			//Merke: Als einzelner String liefert es kein sinnvolles Ergebnis. TODO: Klasse entsprechend anpassen.
 			//       Darum wurde der Parser extra um die Array Verarbeitung erweitert.
 			String[] expression04 = {"child::Erfolguebersicht/child::Erfolg","following-sibling::Erfolg"};
 			
-			//findet ausgehend von einem Erfolg-Element die vorhergehenden Erfolg Geschwister
+			String expressionDesc05 = "Findet ausgehend von einem Erfolg-Element die vorhergehenden Erfolg Geschwister.";
 			String expression05 = "preceding-sibling::Erfolg";
 			
-			//findet ausgehend von einem Erfolg-Element das Erfolguebersicht-Element
+			String expressionDesc06 = "Findet ausgehend von einem Erfolg-Element das Erfolguebersicht-Element.";
 			String expression06 = "parent::*";
 			
-			//findet ausgend von einem Gesamt-Element sein Erfolg-Element als Elternelement und das Erfolguebersicht-Element
+			String expressionDesc07 = "Findet ausgehend von einem Gesamt-Element sein Erfolg-Element als Elternelement und das Erfolguebersicht-Element.";
 			String expression07 = "ancestor::*";
 			
 			//C) Nachfahren Achse
 			
-			//findet ausgehend von einem Erfolg-Element die Elemente Gesamt und Neukunden in Dokumentenrichtung
+			String expressionDesc08 = "Findet ausgehend von einem Erfolg-Element die Elemente Gesamt und Neukunden in Dokumentenrichtung.";
 			String expression08 = "descendant::*";
 			
-			//findet ausgehend vom Wurzelelement alle Erfolg-Elemente und ihre Kinder
+			String expressionDesc09 = "Findet ausgehend vom Wurzelelement alle Erfolg-Elemente und ihre Kinder.";
 			String expression09 = "descendant::*";
 			
-			//findet ausgehend vom Wurzelelement alle Gesamt-Elemente
+			String expressionDesc10 = "Findet ausgehend vom Wurzelelement alle Gesamt-Elemente.";
 			String expression10 = "descendant::Gesamt";
 			
 			
 			//D) Attribut Achse
 			
-			//findet ausgehend vom Wurzelelement alle Stadt Attribute
+			String expressionDesc11 = "Findet ausgehend vom Wurzelelement alle Stadt Attribute.";
 			String expression11 = "descendant::Erfolg/attribute::Stadt";
 			
-			//findet ausgehend vom Wurzelelement alle Attribute in Erfolg
+			String expressionDesc12 = "Findet ausgehend vom Wurzelelement alle Attribute in Erfolg.";
 			String expression12 = "descendant::Erfolg/attribute::*";
 			
-			//findet ausgehend von einem Erfolg-element das Attribut Monat in seinem Elternelement
+			String expressionDesc13 = "Findet ausgehend von einem Erfolg-element das Attribut Monat in seinem Elternelement.";
 			String expression13 = "parent::Erfolg/attribute::Monat";
 			
-			//findet ausgehend von einem Erfolg-Element seine Attribute in Dokumentrichtung
+			String expressionDesc14 = "Findet ausgehend von einem Erfolg-Element seine Attribute in Dokumentrichtung.";
 			String expression14 = "attribute::*";
 	
 			
@@ -92,20 +92,22 @@ public class XPathTest_322_01FGL {
 			//Siehe Buch Seiten 133ff
 			//zu Abkürzungen, die hier verwendet werden, siehe buch Seite 129
 			
-			//Welche Erfolg-Elemente haben mehr als 10 Neukunden?
+			String expressionDesc15 = "Welche Erfolg-Elemente haben mehr als 10 Neukunden?";
 			String expression15 = "//Erfolg[Neukunden>10]"; //Merke: // ist eine Abkürzung für /descendant-or-self::node()
 			
-			//Welche Städte in welchem Monat haben mehr als 10 Neukunden?
+			String expressionDesc16 = "Welche Städte in welchem Monat haben mehr als 10 Neukunden?";
 			String expression16 = "//Erfolg[Neukunden>10]/attribute::*";
 			
 			//Todo GOON: Weitere Beispiele aus dem Buch Seite 135ff
 			
+			String sExpressionDesc = expressionDesc04;
 			Object sExpression = expression04; //Kein Cast, damit man in der sExpression sowohl einen einfachen Stringa als auch ein Array verarbeiten kann
 			
 			//+++++++++++++++++++++++++++++++++++++++++++++++++++
 			ArrayList<String> listaArgsForParser = new ArrayList<String>();
 			listaArgsForParser.add((String) sBaseDirectory);
 			listaArgsForParser.add((String) sFileName);
+			listaArgsForParser.add((String) sExpressionDesc);
 			
 			if(sExpression instanceof String[]){
 				for(String s : (String[])sExpression){
