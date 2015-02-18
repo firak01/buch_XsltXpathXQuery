@@ -29,7 +29,10 @@ public class MyXPathParserFGL {
 			boolean bReturn = false;
 			
 			main:{
-			try{				
+			try{	
+				System.out.println("################################################");
+				System.out.println("###       MyXPathParserFGL - neuer Lauf      ###");
+				
 				//Parameterübergabe (z.B. für ein gepacktes .jar - File
 				String stemp = "Kein Verzeichnis mit den zur parsenden Dateien als Parameter angegeben";
 				if(args==null) throw new Exception(stemp + " (args null).");
@@ -108,7 +111,12 @@ public class MyXPathParserFGL {
 			Node node=null;
 			Node nodenew = null;		
 			NodeList nodeList = null;
-			int icounter=0;
+			int icounter=0;		
+			
+			//TODO: Das schreit nach Rekursion...
+			Node nodeSub = null;
+			NodeList nodeSubList = null;
+			int icounterSub = 0;
 			for(String expression : saExpression){
 				sXPathExpression = expression; //Merke sXPathExpression steht auch ausserhalb der Schleife zur Verfügung und wird der letzte Ausdruck sein.		
 				System.out.println("Expression: '" + expression + "'");
@@ -119,11 +127,13 @@ public class MyXPathParserFGL {
 				//Beim 1. Durchlaufen der Schleife vom Dokument ausgehen.
 				//Beim Weiteren Durchlaufen der Schleife von den zuvor lokalisierten Knoten ausgehen.
 				if(node==null){
+					System.out.println("Noch kein Node vorhanden. evaluiere vom Dokument aus.");
 					nodenew = (Node) xPath.compile(expression).evaluate(document, XPathConstants.NODE);
 				}else{
 					//nodenew = (Node) xPath.compile(expression).evaluate(node, XPathConstants.NODE);
 					
 					//read an nodelist using xpath
+					System.out.println("Node vorhanden. evaluiere von diesem Node aus.");
 					nodeList = (NodeList) xPath.compile(sXPathExpression).evaluate(node, XPathConstants.NODESET);					
 				}
 				node = nodenew;
@@ -131,9 +141,56 @@ public class MyXPathParserFGL {
 				if(nodeList!=null){
 					icounter=0;
 					for(int i = 0 ; i < nodeList.getLength(); i++){
-						System.out.println(i+1 + ". Unterknoten des Knotens: '" + nodeList.item(i).getFirstChild().getNodeValue() + "'");
-						Node nodeSub = nodeList.item(i);
+						//System.out.println(i+1 + ". Unterknoten des Knotens: '" + nodeList.item(i).getFirstChild().getNodeValue() + "'");
+						System.out.println(i+1 + ". Unterknoten des Knotens: '" + nodeList.item(i).getParentNode().getNodeName() + "'");
+						nodeSub = nodeList.item(i);
+						
+						
+						//+++ 
+						//Wie bei nodelist==null
+						//Wenn ein Stringwert zurückkommt, liefere diesen, ansonsten den Node-Wert (FGL-Erweiterung). Beachte die null-Überprüfung ist absichtlich so von der Reihenfolge her.		
+						if(null != nodeSub && null != nodeSub.getNodeValue()){
+							System.out.println("NodeSub - 'Name:Wert' | '" + nodeSub.getNodeName() +  ":" + nodeSub.getNodeValue() + "'");																					
+						}else{
+							if(nodeSub==null){
+								String sValue = xPath.compile(expression).evaluate(document);
+								System.out.println("NodeSub-Teil-Document evaluierung: String - Wert: '" + sValue + "'" );
+							}else{
+								System.out.println("NodeSub - 'Name:NULLwert' | '" + nodeSub.getNodeName() + "'");
+								
+								
+								//read a String Value
+								//Beim 1. Durchlaufen der Schleife vom Dokument ausgehen.
+								//Beim Weiteren Durchlaufen der Schleife von den zuvor lokalisierten Knoten ausgehen.
+								
+								//TODO GOON: Ist diese erneute evaluierung nicht quatsch, man müsste eher nodeSub.getValue verwenden
+								String sValue = xPath.compile(expression).evaluate(nodeSub);
+								
+								//Das gibt dann den String wert aller unterknoten aus...
+								System.out.println("NodeSub-Teil-NodeSub evaluierung: String - Wert: '" + sValue + "'" );
+							}
+						}		
+						
+						
+						
 						if(nodeSub.getNodeType() == Node.ELEMENT_NODE){
+							icounter++;
+							System.out.println( icounter + ". Wert (" + i+1 + ". Knoten, Knotentname) | " + nodeList.item(i).getNodeName());
+							
+							//TODO GOON: Hier neu die Nodeliste ALLER Unterknoten holen
+							//           theoretisch wäre das dann der Fall für die nächste Expression.
+							//           Zum Code siehe unten die Verarbeitung ausserhalb der Schleife.
+							nodeSubList = nodeSub.getChildNodes();
+							icounterSub=0;
+							for(int iSub = 0 ; nodeSubList != null && i < nodeSubList.getLength(); i++){					
+								Node nodeSubSub = nodeSubList.item(i);
+								if(nodeSubSub.getNodeType() == Node.ELEMENT_NODE){
+									icounterSub++;
+									System.out.println( "..... " + icounterSub + ". Wert (" + iSub+1 + ". Knoten, Knotentname:Wert erster Kindknoten) | " + nodeSubList.item(i).getNodeName() + " : " + nodeSubSub.getFirstChild().getNodeValue());
+								}
+							}
+								
+						}else{
 							icounter++;
 							System.out.println( icounter + ". Wert (" + i+1 + ". Knoten, Knotentname:Wert erster Kindknoten) | " + nodeList.item(i).getNodeName() + " : " + nodeSub.getFirstChild().getNodeValue());
 						}
@@ -143,22 +200,26 @@ public class MyXPathParserFGL {
 				
 				
 				//Wenn ein Stringwert zurückkommt, liefere diesen, ansonsten den Node-Wert (FGL-Erweiterung). Beachte die null-Überprüfung ist absichtlich so von der Reihenfolge her.		
-				if(null != node && null != node.getNodeValue()){
-					System.out.println("Node - Wert: '" + node.getNodeValue() + "'");
+//				if(null != node && null != node.getNodeValue()){
+//					System.out.println("Node - Wert: '" + node.getNodeValue() + "'");
+//				}else{
+//					
+//					//read a String Value
+//					//Beim 1. Durchlaufen der Schleife vom Dokument ausgehen.
+//					//Beim Weiteren Durchlaufen der Schleife von den zuvor lokalisierten Knoten ausgehen.
+//					if(node==null){
+//					String sValue = xPath.compile(expression).evaluate(document);
+//					System.out.println("String - Wert: '" + sValue + "'" );
+//					}else{
+//						String sValue = xPath.compile(expression).evaluate(node);
+//						System.out.println("String - Wert: '" + sValue + "'" );
+//					}
+//				}	
+				if(saExpression.length>=2){
+					System.out.println("Suche nach der Knotenliste erst ab der 2. Expression");				
 				}else{
-					
-					//read a String Value
-					//Beim 1. Durchlaufen der Schleife vom Dokument ausgehen.
-					//Beim Weiteren Durchlaufen der Schleife von den zuvor lokalisierten Knoten ausgehen.
-					if(node==null){
-					String sValue = xPath.compile(expression).evaluate(document);
-					System.out.println("String - Wert: '" + sValue + "'" );
-					}else{
-						String sValue = xPath.compile(expression).evaluate(node);
-						System.out.println("String - Wert: '" + sValue + "'" );
-					}
-				}		
-				
+					System.out.println("Keine weitere Knotenliste gefunden.");
+				}
 				}//end if nodeList!= null
 			}//end for expression
 			
@@ -181,17 +242,19 @@ public class MyXPathParserFGL {
 //				System.out.println(i+1 + ". Wert, erster Kindknoten: '" + nodeList.item(i).getFirstChild().getNodeValue() + "'");
 //			}
 			
-			if(node!=null){
-				nodeList = node.getChildNodes();
-				icounter=0;
-					for(int i = 0 ; nodeList != null && i < nodeList.getLength(); i++){					
-						Node nodeSub = nodeList.item(i);
-						if(nodeSub.getNodeType() == Node.ELEMENT_NODE){
-							icounter++;
-							System.out.println( icounter + ". Wert (" + i+1 + ". Knoten, Knotentname:Wert erster Kindknoten) | " + nodeList.item(i).getNodeName() + " : " + nodeSub.getFirstChild().getNodeValue());
-						}
-					}
-				}
+			//TODO GOON Diese NodeList Verarbeitung wurde noch oben in die Schleife genommen.
+			//          Was passiert, wenn es nur 1 XPath - Ausdruck gibt???
+//			if(node!=null){
+//				nodeList = node.getChildNodes();
+//				icounter=0;
+//					for(int i = 0 ; nodeList != null && i < nodeList.getLength(); i++){					
+//						Node nodeSub = nodeList.item(i);
+//						if(nodeSub.getNodeType() == Node.ELEMENT_NODE){
+//							icounter++;
+//							System.out.println( icounter + ". Wert (" + i+1 + ". Knoten, Knotentname:Wert erster Kindknoten) | " + nodeList.item(i).getNodeName() + " : " + nodeSub.getFirstChild().getNodeValue());
+//						}
+//					}
+//				}
 				bReturn = true;								
 			} catch (FileNotFoundException e) {
 				e.printStackTrace();
