@@ -142,32 +142,36 @@ public class MyXPathParserFGL {
 					icounter=0;
 					for(int i = 0 ; i < nodeList.getLength(); i++){
 						//System.out.println(i+1 + ". Unterknoten des Knotens: '" + nodeList.item(i).getFirstChild().getNodeValue() + "'");
-						System.out.println(i+1 + ". Unterknoten des Knotens: '" + nodeList.item(i).getParentNode().getNodeName() + "'");
+						
 						nodeSub = nodeList.item(i);
+						System.out.println(i+1 + ". Unterknoten des Knotens: '" + nodeSub.getParentNode().getNodeName() + "'");
 						
-						
+												
 						//+++ 
 						//Wie bei nodelist==null
 						//Wenn ein Stringwert zurückkommt, liefere diesen, ansonsten den Node-Wert (FGL-Erweiterung). Beachte die null-Überprüfung ist absichtlich so von der Reihenfolge her.		
 						if(null != nodeSub && null != nodeSub.getNodeValue()){
-							System.out.println("NodeSub - 'Name:Wert' | '" + nodeSub.getNodeName() +  ":" + nodeSub.getNodeValue() + "'");																					
+							System.out.println("NodeSub - '" + MyXPathParserUtilFGL.computeLineNodeValue(nodeSub) + "'");																					
 						}else{
 							if(nodeSub==null){
 								String sValue = xPath.compile(expression).evaluate(document);
-								System.out.println("NodeSub-Teil-Document evaluierung: String - Wert: '" + sValue + "'" );
-							}else{
-								System.out.println("NodeSub - 'Name:NULLwert' | '" + nodeSub.getNodeName() + "'");
-								
-								
-								//read a String Value
-								//Beim 1. Durchlaufen der Schleife vom Dokument ausgehen.
-								//Beim Weiteren Durchlaufen der Schleife von den zuvor lokalisierten Knoten ausgehen.
-								
-								//TODO GOON: Ist diese erneute evaluierung nicht quatsch, man müsste eher nodeSub.getValue verwenden
-								String sValue = xPath.compile(expression).evaluate(nodeSub);
-								
-								//Das gibt dann den String wert aller unterknoten aus...
-								System.out.println("NodeSub-Teil-NodeSub evaluierung: String - Wert: '" + sValue + "'" );
+								System.out.println("NodeSub-Teil-Document Evaluierung: String - Wert: '" + sValue + "'" );
+							}else{								
+								System.out.println("NodeSub - '" + MyXPathParserUtilFGL.computeLineNode(nodeSub)+ "'");
+								if(nodeSub.getNodeType()!=Node.TEXT_NODE){
+									System.out.println("\tKein Textknoten");
+								}else{
+									System.out.println("\tWert: " + nodeSub.getNodeValue());
+									//read a String Value
+									//Beim 1. Durchlaufen der Schleife vom Dokument ausgehen.
+									//Beim Weiteren Durchlaufen der Schleife von den zuvor lokalisierten Knoten ausgehen.
+									
+									//TODO GOON: Ist diese erneute evaluierung nicht quatsch, man müsste eher nodeSub.getValue verwenden
+									String sValue = xPath.compile(expression).evaluate(nodeSub);
+									
+									//Das gibt dann den String wert aller unterknoten aus...									
+									System.out.println("\tNodeSub-Teil-NodeSub evaluierung: String - Wert: '" + sValue + "'" );
+								}																
 							}
 						}		
 						
@@ -175,24 +179,27 @@ public class MyXPathParserFGL {
 						
 						if(nodeSub.getNodeType() == Node.ELEMENT_NODE){
 							icounter++;
-							System.out.println( icounter + ". Wert (" + i+1 + ". Knoten, Knotentname) | " + nodeList.item(i).getNodeName());
+							System.out.println( icounter + ". Wert (" + i+1 + ". Knoten," + MyXPathParserUtilFGL.computeLineNode(nodeSub) + ")");
 							
 							//TODO GOON: Hier neu die Nodeliste ALLER Unterknoten holen
 							//           theoretisch wäre das dann der Fall für die nächste Expression.
 							//           Zum Code siehe unten die Verarbeitung ausserhalb der Schleife.
 							nodeSubList = nodeSub.getChildNodes();
-							icounterSub=0;
-							for(int iSub = 0 ; nodeSubList != null && i < nodeSubList.getLength(); i++){					
-								Node nodeSubSub = nodeSubList.item(i);
-								if(nodeSubSub.getNodeType() == Node.ELEMENT_NODE){
+							icounterSub=0;							
+							for(int iSub = 0 ; nodeSubList != null && iSub < nodeSubList.getLength()-1; iSub++){					
+								Node nodeSubSub = nodeSubList.item(iSub);
+								if(nodeSubSub.getNodeType() != Node.TEXT_NODE){
 									icounterSub++;
-									System.out.println( "..... " + icounterSub + ". Wert (" + iSub+1 + ". Knoten, Knotentname:Wert erster Kindknoten) | " + nodeSubList.item(i).getNodeName() + " : " + nodeSubSub.getFirstChild().getNodeValue());
+									System.out.println( ".....  " + icounterSub + ". Wert (" + iSub+1 + ". Kindknoten, " + MyXPathParserUtilFGL.computeLineNode4ChildValue(nodeSubSub) + ")"); //Hole also den Wert.
+								}else{									
+									System.out.println( "..... " + MyXPathParserUtilFGL.computeLineNode(nodeSubSub) + ")"); //Kein Wert, darum keine ... value ... Methode aufrufen.
 								}
 							}
 								
 						}else{
 							icounter++;
-							System.out.println( icounter + ". Wert (" + i+1 + ". Knoten, Knotentname:Wert erster Kindknoten) | " + nodeList.item(i).getNodeName() + " : " + nodeSub.getFirstChild().getNodeValue());
+							//System.out.println( icounter + ". Wert (" + i+1 + ". Knoten, Knotentname:Typ:Knotenwert) | " + nodeList.item(i).getNodeName() + " : " + nodeSub.getFirstChild().getNodeValue());
+							System.out.println( icounter + ". Wert (" + i+1 + ". Knoten, " + MyXPathParserUtilFGL.computeLineNodeValue(nodeSub) + ")");
 						}
 					}
 				}else{
