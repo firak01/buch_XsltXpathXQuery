@@ -11,6 +11,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
+import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
 import org.w3c.dom.Document;
@@ -18,11 +19,124 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
- 
-public class MyXPathParserFGL {
-	/* Aus dem TryOut Projekt übernommener Parser */
+/* Aus dem TryOut Projekt übernommener Parser, 
+ * TODO: Änderungen dorthin übernehmen.*/
+public class MyXPathParserFGL {		
+	String sBaseDirectory = new String("");
+	public String getBaseDirectory() {
+		return sBaseDirectory;
+	}
+
+	public void setBaseDirectory(String sBaseDirectory) {
+		this.sBaseDirectory = sBaseDirectory;
+	}
+
 	
-		public void MyXPathPaserFGL(){		
+	String sFileName = new String("");
+	public String getFileName() {
+		return sFileName;
+	}
+
+	public void setFileName(String sFileName) {
+		this.sFileName = sFileName;
+	}
+	
+	String sXPathExpressionCurrent = new String("");
+	public String getXPathExpressionCurrent() {
+		return sXPathExpressionCurrent;
+	}
+	public void setXPathExpressionCurrent(String sXPathExpressionCurrent) {
+		this.sXPathExpressionCurrent = sXPathExpressionCurrent;
+	}
+
+
+		XPath xPath=null;
+		public XPath getXPath() {
+			if(xPath==null){
+				xPath = XPathFactory.newInstance().newXPath();
+			}
+			return xPath;
+		}
+
+		public void setXPath(XPath xPath) {
+			this.xPath = xPath;
+		}
+		
+		
+		DocumentBuilderFactory builderFactory=null;
+		public DocumentBuilderFactory getBuilderFactory() {
+			if(builderFactory==null){
+				builderFactory = DocumentBuilderFactory.newInstance();
+			}
+			return builderFactory;
+		}
+
+		public void setBuilderFactory(DocumentBuilderFactory builderFactory) {
+			this.builderFactory = builderFactory;
+		}
+		
+				
+		DocumentBuilder builder = null;
+		public DocumentBuilder getBuilder() {
+			if(builder==null){
+				try{
+					DocumentBuilderFactory builderFactory = this.getBuilderFactory();
+					builder = builderFactory.newDocumentBuilder();
+				}catch(ParserConfigurationException e){
+					e.printStackTrace();
+				}
+			}
+			return builder;
+		}
+
+		public void setBuilder(DocumentBuilder builder) {
+			this.builder = builder;
+		}
+
+	
+		Document document = null;
+		public Document getDocument() {
+			if(document==null){
+				//1. DocumentBuilder Objekt
+				DocumentBuilder builder = this.getBuilder(); 
+				String sBaseDirectory = this.getBaseDirectory();
+				String sFileName = this.getFileName();
+				
+				//2. Document Objekt
+				System.out.println("Verarbeite Dokument: '" + sBaseDirectory + File.separator + sFileName + "'");								
+				try {
+					document = builder.parse(new FileInputStream(sBaseDirectory + File.separator + sFileName));
+					this.setDocument(document);
+					
+					//Alternative: XML String parsen, wäre so:
+					//String sXml = "....";
+					//document = builder.parse(new ByteArrayInputStream(xml.getBytes()));
+					
+				} catch (FileNotFoundException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} catch (SAXException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}								
+			}
+			return document;
+		}
+
+		public void setDocument(Document document) {
+			this.document = document;
+		}
+		
+		
+		
+		//######################################################################
+
+		
+
+		public void MyXPathPaserFGL(){			
 		}
 		
 		public boolean startIt(String[] args) {
@@ -51,52 +165,31 @@ public class MyXPathParserFGL {
 				if(args.length==3) throw new Exception(stemp + " (3).");
 				if(args[3].equals("") || args[3]==null) throw new Exception(stemp + " (null)");
 				
-				//Die Verzeichnisse dürfen maximal mit einem Leerzeichen versehen sein!
-				String sBaseDirectory = new String("");
-				String sFileName = new String("");
-				String sExpressionDesc = new String("");
-				String sXPathExpression = new String("");
+				//Die Verzeichnisse dürfen maximal mit einem Leerzeichen versehen sein!				
+				String sExpressionDesc = new String("");				
 				ArrayList<String> listasXPathExpression = new ArrayList();
 				int iArgCount = -1;
 				for(String s : args){
 					iArgCount++;
 					switch (iArgCount){
 					case 0:
-						sBaseDirectory = s;						
+						this.setBaseDirectory(s);					
 						break;
 					case 1:
-						sFileName = s;
+						this.setFileName(s);
 						break;
 					case 2:
 						sExpressionDesc = s;
 						break;
-					default:
-						sXPathExpression = s;
-						listasXPathExpression.add(sXPathExpression);
+					default:					
+						listasXPathExpression.add(s);
 						break;						
 					}					
 				}
 			
 			//########################################################
 			//+++ Zuerst ein DOM-Document
-			//1. DocumentBuilder Objekt
-			DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
-			DocumentBuilder builder = null;
-			try{
-				builder = builderFactory.newDocumentBuilder();
-			}catch(ParserConfigurationException e){
-				e.printStackTrace();
-			}
-			
-			//2. Document Objekt
-			System.out.println("Verarbeite Dokument: '" + sBaseDirectory + File.separator + sFileName + "'");
-			Document document = null;			
-			document = builder.parse(new FileInputStream(sBaseDirectory + File.separator + sFileName));
-			
-			//Alternative: XML String parsen, wäre so:
-			//String sXml = "....";
-			//document = builder.parse(new ByteArrayInputStream(xml.getBytes()));
-			
+			Document document = this.getDocument();
 			
 			//3. Array aus den herausgefilterten Übergabeparametern bauen
 			String[] saExpression = new String[listasXPathExpression.size()];
@@ -107,126 +200,39 @@ public class MyXPathParserFGL {
 			//An der "letzen" Lokalisierung angekommen, wird dann auch eine NodeList geholt
 			System.out.println("Ausgabeziel: " + sExpressionDesc);
 			
-			XPath xPath=null;
 			Node node=null;
 			Node nodenew = null;		
 			NodeList nodeList = null;
-			int icounter=0;		
-			
-			//TODO: Das schreit nach Rekursion...
-			Node nodeSub = null;
-			NodeList nodeSubList = null;
-			int icounterSub = 0;
 			for(String expression : saExpression){
-				sXPathExpression = expression; //Merke sXPathExpression steht auch ausserhalb der Schleife zur Verfügung und wird der letzte Ausdruck sein.		
 				System.out.println("Expression: '" + expression + "'");
-				xPath = XPathFactory.newInstance().newXPath();
-				
+				this.setXPathExpressionCurrent(expression);		
+												
 				//FGL: Ein etwas (!) 'generischerer' Ansatz, d.h. von dem ausgwählten Ausdruck unabhängiger.
 				//read an xml node using xpath
 				//Beim 1. Durchlaufen der Schleife vom Dokument ausgehen.
 				//Beim Weiteren Durchlaufen der Schleife von den zuvor lokalisierten Knoten ausgehen.
 				if(node==null){
 					System.out.println("Noch kein Node vorhanden. evaluiere vom Dokument aus.");
-					nodenew = (Node) xPath.compile(expression).evaluate(document, XPathConstants.NODE);
-				}else{
-					//nodenew = (Node) xPath.compile(expression).evaluate(node, XPathConstants.NODE);
-					
+					nodenew = (Node) this.getXPath().compile(expression).evaluate(document, XPathConstants.NODE);
+				}else{										
 					//read an nodelist using xpath
 					System.out.println("Node vorhanden. evaluiere von diesem Node aus.");
-					nodeList = (NodeList) xPath.compile(sXPathExpression).evaluate(node, XPathConstants.NODESET);					
+					nodeList = (NodeList) this.getXPath().compile(this.getXPathExpressionCurrent()).evaluate(node, XPathConstants.NODESET);					
 				}
 				node = nodenew;
 				
 				if(nodeList!=null){
-					icounter=0;
-					for(int i = 0 ; i < nodeList.getLength(); i++){
-						//System.out.println(i+1 + ". Unterknoten des Knotens: '" + nodeList.item(i).getFirstChild().getNodeValue() + "'");
-						
-						nodeSub = nodeList.item(i);
-						System.out.println(i+1 + ". Unterknoten des Knotens: '" + nodeSub.getParentNode().getNodeName() + "'");
-						
-												
-						//+++ 
-						//Wie bei nodelist==null
-						//Wenn ein Stringwert zurückkommt, liefere diesen, ansonsten den Node-Wert (FGL-Erweiterung). Beachte die null-Überprüfung ist absichtlich so von der Reihenfolge her.		
-						if(null != nodeSub && null != nodeSub.getNodeValue()){
-							System.out.println("NodeSub - '" + MyXPathParserUtilFGL.computeLineNodeValue(nodeSub) + "'");																					
-						}else{
-							if(nodeSub==null){
-								String sValue = xPath.compile(expression).evaluate(document);
-								System.out.println("NodeSub-Teil-Document Evaluierung: String - Wert: '" + sValue + "'" );
-							}else{								
-								System.out.println("NodeSub - '" + MyXPathParserUtilFGL.computeLineNode(nodeSub)+ "'");
-								if(nodeSub.getNodeType()!=Node.TEXT_NODE){
-									System.out.println("\tKein Textknoten");
-								}else{
-									System.out.println("\tWert: " + nodeSub.getNodeValue());
-									//read a String Value
-									//Beim 1. Durchlaufen der Schleife vom Dokument ausgehen.
-									//Beim Weiteren Durchlaufen der Schleife von den zuvor lokalisierten Knoten ausgehen.
-									
-									//TODO GOON: Ist diese erneute evaluierung nicht quatsch, man müsste eher nodeSub.getValue verwenden
-									String sValue = xPath.compile(expression).evaluate(nodeSub);
-									
-									//Das gibt dann den String wert aller unterknoten aus...									
-									System.out.println("\tNodeSub-Teil-NodeSub evaluierung: String - Wert: '" + sValue + "'" );
-								}																
-							}
-						}		
-						
-						
-						
-						if(nodeSub.getNodeType() == Node.ELEMENT_NODE){
-							icounter++;
-							System.out.println( icounter + ". Wert (" + i+1 + ". Knoten," + MyXPathParserUtilFGL.computeLineNode(nodeSub) + ")");
-							
-							//TODO GOON: Hier neu die Nodeliste ALLER Unterknoten holen
-							//           theoretisch wäre das dann der Fall für die nächste Expression.
-							//           Zum Code siehe unten die Verarbeitung ausserhalb der Schleife.
-							nodeSubList = nodeSub.getChildNodes();
-							icounterSub=0;							
-							for(int iSub = 0 ; nodeSubList != null && iSub < nodeSubList.getLength()-1; iSub++){					
-								Node nodeSubSub = nodeSubList.item(iSub);
-								if(nodeSubSub.getNodeType() != Node.TEXT_NODE){
-									icounterSub++;
-									System.out.println( ".....  " + icounterSub + ". Wert (" + iSub+1 + ". Kindknoten, " + MyXPathParserUtilFGL.computeLineNode4ChildValue(nodeSubSub) + ")"); //Hole also den Wert.
-								}else{									
-									System.out.println( "..... " + MyXPathParserUtilFGL.computeLineNode(nodeSubSub) + ")"); //Kein Wert, darum keine ... value ... Methode aufrufen.
-								}
-							}
-								
-						}else{
-							icounter++;
-							//System.out.println( icounter + ". Wert (" + i+1 + ". Knoten, Knotentname:Typ:Knotenwert) | " + nodeList.item(i).getNodeName() + " : " + nodeSub.getFirstChild().getNodeValue());
-							System.out.println( icounter + ". Wert (" + i+1 + ". Knoten, " + MyXPathParserUtilFGL.computeLineNodeValue(nodeSub) + ")");
-						}
+					this.printNodeList(nodeList);
+				}else{
+					if(saExpression.length>=2){
+						System.out.println("Suche nach der Knotenliste erst ab dem 2. übergebenen XPath Ausdruck.");				
+					}else{
+						System.out.println("Keine weiteren XPath-Ausdrücke übergeben. Gib sofort die Knotenliste aus.");
+						//nodeList = (NodeList) this.getXPath().compile(this.getXPathExpressionCurrent()).evaluate(node, XPathConstants.NODESET);
+						//Nein, gehe vom Dokument aus...
+						nodeList = (NodeList) this.getXPath().compile(expression).evaluate(document, XPathConstants.NODESET);
+						this.printNodeList(nodeList);					
 					}
-				}else{
-
-				
-				
-				//Wenn ein Stringwert zurückkommt, liefere diesen, ansonsten den Node-Wert (FGL-Erweiterung). Beachte die null-Überprüfung ist absichtlich so von der Reihenfolge her.		
-//				if(null != node && null != node.getNodeValue()){
-//					System.out.println("Node - Wert: '" + node.getNodeValue() + "'");
-//				}else{
-//					
-//					//read a String Value
-//					//Beim 1. Durchlaufen der Schleife vom Dokument ausgehen.
-//					//Beim Weiteren Durchlaufen der Schleife von den zuvor lokalisierten Knoten ausgehen.
-//					if(node==null){
-//					String sValue = xPath.compile(expression).evaluate(document);
-//					System.out.println("String - Wert: '" + sValue + "'" );
-//					}else{
-//						String sValue = xPath.compile(expression).evaluate(node);
-//						System.out.println("String - Wert: '" + sValue + "'" );
-//					}
-//				}	
-				if(saExpression.length>=2){
-					System.out.println("Suche nach der Knotenliste erst ab der 2. Expression");				
-				}else{
-					System.out.println("Keine weitere Knotenliste gefunden.");
-				}
 				}//end if nodeList!= null
 			}//end for expression
 			
@@ -236,7 +242,25 @@ public class MyXPathParserFGL {
 			}
 			
 			
+
 			
+			
+			//Wenn ein Stringwert zurückkommt, liefere diesen, ansonsten den Node-Wert (FGL-Erweiterung). Beachte die null-Überprüfung ist absichtlich so von der Reihenfolge her.		
+//			if(null != node && null != node.getNodeValue()){
+//				System.out.println("Node - Wert: '" + node.getNodeValue() + "'");
+//			}else{
+//				
+//				//read a String Value
+//				//Beim 1. Durchlaufen der Schleife vom Dokument ausgehen.
+//				//Beim Weiteren Durchlaufen der Schleife von den zuvor lokalisierten Knoten ausgehen.
+//				if(node==null){
+//				String sValue = xPath.compile(expression).evaluate(document);
+//				System.out.println("String - Wert: '" + sValue + "'" );
+//				}else{
+//					String sValue = xPath.compile(expression).evaluate(node);
+//					System.out.println("String - Wert: '" + sValue + "'" );
+//				}
+//			}		
 			
 			//XPath xPath = XPathFactory.newInstance().newXPath();
 //Wann ist das sinnvoll????					
@@ -269,11 +293,88 @@ public class MyXPathParserFGL {
 				e.printStackTrace();
 			} catch (IOException e) {
 				e.printStackTrace();
+			} catch (XPathExpressionException e) {				
+				e.printStackTrace();
 			} catch (Exception e) {
 				e.printStackTrace(System.err);				
 			}
 		}//end main:
 			return bReturn;
+		}
+		
+		/*
+		 * 
+		 * //TODO: Das schreit nach Rekursion...
+		 * //TODO: Abstand vom linken Rand erhöhen bei jeder weiteren Ebene. 
+		 */
+		public boolean printNodeList(NodeList nodeList) throws XPathExpressionException{
+			boolean bReturn = false;
+			int icounter=0;
+			Node nodeSub=null;
+					
+			for(int i = 0 ; i < nodeList.getLength(); i++){
+				//System.out.println(i+1 + ". Unterknoten des Knotens: '" + nodeList.item(i).getFirstChild().getNodeValue() + "'");
+				
+				nodeSub = nodeList.item(i);
+				System.out.println(i+1 + ". Unterknoten des Knotens: '" + nodeSub.getParentNode().getNodeName() + "'");
+				
+										
+				//+++ 
+				//Wie bei nodelist==null
+				//Wenn ein Stringwert zurückkommt, liefere diesen, ansonsten den Node-Wert (FGL-Erweiterung). Beachte die null-Überprüfung ist absichtlich so von der Reihenfolge her.		
+				if(null != nodeSub && null != nodeSub.getNodeValue()){
+					System.out.println("NodeSub - '" + MyXPathParserUtilFGL.computeLineNodeValue(nodeSub) + "'");																					
+				}else{
+					if(nodeSub==null){
+						String sValue = xPath.compile(this.getXPathExpressionCurrent()).evaluate(document);
+						System.out.println("NodeSub-Teil-Document Evaluierung: String - Wert: '" + sValue + "'" );
+					}else{								
+						System.out.println("NodeSub - '" + MyXPathParserUtilFGL.computeLineNode(nodeSub)+ "'");
+						if(nodeSub.getNodeType()!=Node.TEXT_NODE){
+							System.out.println("\tKein Textknoten");
+						}else{
+							System.out.println("\tWert: " + nodeSub.getNodeValue());
+							//read a String Value
+							//Beim 1. Durchlaufen der Schleife vom Dokument ausgehen.
+							//Beim Weiteren Durchlaufen der Schleife von den zuvor lokalisierten Knoten ausgehen.
+							
+							//TODO GOON: Ist diese erneute evaluierung nicht quatsch, man müsste eher nodeSub.getValue verwenden
+							String sValue = xPath.compile(this.getXPathExpressionCurrent()).evaluate(nodeSub);
+							
+							//Das gibt dann den String wert aller unterknoten aus...									
+							System.out.println("\tNodeSub-Teil-NodeSub evaluierung: String - Wert: '" + sValue + "'" );
+						}																
+					}
+				}		
+				
+				
+				if(nodeSub.getNodeType() == Node.ELEMENT_NODE){
+					icounter++;
+					System.out.println( icounter + ". Wert (" + i+1 + ". Knoten," + MyXPathParserUtilFGL.computeLineNode(nodeSub) + ")");
+					
+					//TODO GOON: Hier neu die Nodeliste ALLER Unterknoten holen
+					//           theoretisch wäre das dann der Fall für die nächste Expression.
+					//           Zum Code siehe unten die Verarbeitung ausserhalb der Schleife.
+					NodeList nodeSubList = nodeSub.getChildNodes();
+					int icounterSub=0;							
+					for(int iSub = 0 ; nodeSubList != null && iSub < nodeSubList.getLength()-1; iSub++){					
+						Node nodeSubSub = nodeSubList.item(iSub);
+						if(nodeSubSub.getNodeType() != Node.TEXT_NODE){
+							icounterSub++;
+							System.out.println( ".....  " + icounterSub + ". Wert (" + iSub+1 + ". Kindknoten, " + MyXPathParserUtilFGL.computeLineNode4ChildValue(nodeSubSub) + ")"); //Hole also den Wert.
+						}else{									
+							System.out.println( "..... " + MyXPathParserUtilFGL.computeLineNode(nodeSubSub) + ")"); //Kein Wert, darum keine ... value ... Methode aufrufen.
+						}
+					}
+						
+				}else{
+					icounter++;
+					//System.out.println( icounter + ". Wert (" + i+1 + ". Knoten, Knotentname:Typ:Knotenwert) | " + nodeList.item(i).getNodeName() + " : " + nodeSub.getFirstChild().getNodeValue());
+					System.out.println( icounter + ". Wert (" + i+1 + ". Knoten, " + MyXPathParserUtilFGL.computeLineNodeValue(nodeSub) + ")");
+				}
+			}
+			return bReturn;
+			
 		}
 
 }

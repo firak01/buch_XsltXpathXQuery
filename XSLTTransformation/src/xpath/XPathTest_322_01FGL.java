@@ -34,7 +34,7 @@ public class XPathTest_322_01FGL {
 			
 			//A) Kind Achse
 			
-			String expressionDesc01 = "Finde ausgehend vom Wurzelknoten alle Erfolg Elemten im Dokument, beachte die beiden doppelten Doppelpunkte.";			
+			String expressionDesc01 = "Finde ausgehend vom Wurzelknoten alle Erfolg Elemente im Dokument, beachte die beiden doppelten Doppelpunkte.";			
 			String expression01 = "child::Erfolguebersicht/child::Erfolg";
 			
 			String expressionDesc02 = "Findet ausgehend vom Wurzelelement alle Gesamt-Elemente im Dokument in Dokumentenrichtung.";
@@ -100,8 +100,8 @@ public class XPathTest_322_01FGL {
 			
 			//Todo GOON: Weitere Beispiele aus dem Buch Seite 135ff
 			
-			String sExpressionDesc = expressionDesc04;
-			Object sExpression = expression04; //Kein Cast, damit man in der sExpression sowohl einen einfachen Stringa als auch ein Array verarbeiten kann
+			String sExpressionDesc = expressionDesc01;
+			Object sExpression = expression01; //Kein Cast, damit man in der sExpression sowohl einen einfachen Stringa als auch ein Array verarbeiten kann
 			
 			//+++++++++++++++++++++++++++++++++++++++++++++++++++
 			ArrayList<String> listaArgsForParser = new ArrayList<String>();
