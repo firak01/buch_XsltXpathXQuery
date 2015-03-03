@@ -33,7 +33,7 @@ public class XPathTest_322_01FGL {
 			//+++ Nun die XPath - Ausdrücke, Merke: Groß-/Kleinschreibung ist wichtig.
 			
 			//A) Kind Achse
-			
+			//TODO Array für die Variablen verwenden. Bei expression wäre das sogar ein 2 dimensionales Array.
 			String expressionDesc01 = "Finde ausgehend vom Wurzelknoten alle Erfolg Elemente im Dokument, beachte die beiden doppelten Doppelpunkte.";			
 			String expression01 = "child::Erfolguebersicht/child::Erfolg";
 			
@@ -100,7 +100,7 @@ public class XPathTest_322_01FGL {
 			
 			//Todo GOON: Weitere Beispiele aus dem Buch Seite 135ff
 			
-			String sExpressionDesc = expressionDesc01;
+			String sExpressionDesc = expressionDesc01; //Testfälle sind: 01, 04
 			Object sExpression = expression01; //Kein Cast, damit man in der sExpression sowohl einen einfachen Stringa als auch ein Array verarbeiten kann
 			
 			//+++++++++++++++++++++++++++++++++++++++++++++++++++
