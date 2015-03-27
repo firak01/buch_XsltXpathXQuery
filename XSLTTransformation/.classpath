@@ -7,5 +7,6 @@
 			<attribute name="javadoc_location" value="jar:platform:/resource/XSLTTransformation/lib/commons-lang/commons-lang3-3.3.2-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/TryOut.xslt.parser.001"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
