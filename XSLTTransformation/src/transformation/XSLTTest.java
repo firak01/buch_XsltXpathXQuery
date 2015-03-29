@@ -24,7 +24,7 @@ public class XSLTTest {
     	// Dateien einlesen
     	// Merke: Die Dateien befinden sich bei GIT - Versionsverwaltung außerhalb des Eclipse Workspace.
     	//        Sie befinden sich in dem entsprechendem Repository
-    	String repositoryPfad = "c:\\1fgl\\repo\\";
+    	String repositoryPfad = "c:\\1fgl\\repo_buch01\\";
     	try{
     		
     		

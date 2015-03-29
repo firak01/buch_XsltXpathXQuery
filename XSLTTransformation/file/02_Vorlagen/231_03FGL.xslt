@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="html" version="1.0" encoding="ISO-8859-1" indent="yes"/>
-  <!-- FGL 20150121: Diese Vorlage kann auch über das Öffnen der 231_03FGL.xml Datei im Browser geladen werden.
+  <!-- FGL 20150121: Diese Vorlage kann auch über das Öffnen der 231_03FGL.xml Datei im Browser geladen werden.-->
   <!-- FGL 20150121: Bei folgender Fehlermeldung hat man die templates mit call-template name="..." eingebunden, dabei kann man keinen mode angeben.
                      ERROR:  'file:/c:/1fgl/repo/buch_XsltXpathXQuery/XSLTTransformation/.......  : Vorlage "Uebersicht" bereits in diesem Stylesheet definiert.' -->
   
