@@ -2,6 +2,11 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="html" version="1.0" encoding="ISO-8859-1" indent="yes"/>
   <!-- Startvorlage -->
+  <!--  Merke: Beispiel für komplexe oder Verknüpfung:
+         <xsl:for-each select="../../objects/object[$day = weekday] | ../../objects/object[($day = 'Sa' or $day = 'So') and Rhythm = 'BlockSaSo']">
+                <xsl:sort select="ObjDetail/Veranstaltung/TerBeginn" />
+                <xsl:sort select="ObjDetail/Veranstaltung/TerEnde" />
+          -->
   <xsl:template match="/Anrufliste">
     <html>
       <head>
