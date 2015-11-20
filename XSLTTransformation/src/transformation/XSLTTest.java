@@ -10,8 +10,10 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.*;
 
 import java.io.*;
-
-
+/* TODO: 
+ * Diese Transformationsklasse durch die Klasse aus dem MyXsltTransformer ersetzen/ergänzen.
+ * Dabei hier interessante Verbesserungen dort einbauen.
+ */
 public class XSLTTest {
     static Document dokument;
 

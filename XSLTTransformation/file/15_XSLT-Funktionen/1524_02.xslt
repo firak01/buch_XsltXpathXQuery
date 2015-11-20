@@ -26,5 +26,5 @@
       <xsl:apply-templates/>
     </table>
   </xsl:template>
-<xsl:include href="524_vorlagen.xslt"/>
+<xsl:include href="1524_vorlagen.xslt"/>
 </xsl:stylesheet>
